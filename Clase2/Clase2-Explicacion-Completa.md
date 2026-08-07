@@ -8,22 +8,23 @@
 
 Este documento explica las **45 diapositivas / páginas** de los tres PDF de la Clase 2:
 
-| Archivo | Diapositivas | Contenido |
-|---|---|---|
-| `P1-Clase 2_NB2026_UnionesQuimicas.pdf` | 37 | Electrones de valencia, símbolos y estructuras de Lewis, regla del octeto, enlaces simples/dobles/triples, método paso a paso (NH₃, SO₃²⁻, SO₂), excepciones (BF₃, SF₄), TRePEV y tablas de geometrías |
-| `P2-(serie 2) Estructuras de Lewis y cargas formales.pdf` | 6 | Apunte teórico: conceptos de Lewis, método paso a paso completo (BF₃, XeF₄, NO), resonancia y cargas formales (SCN⁻ resuelto) |
-| `P3-Estructuras _resonancia _ej.pdf` | 2 | Híbridos de resonancia: NO₃⁻ y SO₂ |
+| Archivo                                                   | Diapositivas | Contenido                                                                                                                                                                                              |
+| --------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `P1-Clase 2_NB2026_UnionesQuimicas.pdf`                   | 37           | Electrones de valencia, símbolos y estructuras de Lewis, regla del octeto, enlaces simples/dobles/triples, método paso a paso (NH₃, SO₃²⁻, SO₂), excepciones (BF₃, SF₄), TRePEV y tablas de geometrías |
+| `P2-(serie 2) Estructuras de Lewis y cargas formales.pdf` | 6            | Apunte teórico: conceptos de Lewis, método paso a paso completo (BF₃, XeF₄, NO), resonancia y cargas formales (SCN⁻ resuelto)                                                                          |
+| `P3-Estructuras _resonancia _ej.pdf`                      | 2            | Híbridos de resonancia: NO₃⁻ y SO₂                                                                                                                                                                     |
 
 > Nota: el PDF P1 son diapositivas (se ven diagramas y estructuras); el P2 es el **apunte teórico escrito** de la Serie 2 (texto corrido, mismo tema visto en más detalle); el P3 son dos diapositivas sueltas de resonancia. Los tres se complementan: lo que en P1 se muestra rápido, en P2 está escrito con todos los pasos.
 
 ---
+
 ---
 
 # PARTE 1 — `P1-Clase 2_NB2026_UnionesQuimicas.pdf`
 
 ## P1 — pág. 1 · Portada
 
-Portada de la clase. Título grande **Uniones Químicas**. Arriba: *ECyT – UNSAM 2do.Cuatri 2026*. Abajo, los **docentes** (Norberto Boggio y Santiago Poklepovich) y el horario (*Lu – Mie 18 a 22 Hs*).
+Portada de la clase. Título grande **Uniones Químicas**. Arriba: _ECyT – UNSAM 2do.Cuatri 2026_. Abajo, los **docentes** (Norberto Boggio y Santiago Poklepovich) y el horario (_Lu – Mie 18 a 22 Hs_).
 
 **Explicación:** arranca la segunda gran unidad de la materia. En la Clase 1 aprendimos a escribir la **configuración electrónica** de un átomo aislado. Ahora la pregunta cambia: ¿cómo se **unen** los átomos entre sí para formar moléculas? La herramienta central de toda la clase es la **estructura de Lewis**, y la pregunta final es qué **forma** (geometría) adopta la molécula en el espacio.
 
@@ -31,13 +32,13 @@ Portada de la clase. Título grande **Uniones Químicas**. Arriba: *ECyT – UNS
 
 ## P1 — pág. 2 · Electrones de valencia
 
-Recuadro con la definición: *Los electrones en un átomo se dividen en capas **internas** (completas) y **externas** (**de valencia**, incompletas)*.
+Recuadro con la definición: _Los electrones en un átomo se dividen en capas **internas** (completas) y **externas** (**de valencia**, incompletas)_.
 
 Dos ejemplos con su configuración y su símbolo de Lewis dibujado sobre la casilla de la tabla periódica:
 
-| Elemento | Configuración | Internos | Externos (valencia) |
-|---|---|---|---|
-| **B** (Z=5) | $1s^2\,2s^2\,2p^1$ | $[He]$ | $2s^2\,2p^1$ → **3 e⁻** |
+| Elemento      | Configuración               | Internos        | Externos (valencia)     |
+| ------------- | --------------------------- | --------------- | ----------------------- |
+| **B** (Z=5)   | $1s^2\,2s^2\,2p^1$          | $[He]$          | $2s^2\,2p^1$ → **3 e⁻** |
 | **Br** (Z=35) | $[Ar]\,3d^{10}\,4s^2\,4p^5$ | $[Ar]\,3d^{10}$ | $4s^2\,4p^5$ → **7 e⁻** |
 
 **Explicación:** los únicos electrones que participan de las uniones químicas son los **electrones de valencia**: los del **nivel `n` más alto** (los `s` y `p` externos). Los electrones internos ("core", que escribimos como el gas noble entre corchetes) están tan pegados al núcleo que no reaccionan.
@@ -48,16 +49,16 @@ Dos ejemplos con su configuración y su símbolo de Lewis dibujado sobre la casi
 
 ## P1 — pág. 3 · Teoría de Lewis — Símbolo de Lewis
 
-Texto: *A Lewis se le ocurrió que, para llevar la cuenta de la cantidad de electrones en cada orbital de la última capa (e⁻ externos o **electrones de valencia**), lo mejor era representarlos como puntos aislados (electrones no apareados) o dos puntos (electrones apareados).*
+Texto: _A Lewis se le ocurrió que, para llevar la cuenta de la cantidad de electrones en cada orbital de la última capa (e⁻ externos o **electrones de valencia**), lo mejor era representarlos como puntos aislados (electrones no apareados) o dos puntos (electrones apareados)._
 
 Fila con los **símbolos de Lewis del 2º período**:
 
-| Li | Be | B | C | N | O | F | Ne |
-|---|---|---|---|---|---|---|---|
-| Li• | •Be• | •B⋮ (3 pts) | •C: (4 pts) | ⋮N: (5 pts) | :O: (6 pts) | :F⋮ (7 pts) | :Ne: (8 pts) |
-| $2s^1$ | $2s^2$ | $2s^2 2p^1$ | $2s^2 2p^2$ | $2s^2 2p^3$ | $2s^2 2p^4$ | $2s^2 2p^5$ | $2s^2 2p^6$ |
+| Li     | Be     | B           | C           | N           | O            | F           | Ne           |
+| ------ | ------ | ----------- | ----------- | ----------- | ------------ | ----------- | ------------ |
+| Li•    | •Be•   | •B⋮ (3 pts) | •C: (4 pts) | ⋮N: (5 pts) | : O: (6 pts) | :F⋮ (7 pts) | :Ne: (8 pts) |
+| $2s^1$ | $2s^2$ | $2s^2 2p^1$ | $2s^2 2p^2$ | $2s^2 2p^3$ | $2s^2 2p^4$  | $2s^2 2p^5$ | $2s^2 2p^6$  |
 
-Notas al pie: *Son una forma útil de mostrar los electrones de valencia de los átomos* — *Símbolo químico del elemento, más un punto por cada electrón de valencia.*
+Notas al pie: _Son una forma útil de mostrar los electrones de valencia de los átomos_ — _Símbolo químico del elemento, más un punto por cada electrón de valencia._
 
 **Explicación:** el **símbolo de Lewis** es la notación base de toda la clase: escribís el símbolo del elemento y le ponés **un punto por cada electrón de valencia** alrededor (arriba, abajo, izquierda, derecha). Los puntos se ubican **de a uno primero** en cada lado (electrones desapareados) y recién cuando ya hay uno en cada lado se empiezan a **aparear** (los "dos puntos" juntos son un **par**). Esto refleja la regla de Hund vista en la Clase 1. Fijate que la cantidad de puntos crece de 1 (Li) a 8 (Ne) siguiendo el grupo.
 
@@ -82,7 +83,7 @@ Se muestran dos moléculas, cada una en tres representaciones (átomos con punto
 - **H₂:** `H•` + `•H` → los dos electrones se comparten → **H—H**.
 - **F₂:** cada F tiene CE $= 1s^2\,2s^2\,2p^5$ (marcado en rojo el $2p^5$: son 7 e⁻ de valencia). Los dos F comparten un par → **:F̈—F̈:** (cada F con 3 pares libres).
 
-Texto: *En la estructura de Lewis de una molécula figuran **todos** los e⁻ del nivel más externo (e⁻ de valencia) de todos los átomos que la conforman, incluidos los compartidos y los no compartidos.*
+Texto: _En la estructura de Lewis de una molécula figuran **todos** los e⁻ del nivel más externo (e⁻ de valencia) de todos los átomos que la conforman, incluidos los compartidos y los no compartidos._
 
 **Explicación:** primer contraste importante. El **H** sólo necesita **2 electrones** para completar su capa (llega al $He$), así que con un enlace simple ya está lleno — el H es la gran excepción al octeto. El **F** tiene 7 e⁻ de valencia y necesita 1 más: comparte un par con el otro F y así **cada uno queda con 8**. Los pares que no participan del enlace (los otros 3 pares de cada F) se llaman **pares libres** y también hay que dibujarlos.
 
@@ -101,6 +102,7 @@ Se ve el pasaje: la estructura de puntos de H₂ (`H•` `•H`) → con la flec
 ## P1 — pág. 7 · Par de enlace vs. par libre
 
 Diagrama de **F₂** con dos rótulos señalados con flechas:
+
 - **Par de enlace**: la línea que une los dos F.
 - **Par libre o par de electrones no compartidos**: los puntitos que rodean a cada F sin unirse a nada.
 
@@ -121,17 +123,18 @@ $$\text{Pares de e}^-\text{ de enlace} + \text{Pares de e}^-\text{ no compartido
 $$\text{8 electrones} \longrightarrow ns^2\,np^6$$
 
 Recuadro de **excepciones**:
+
 - **H**: el nivel 1 se completa con 2 e⁻ (1 par).
 - Algunos compuestos de elementos del **período 3 o mayor** pueden acomodar **más de 8** e⁻ (usan orbitales `d` cercanos) → **octeto expandido**.
 - Compuestos del **grupo 13** (B, Al…) son **deficientes** de electrones: acomodan **menos de 8**.
 
 **Explicación:** el octeto no es magia, es aritmética: 8 electrones = **4 pares** alrededor del átomo, que corresponden a la configuración estable $ns^2\,np^6$ (la de un gas noble). Las tres excepciones son las que se preguntan siempre:
 
-| Excepción | Quién | Cuántos e⁻ |
-|---|---|---|
-| **Dueto** | H (y He) | 2 e⁻ |
-| **Octeto expandido** | período ≥ 3 (P, S, Cl, Xe…) | más de 8 |
-| **Deficiente** | grupo 13 (B, Al) | menos de 8 (típico 6) |
+| Excepción            | Quién                       | Cuántos e⁻            |
+| -------------------- | --------------------------- | --------------------- |
+| **Dueto**            | H (y He)                    | 2 e⁻                  |
+| **Octeto expandido** | período ≥ 3 (P, S, Cl, Xe…) | más de 8              |
+| **Deficiente**       | grupo 13 (B, Al)            | menos de 8 (típico 6) |
 
 ---
 
@@ -139,8 +142,8 @@ Recuadro de **excepciones**:
 
 Dos ejemplos con puntos → nubes → fórmula:
 
-- **F₂:** CE(F) $=1s^2\,2s^2\,2p^5$ (la CEE = capa electrónica externa marcada). → **:F̈—F̈:** → *Enlace simple = 1 sólo par de electrones compartidos.*
-- **O₂:** CE(O) $=1s^2\,2s^2\,2p^4$ (6 e⁻ de valencia). → **:Ö=Ö:** → *Enlace doble = 2 pares de electrones compartidos.*
+- **F₂:** CE(F) $=1s^2\,2s^2\,2p^5$ (la CEE = capa electrónica externa marcada). → **:F̈—F̈:** → _Enlace simple = 1 sólo par de electrones compartidos._
+- **O₂:** CE(O) $=1s^2\,2s^2\,2p^4$ (6 e⁻ de valencia). → **:Ö=Ö:** → _Enlace doble = 2 pares de electrones compartidos._
 
 **Explicación:** el F necesita 1 electrón → comparte 1 par → **enlace simple**. El O necesita 2 electrones → comparte **2 pares** → **enlace doble** (doble línea =). Regla útil: mirá cuántos electrones le faltan a cada átomo para llegar a 8, y esa es la cantidad de enlaces que va a formar. F (le falta 1) → 1 enlace; O (le faltan 2) → 2 enlaces; N (le faltan 3) → 3 enlaces.
 
@@ -161,12 +164,13 @@ Cada N queda con: 3 pares de enlace (el triple) + 1 par libre = 4 pares = **8 e�
 ## P1 — pág. 11 · Estructuras de Lewis — Amoníaco (paso 1 y 2)
 
 Ejemplo: **NH₃**. Pasos:
+
 1. **Decidí cuál es el átomo central**: en general el átomo al que **le faltan más electrones** o el **más electropositivo**.
 2. **H y F siempre van en la periferia.**
 
 Conclusión: **N es el átomo central**.
 
-Recuadro: *Reconocer al elemento más electropositivo (o menos electronegativo) y seleccionar dicho elemento como el átomo central; al resto se lo coloca alrededor de este.*
+Recuadro: _Reconocer al elemento más electropositivo (o menos electronegativo) y seleccionar dicho elemento como el átomo central; al resto se lo coloca alrededor de este._
 
 **Explicación:** primer paso del **método para armar estructuras de Lewis**. El **átomo central** es el que va en el medio y al que se unen todos los demás. Se elige el **menos electronegativo** (el que más "quiere" compartir/ceder). El **H nunca puede ser central** (sólo forma 1 enlace, no puede unir a varios átomos) y el **F casi nunca** lo es. En NH₃ el candidato es el N (el H va afuera obligado).
 
@@ -189,9 +193,9 @@ $$CEE(H) = 1s^1 \rightarrow 1\ e^-\text{ por átomo de H} \rightarrow 3\ H = 3\ 
 
 4. **Formá una unión simple** entre el átomo central y cada átomo periférico.
 
-*De los 8 e⁻, usamos 6 e⁻ para las 3 uniones N–H que necesitábamos, quedan 2 electrones.*
+_De los 8 e⁻, usamos 6 e⁻ para las 3 uniones N–H que necesitábamos, quedan 2 electrones._
 
-Estructura dibujada: **H—N—H** con un tercer **H** abajo del N. Recuadro: *3 uniones!!! Usamos 6 electrones de los 8.*
+Estructura dibujada: **H—N—H** con un tercer **H** abajo del N. Recuadro: _3 uniones!!! Usamos 6 electrones de los 8._
 
 ```
     H — N — H
@@ -216,7 +220,7 @@ Estructura final: el N con **un par libre arriba** (:) y sus 3 enlaces a los H.
       H
 ```
 
-Recuadro: *Usamos 6 electrones de los 8. Quedan 2 electrones o 1 par para agregar. El H está lleno!!! El N tiene 6 electrones... le falta 1 par para completar el octeto!* → ese par libre va sobre el N.
+Recuadro: _Usamos 6 electrones de los 8. Quedan 2 electrones o 1 par para agregar. El H está lleno!!! El N tiene 6 electrones... le falta 1 par para completar el octeto!_ → ese par libre va sobre el N.
 
 **Explicación:** los H ya están completos (2 e⁻ cada uno, dueto ✓). El par que sobraba se lo ponés al **N** como **par libre**. Ahora el N tiene: 3 pares de enlace + 1 par libre = 4 pares = **8 e⁻** ✓. Estructura de Lewis del NH₃ terminada. Guardá este resultado (N con 3 enlaces y 1 par libre) porque define la geometría **pirámide trigonal** que aparece más adelante.
 
@@ -227,15 +231,17 @@ Recuadro: *Usamos 6 electrones de los 8. Quedan 2 electrones o 1 par para agrega
 Ejemplo: **SO₃²⁻**.
 
 Recuadro sobre **iones moleculares**:
+
 - **sumá** 1 e⁻ por cada carga **negativa** del ion,
 - **restá** 1 e⁻ por cada carga **positiva** del ion.
 
 1. **Átomo central = S**.
 2. **Contá los electrones de valencia:**
-$$S = 6\ e^- \qquad 3\times O = 3\times 6 = 18\ e^- \qquad \text{carga negativa} = 2\ e^-$$
-$$6 + 18 + 2 = \boxed{26\ e^-\ =\ 13\ \text{pares}}$$
+   $$S = 6\ e^- \qquad 3\times O = 3\times 6 = 18\ e^- \qquad \text{carga negativa} = 2\ e^-$$
+   $$6 + 18 + 2 = \boxed{26\ e^-\ =\ 13\ \text{pares}}$$
 
 **Explicación:** aparece la variante con **carga**. El sulfito tiene carga 2−, o sea que la molécula tiene **2 electrones de más** (los que le dan la carga negativa). Por eso al total le **sumás 2**. Método: S aporta 6, cada O aporta 6 (×3 = 18), más 2 por la carga = **26 e⁻ = 13 pares**. El S es el central (menos electronegativo que el O). Regla general:
+
 - carga **negativa** (anión) → **sumar** electrones;
 - carga **positiva** (catión) → **restar** electrones.
 
@@ -251,7 +257,7 @@ $$6 + 18 + 2 = \boxed{26\ e^-\ =\ 13\ \text{pares}}$$
     O — S — O
 ```
 
-*Puse 3 pares de electrones, restan **10** pares de electrones.*
+_Puse 3 pares de electrones, restan **10** pares de electrones._
 
 4. Los **10 pares remanentes** se acomodan como **pares solitarios**, primero sobre los átomos periféricos y luego, si corresponde, sobre el átomo central.
 
@@ -266,7 +272,7 @@ Estructura final entre **corchetes con carga 2−**: cada O con 3 pares libres, 
     ..    ..   ..
 ```
 
-Notas: *Cada átomo tiene un octeto de electrones.* — *Poner corchetes y carga!*
+Notas: _Cada átomo tiene un octeto de electrones._ — _Poner corchetes y carga!_
 
 **Explicación:** hiciste 3 enlaces simples (3 pares gastados), quedan **10 pares**. Los repartís como pares libres: 3 pares a cada O (los tres O = 9 pares) y **1 par al S** (el décimo). Así **todos** quedan con octeto: cada O con 1 enlace + 3 pares libres = 8 ✓, y el S con 3 enlaces + 1 par libre = 8 ✓. ⚠️ Como es un **ion**, la estructura va **entre corchetes** con la **carga afuera arriba a la derecha** (2−). No te olvides los corchetes: es error clásico de parcial.
 
@@ -275,6 +281,7 @@ Notas: *Cada átomo tiene un octeto de electrones.* — *Poner corchetes y carga
 ## P1 — pág. 17 · Uniones Dobles y Triples (modelos 3D)
 
 Tres moléculas dibujadas como modelos de bolas y palos:
+
 - **H₂CO** (formaldehído): C central, dos H y un **O con doble enlace** (C=O).
 - **C₂F₄** (tetrafluoroetileno): dos C unidos por **doble enlace**, cada C con 2 F.
 - **SO₃**: S central con 3 O, cargas formales marcadas (S⁺², cada O⁻¹, uno con doble enlace).
@@ -285,7 +292,7 @@ Tres moléculas dibujadas como modelos de bolas y palos:
 
 ## P1 — pág. 18 · Dióxido de Azufre SO₂ (planteo)
 
-Recuadro: *S = Grupo 16, O = Grupo 16.*
+Recuadro: _S = Grupo 16, O = Grupo 16._
 
 1. Átomo central = **S**.
 2. Electrones de valencia = **18** o **9 pares**.
@@ -294,7 +301,7 @@ Recuadro: *S = Grupo 16, O = Grupo 16.*
 
 Primer intento: **O—S—O** (dos enlaces simples).
 
-*Agregué 2 pares de e⁻, quedan 7!*
+_Agregué 2 pares de e⁻, quedan 7!_
 
 Pregunta final: **¿Cómo los ubico para que se cumpla el octeto?**
 
@@ -306,7 +313,7 @@ Pregunta final: **¿Cómo los ubico para que se cumpla el octeto?**
 
 Arriba, la estructura con dos enlaces simples: **:Ö—S—Ö:** (con el S incompleto).
 
-Texto: *Si se observa que los átomos centrales no completan el octeto, debe pasarse alguno de los pares libres de uno de los átomos externos como **doble enlace** con el átomo central.*
+Texto: _Si se observa que los átomos centrales no completan el octeto, debe pasarse alguno de los pares libres de uno de los átomos externos como **doble enlace** con el átomo central._
 
 Abajo, la estructura corregida: **:Ö=S—Ö:** (un doble enlace S=O y un simple S–O).
 
@@ -316,7 +323,7 @@ Abajo, la estructura corregida: **:Ö=S—Ö:** (un doble enlace S=O y un simple
 
 ## P1 — pág. 20 · Excepciones al octeto — Trifluoruro de Boro BF₃
 
-Recuadro: *B = Grupo 13 (**OJO! deficiente**), F = Grupo 17.*
+Recuadro: _B = Grupo 13 (**OJO! deficiente**), F = Grupo 17._
 
 - Átomo central = **B**.
 - Electrones de valencia = **24** o **12 pares**.
@@ -338,11 +345,11 @@ Dos estructuras: la desarrollada **F—B—F** con un tercer F abajo (sin puntos
 
 ## P1 — pág. 21 · BF₃ (por qué no se fuerza el doble enlace)
 
-Recuadro azul: *Acá el átomo de B **no completa el octeto**. Sin embargo, esta estructura es la más probable.*
+Recuadro azul: _Acá el átomo de B **no completa el octeto**. Sin embargo, esta estructura es la más probable._
 
 Estructura desarrollada **F—B—F** (con F abajo) y la completa con pares libres en los F.
 
-Recuadro amarillo: *En muchas moléculas, el B es un átomo **deficiente de electrones** (los que saben lo llaman **ácido de Lewis**).*
+Recuadro amarillo: _En muchas moléculas, el B es un átomo **deficiente de electrones** (los que saben lo llaman **ácido de Lewis**)._
 
 **Explicación:** ¿por qué no pasamos un par libre de un F como doble enlace (como hicimos con el SO₂) para completar el octeto del B? Porque **las cargas formales lo desaconsejan** (esto se justifica con el cálculo del P2): forzar el doble enlace pondría carga negativa sobre el B y positiva sobre el F, que es lo contrario de lo que "quiere" la electronegatividad. Entonces la estructura correcta del BF₃ es la del **B con 6 electrones**. Un **ácido de Lewis** es justamente una especie que acepta un par de electrones (porque le falta) — el BF₃ es el ejemplo clásico.
 
@@ -374,7 +381,7 @@ Diapositiva de título: **Geometría Electrónica y Molecular** — **TRePEV**.
 
 Recuadro: **Teoría de Repulsión de Pares de Electrones de Valencia — TRePEV**.
 
-*Los electrones de valencia alrededor de un átomo están atraídos por el núcleo pero **se repelen entre ellos**. Eso provoca que las nubes electrónicas se alejen todo lo posible para reducir la repulsión.*
+_Los electrones de valencia alrededor de un átomo están atraídos por el núcleo pero **se repelen entre ellos**. Eso provoca que las nubes electrónicas se alejen todo lo posible para reducir la repulsión._
 
 **Explicación:** la idea es de sentido común: los electrones tienen carga negativa, y **cargas iguales se repelen**. Entonces los pares de electrones alrededor del átomo central se acomodan **lo más separados posible** entre sí. Esa separación máxima es la que define los ángulos y la forma de la molécula. TRePEV se lee "tre-pev" (en inglés VSEPR).
 
@@ -382,11 +389,11 @@ Recuadro: **Teoría de Repulsión de Pares de Electrones de Valencia — TRePEV*
 
 ## P1 — pág. 25 · TRePEV — definición formal
 
-*La **Teoría de Repulsión de Pares de Electrones de Valencia (TRePEV)** es un modelo para predecir la forma de cada una de las moléculas basado en el grado de repulsión electrostática de los pares de electrones.*
+_La **Teoría de Repulsión de Pares de Electrones de Valencia (TRePEV)** es un modelo para predecir la forma de cada una de las moléculas basado en el grado de repulsión electrostática de los pares de electrones._
 
-En rojo (idea central): ***Los electrones se ubican, de a pares, lo más alejados posibles, a fin de minimizar la repulsión.***
+En rojo (idea central): **_Los electrones se ubican, de a pares, lo más alejados posibles, a fin de minimizar la repulsión._**
 
-*La premisa de TRePEV es que los pares de electrones de valencia alrededor de un átomo se repelen mutuamente, y por lo tanto, adoptan una disposición espacial que minimiza esta repulsión, determinando la geometría molecular.*
+_La premisa de TRePEV es que los pares de electrones de valencia alrededor de un átomo se repelen mutuamente, y por lo tanto, adoptan una disposición espacial que minimiza esta repulsión, determinando la geometría molecular._
 
 Dibujo: tres esferas mostrando 2, 3 y 4 pares acomodados lo más lejos posible.
 
@@ -404,6 +411,7 @@ Dibujo: tres esferas mostrando 2, 3 y 4 pares acomodados lo más lejos posible.
 4. Los enlaces **simples, dobles o triples** que rodean al átomo central se consideran **equivalentes** a fines de la geometría (cuentan como **una sola región**).
 
 **Explicación:** los cuatro postulados operativos. Los dos que más se usan para resolver ejercicios:
+
 - **Postulado 3 (clave):** un **par libre empuja más** que un par de enlace. Por eso el ángulo del agua (104,5°) es menor que el del metano (109,5°): los pares libres del O "aprietan" a los enlaces.
 - **Postulado 4 (clave):** un **doble o triple enlace cuenta como UNA región** (un solo "grupo electrónico"), no como dos o tres. Para contar geometría, un C=O es una sola nube igual que un C–O.
 
@@ -412,6 +420,7 @@ Dibujo: tres esferas mostrando 2, 3 y 4 pares acomodados lo más lejos posible.
 ## P1 — pág. 27 · Cómo determinar la geometría (método)
 
 **Para determinar la geometría de los dominios de electrones:**
+
 - ✓ Dibujar la **estructura de Lewis** de la molécula.
 - ✓ Contar el número total de **pares libres y enlaces** alrededor del átomo central. Contar los **enlaces múltiples como una única región**.
 - ✓ Acomodar espacialmente los pares para minimizar la repulsión → **geometría electrónica**.
@@ -420,6 +429,7 @@ Dibujo: tres esferas mostrando 2, 3 y 4 pares acomodados lo más lejos posible.
 A la derecha, el ejemplo de la **PH₃** (fósforo con 3 H y 1 par libre) en Lewis y en 3D.
 
 **Explicación:** este es **el método paso a paso de TRePEV** que hay que saber de memoria para el parcial:
+
 1. Lewis.
 2. Contar **regiones** alrededor del central (enlaces + pares libres, con los múltiples contando como 1).
 3. Ese número da la **geometría electrónica** (cómo se acomodan TODAS las regiones).
@@ -440,6 +450,7 @@ Tres representaciones del **CCl₄** (tetracloruro de carbono): la estructura de
 ## P1 — pág. 29 · + ejemplos — CH₄, NH₃, H₂O (las 4 "cosas")
 
 Recuadro: las 3 moléculas **CH₄, NH₃, H₂O** tienen **4 "cosas"** alrededor del átomo central:
+
 - el **C** en CH₄ tiene **4 átomos de H**;
 - el **N** en NH₃ tiene **3 átomos de H y 1 par de e⁻ no compartido**;
 - el **O** en H₂O tiene **2 átomos de H y 2 pares de e⁻ no compartidos**.
@@ -449,10 +460,10 @@ Abajo (fondo negro), las tres estructuras de Lewis: H–C(H)(H)–H, H–N̈–H
 **Explicación:** la moraleja central de la clase. Las tres moléculas tienen **4 regiones electrónicas** en el central, pero repartidas distinto entre **enlaces** y **pares libres**:
 
 | Molécula | Enlaces | Pares libres | Total regiones |
-|---|---|---|---|
-| CH₄ | 4 | 0 | 4 |
-| NH₃ | 3 | 1 | 4 |
-| H₂O | 2 | 2 | 4 |
+| -------- | ------- | ------------ | -------------- |
+| CH₄      | 4       | 0            | 4              |
+| NH₃      | 3       | 1            | 4              |
+| H₂O      | 2       | 2            | 4              |
 
 Como las 4 regiones son iguales en número, la **geometría electrónica de las tres es la misma** (tetraédrica). Lo que cambia es la molecular.
 
@@ -460,7 +471,7 @@ Como las 4 regiones son iguales en número, la **geometría electrónica de las 
 
 ## P1 — pág. 30 · + ejemplos — geometría electrónica TETRAÉDRICA
 
-Recuadro: *La geometría **electrónica** en los 3 casos es* **TETRAÉDRICA**.
+Recuadro: _La geometría **electrónica** en los 3 casos es_ **TETRAÉDRICA**.
 
 Dibujo (fondo azul): C, N y O, cada uno con sus 4 nubes en forma de tetraedro (en N y O algunas nubes son pares libres, dibujadas como lóbulos naranjas con dos puntitos).
 
@@ -470,7 +481,7 @@ Dibujo (fondo azul): C, N y O, cada uno con sus 4 nubes en forma de tetraedro (e
 
 ## P1 — pág. 31 · + ejemplos — la molecular NO es igual
 
-Recuadro: *La geometría electrónica en los 3 casos es TETRAÉDRICA, **pero NO las geometrías moleculares** de NH₃ y H₂O.*
+Recuadro: _La geometría electrónica en los 3 casos es TETRAÉDRICA, **pero NO las geometrías moleculares** de NH₃ y H₂O._
 
 Modelos 3D: CH₄ (tetraedro completo), NH₃ (3 H abajo + 1 lóbulo/par libre arriba), H₂O (2 H + 2 lóbulos/pares libres).
 
@@ -480,17 +491,18 @@ Modelos 3D: CH₄ (tetraedro completo), NH₃ (3 H abajo + 1 lóbulo/par libre a
 
 ## P1 — pág. 32 · + ejemplos — las tres geometrías moleculares
 
-*Las **geometrías moleculares** son:*
+_Las **geometrías moleculares** son:_
 
-| Molécula | Geometría molecular | Ángulo |
-|---|---|---|
-| **CH₄** | Tetraédrica | **109,5°** |
-| **NH₃** | Pirámide trigonal | **107,3°** |
-| **H₂O** | Angular | **104,5°** |
+| Molécula | Geometría molecular | Ángulo     |
+| -------- | ------------------- | ---------- |
+| **CH₄**  | Tetraédrica         | **109,5°** |
+| **NH₃**  | Pirámide trigonal   | **107,3°** |
+| **H₂O**  | Angular             | **104,5°** |
 
 Modelos 3D con los ángulos marcados.
 
 **Explicación:** resultado final del ejemplo, **para saber de memoria**:
+
 - **CH₄** (4 enlaces, 0 pares libres) → **tetraédrica**, 109,5°.
 - **NH₃** (3 enlaces, 1 par libre) → **pirámide trigonal**, 107,3°.
 - **H₂O** (2 enlaces, 2 pares libres) → **angular** (o "en forma de V"), 104,5°.
@@ -501,14 +513,15 @@ Modelos 3D con los ángulos marcados.
 
 ## P1 — pág. 33 · Geometrías SIN pares de electrones libres (2 y 3 regiones)
 
-Tabla (advertencia: *las líneas bordó no son enlaces, son la forma geométrica*):
+Tabla (advertencia: _las líneas bordó no son enlaces, son la forma geométrica_):
 
-| Nº pares | Geometría electrónica | Geometría molecular | Ejemplos |
-|---|---|---|---|
-| **2** | Lineal (180°) | Lineal (B—A—B) | BeCl₂, HgCl₂ |
-| **3** | Plana triangular (120°) | Plana triangular | BF₃ |
+| Nº pares | Geometría electrónica   | Geometría molecular | Ejemplos     |
+| -------- | ----------------------- | ------------------- | ------------ |
+| **2**    | Lineal (180°)           | Lineal (B—A—B)      | BeCl₂, HgCl₂ |
+| **3**    | Plana triangular (120°) | Plana triangular    | BF₃          |
 
 **Explicación:** primera parte de la **tabla madre de geometrías** (sin pares libres en el central → electrónica = molecular). Las que hay que memorizar:
+
 - **2 regiones** → **lineal**, ángulo **180°** (ej. BeCl₂).
 - **3 regiones** → **plana/trigonal plana**, ángulo **120°** (ej. BF₃).
 
@@ -518,12 +531,13 @@ Tabla (advertencia: *las líneas bordó no son enlaces, son la forma geométrica
 
 Continúa la tabla:
 
-| Nº pares | Geometría electrónica | Geometría molecular | Ejemplos |
-|---|---|---|---|
-| **4** | Tetraédrica (109,5°) | Tetraédrica | CH₄, NH₄⁺ |
-| **5** | Bipiramidal trigonal (120° y 90°) | Bipiramidal trigonal | PCl₅ |
+| Nº pares | Geometría electrónica             | Geometría molecular  | Ejemplos  |
+| -------- | --------------------------------- | -------------------- | --------- |
+| **4**    | Tetraédrica (109,5°)              | Tetraédrica          | CH₄, NH₄⁺ |
+| **5**    | Bipiramidal trigonal (120° y 90°) | Bipiramidal trigonal | PCl₅      |
 
 **Explicación:** sigue la tabla:
+
 - **4 regiones** → **tetraédrica**, **109,5°** (CH₄, NH₄⁺).
 - **5 regiones** → **bipiramidal trigonal** (dos ángulos: 120° en el "ecuador" y 90° hacia los "polos"), ej. PCl₅.
 
@@ -534,21 +548,22 @@ Continúa la tabla:
 Continúa la tabla:
 
 | Nº pares | Geometría electrónica | Geometría molecular | Ejemplos |
-|---|---|---|---|
-| **6** | Octaédrica (90°) | Octaédrica | SF₆ |
+| -------- | --------------------- | ------------------- | -------- |
+| **6**    | Octaédrica (90°)      | Octaédrica          | SF₆      |
 
 **Explicación:** cierra la tabla sin pares libres:
+
 - **6 regiones** → **octaédrica**, todos los ángulos **90°** (ej. SF₆).
 
 Tabla completa a memorizar (átomo central **sin** pares libres):
 
-| Regiones | Forma | Ángulo(s) |
-|---|---|---|
-| 2 | Lineal | 180° |
-| 3 | Trigonal plana | 120° |
-| 4 | Tetraédrica | 109,5° |
-| 5 | Bipiramidal trigonal | 120° / 90° |
-| 6 | Octaédrica | 90° |
+| Regiones | Forma                | Ángulo(s)  |
+| -------- | -------------------- | ---------- |
+| 2        | Lineal               | 180°       |
+| 3        | Trigonal plana       | 120°       |
+| 4        | Tetraédrica          | 109,5°     |
+| 5        | Bipiramidal trigonal | 120° / 90° |
+| 6        | Octaédrica           | 90°        |
 
 ---
 
@@ -556,14 +571,15 @@ Tabla completa a memorizar (átomo central **sin** pares libres):
 
 Tabla con columnas: **Clase de molécula**, **Nº total de pares**, **pares enlazantes**, **pares libres**, **geometría electrónica**, **geometría molecular**, **ejemplos**:
 
-| Clase | Total | Enlazantes | Libres | Geom. electrónica | Geom. molecular | Ejemplo |
-|---|---|---|---|---|---|---|
-| **AB₂E** | 3 | 2 | 1 | Trigonal plana | **Angular** | SO₂ |
-| **AB₃E** | 4 | 3 | 1 | Tetraédrica | **Piramidal trigonal** | NH₃ |
-| **AB₂E₂** | 4 | 2 | 2 | Tetraédrica | **Angular** | H₂O |
-| **AB₄E** | 5 | 4 | 1 | Bipiramidal trigonal | **Sube y baja** (balancín) | SF₄ |
+| Clase     | Total | Enlazantes | Libres | Geom. electrónica    | Geom. molecular            | Ejemplo |
+| --------- | ----- | ---------- | ------ | -------------------- | -------------------------- | ------- |
+| **AB₂E**  | 3     | 2          | 1      | Trigonal plana       | **Angular**                | SO₂     |
+| **AB₃E**  | 4     | 3          | 1      | Tetraédrica          | **Piramidal trigonal**     | NH₃     |
+| **AB₂E₂** | 4     | 2          | 2      | Tetraédrica          | **Angular**                | H₂O     |
+| **AB₄E**  | 5     | 4          | 1      | Bipiramidal trigonal | **Sube y baja** (balancín) | SF₄     |
 
 **Explicación:** la tabla **más importante para el parcial**. La notación: **A** = átomo central, **B** = átomos unidos, **E** = pares libres. La geometría **molecular** sale de "esconder" los pares libres de la electrónica:
+
 - **AB₂E** (SO₂): base trigonal plana, pero un vértice es par libre → queda **angular**.
 - **AB₃E** (NH₃): base tetraédrica, un vértice es par libre → **pirámide trigonal**.
 - **AB₂E₂** (H₂O): base tetraédrica, dos vértices son pares libres → **angular**.
@@ -575,21 +591,22 @@ Tabla con columnas: **Clase de molécula**, **Nº total de pares**, **pares enla
 
 Continúa la tabla:
 
-| Clase | Total | Enlazantes | Libres | Geom. electrónica | Geom. molecular | Ejemplo |
-|---|---|---|---|---|---|---|
-| **AB₃E₂** | 5 | 3 | 2 | Bipiramidal trigonal | **Forma de T** | ClF₃ |
-| **AB₂E₃** | 5 | 2 | 3 | Bipiramidal trigonal | **Lineal** | I₃⁻ |
-| **AB₅E** | 6 | 5 | 1 | Octaédrica | **Pirámide cuadrada** | BrF₅ |
-| **AB₄E₂** | 6 | 4 | 2 | Octaédrica | **Plana cuadrada** | XeF₄ |
+| Clase     | Total | Enlazantes | Libres | Geom. electrónica    | Geom. molecular       | Ejemplo |
+| --------- | ----- | ---------- | ------ | -------------------- | --------------------- | ------- |
+| **AB₃E₂** | 5     | 3          | 2      | Bipiramidal trigonal | **Forma de T**        | ClF₃    |
+| **AB₂E₃** | 5     | 2          | 3      | Bipiramidal trigonal | **Lineal**            | I₃⁻     |
+| **AB₅E**  | 6     | 5          | 1      | Octaédrica           | **Pirámide cuadrada** | BrF₅    |
+| **AB₄E₂** | 6     | 4          | 2      | Octaédrica           | **Plana cuadrada**    | XeF₄    |
 
 **Explicación:** los casos con más pares libres (octeto expandido, período ≥ 3). No hace falta memorizar los ocho de memoria si entendés el método: contás regiones totales → geometría electrónica → sacás los pares libres → geometría molecular. Pero conviene tener a mano los ejemplos típicos: **ClF₃** forma de T, **I₃⁻** lineal, **BrF₅** pirámide cuadrada, **XeF₄** plana cuadrada. Con esto termina el P1.
 
 ---
+
 ---
 
 # PARTE 2 — `P2-(serie 2) Estructuras de Lewis y cargas formales.pdf`
 
-> Este PDF es el **apunte teórico escrito** de la Serie 2 (encabezado *Química General – UNSAM*). Cubre lo mismo que el P1 pero como texto corrido con todos los pasos detallados, más el método completo aplicado a BF₃, XeF₄ y NO, y el tema nuevo de **cargas formales**.
+> Este PDF es el **apunte teórico escrito** de la Serie 2 (encabezado _Química General – UNSAM_). Cubre lo mismo que el P1 pero como texto corrido con todos los pasos detallados, más el método completo aplicado a BF₃, XeF₄ y NO, y el tema nuevo de **cargas formales**.
 
 ## P2 — pág. 1 · Estructuras de Lewis — Conceptos principales
 
@@ -610,20 +627,22 @@ El **modelo de Lewis** de enlace químico usa el concepto de **enlace covalente*
 Se arman a modo de ejemplo las estructuras de **BF₃, XeF₄ y NO**.
 
 **1. Determinar el número total de electrones de valencia:**
+
 - a) Contar y **sumar** los electrones externos de cada elemento.
 - b) **Sumar** electrones si la carga es negativa, **restar** si es positiva.
 - c) **Dividir por dos** para obtener la cantidad de **pares**.
 - d) Si los electrones son **impares**, habrá un par de más con **un electrón desapareado**.
 
-| Compuesto | e⁻ valencia | Totales | Pares de e⁻ |
-|---|---|---|---|
-| **BF₃** | B=3, F=7 | 3 + 7×3 = **24** | 12 |
-| **XeF₄** | Xe=8, F=7 | 8 + 7×4 = **36** | 18 |
-| **NO** | N=5, O=6 | 6 + 5 = **11** | **5 pares + 1 e⁻** |
+| Compuesto | e⁻ valencia | Totales          | Pares de e⁻        |
+| --------- | ----------- | ---------------- | ------------------ |
+| **BF₃**   | B=3, F=7    | 3 + 7×3 = **24** | 12                 |
+| **XeF₄**  | Xe=8, F=7   | 8 + 7×4 = **36** | 18                 |
+| **NO**    | N=5, O=6    | 6 + 5 = **11**   | **5 pares + 1 e⁻** |
 
 **2. Determinar el átomo central:**
+
 - a) Reconocer el elemento **menos electronegativo**.
-- b) Ponerlo como central, salvo el **H** (siempre periférico). *(La regla no se cumple el 100% de las veces.)*
+- b) Ponerlo como central, salvo el **H** (siempre periférico). _(La regla no se cumple el 100% de las veces.)_
 - c) Colocar el resto alrededor.
 
 Se muestran los esqueletos: F alrededor de B; 4 F alrededor de Xe; O–N.
@@ -635,17 +654,21 @@ Se muestran los esqueletos: F alrededor de B; 4 F alrededor de Xe; O–N.
 ## P2 — pág. 3 · Método paso a paso — pasos 3 a 6
 
 **3. Conectar los átomos:** unir cada externo con el central con una **línea** (un par) o dos puntos. Descontar los pares usados.
+
 - BF₃: sobran 9 pares. — XeF₄: sobran 14 pares. — NO: sobran 4 pares y 1 e⁻.
 
 **4. Completar el octeto de los átomos periféricos** con pares libres y descontar.
+
 - BF₃: sobran 0 pares. — XeF₄: sobran 2 pares. — NO: sobra 1 par y 1 e⁻.
 
 **5. Colocar los electrones sobrantes sobre el átomo central.** A partir del **período 3** los átomos centrales pueden **expandir el octeto** (orbitales `d` vacíos próximos en energía).
+
 - BF₃: sobran 0 pares (B queda con 6 → deficiente). — XeF₄: 0 pares (Xe queda con 12 → expandido). — NO: 0 pares.
 
 **6. Verificar los átomos centrales.** Si tras el paso 5 el central no llegó al octeto, se pasa un par libre de un externo como **doble o triple enlace**. **Excepción:** en BF₃ no conviene (por las cargas formales) → el B queda con 6. En NO **sí** aplica: el N completa con un doble enlace.
 
 **Explicación:** el procedimiento completo con las tres excepciones a la vez:
+
 - **BF₃** → **octeto incompleto** (B con 6, no se fuerza doble enlace).
 - **XeF₄** → **octeto expandido** (Xe con 12 = 4 enlaces + 2 pares libres).
 - **NO** → **electrón impar** (radical), el N queda con el electrón desapareado.
@@ -677,6 +700,7 @@ Cuando hay **varias** estructuras de Lewis que cumplen el octeto, ¿cuál es la 
 $$\boxed{CF = N_{\text{e}^-\text{ valencia}} - N_{\text{e}^-\text{ libres}} - N_{\text{enlaces}}}$$
 
 Consideraciones:
+
 1. En **moléculas** neutras, la suma de las CF = **0**.
 2. En **iones**, la suma de las CF = la **carga del ion** (positiva en cationes, negativa en aniones).
 3. Las estructuras de Lewis deben tener la **mínima separación de cargas**.
@@ -691,18 +715,19 @@ Consideraciones:
 ## P2 — pág. 6 · Cargas formales — ejemplo resuelto: ion tiocianato SCN⁻
 
 El **SCN⁻** tiene tres estructuras de Lewis posibles, todas con conectividad N–C–S:
+
 - **(a)** `[:N̈—C≡S:]⁻` (simple N–C, triple C≡S) → N con 3 pares libres, S con 1
 - **(b)** `[:N̈=C=S̈:]⁻` (dos dobles) → N con 2 pares libres, S con 2
 - **(c)** `[:N≡C—S̈:]⁻` (triple N≡C, simple C–S) → N con 1 par libre, S con 3
 
 Cálculo de la carga formal por átomo ($CF = N_{val} - N_{libres} - N_{enlaces}$):
 
-| Átomo | (a) | (b) | (c) |
-|---|---|---|---|
-| **N** | 5 − 6 − 1 = **−2** | 5 − 4 − 2 = **−1** | 5 − 2 − 3 = **0** |
-| **C** | 4 − 0 − 4 = **0** | 4 − 0 − 4 = **0** | 4 − 0 − 4 = **0** |
-| **S** | 6 − 2 − 3 = **+1** | 6 − 4 − 2 = **0** | 6 − 6 − 1 = **−1** |
-| **Suma** | −1 ✓ | −1 ✓ | −1 ✓ |
+| Átomo    | (a)                | (b)                | (c)                |
+| -------- | ------------------ | ------------------ | ------------------ |
+| **N**    | 5 − 6 − 1 = **−2** | 5 − 4 − 2 = **−1** | 5 − 2 − 3 = **0**  |
+| **C**    | 4 − 0 − 4 = **0**  | 4 − 0 − 4 = **0**  | 4 − 0 − 4 = **0**  |
+| **S**    | 6 − 2 − 3 = **+1** | 6 − 4 − 2 = **0**  | 6 − 6 − 1 = **−1** |
+| **Suma** | −1 ✓               | −1 ✓               | −1 ✓               |
 
 Las tres suman −1 (la carga del anión) ✓.
 
@@ -711,6 +736,7 @@ Las tres suman −1 (la carga del anión) ✓.
 **Explicación:** ejemplo modelo de cómo se usa la carga formal para **elegir la estructura correcta**. Pasos: (1) planteás todas las estructuras; (2) calculás la CF de cada átomo en cada una; (3) chequeás que sumen la carga del ion; (4) elegís la que tenga **cargas más chicas**, con la negativa sobre el **más electronegativo** y **sin cargas del mismo signo adyacentes**. Acá gana la **(b)**: cargas mínimas (−1, 0, 0) y la negativa sobre el N (el más electronegativo). ⚠️ Ojo: el docente en la diapositiva marca la (b) como la mejor; es la que tiene menor separación de cargas.
 
 ---
+
 ---
 
 # PARTE 3 — `P3-Estructuras _resonancia _ej.pdf`
@@ -719,8 +745,8 @@ Las tres suman −1 (la carga del anión) ✓.
 
 Título: **ESTRUCTURAS DE LEWIS: HÍBRIDOS DE RESONANCIA**.
 
-- *Estas estructuras sólo difieren en la **localización de sus electrones** y no en la conectividad de los átomos.*
-- *Cuál de todas estas estructuras planteadas resulta más significativa en la descripción de las propiedades de la molécula es algo que podrá estimarse luego a partir del concepto de **cargas formales** (ver apunte).*
+- _Estas estructuras sólo difieren en la **localización de sus electrones** y no en la conectividad de los átomos._
+- _Cuál de todas estas estructuras planteadas resulta más significativa en la descripción de las propiedades de la molécula es algo que podrá estimarse luego a partir del concepto de **cargas formales** (ver apunte)._
 
 **Ion Nitrato NO₃⁻:** tres estructuras equivalentes, cada una entre corchetes con carga −, conectadas por flechas de doble punta (↔). En cada una el **doble enlace N=O está en un O distinto** y los otros dos O tienen carga negativa.
 
@@ -738,28 +764,29 @@ Título: **ESTRUCTURAS DE LEWIS: HÍBRIDOS DE RESONANCIA**.
 
 Título: **ESTRUCTURAS DE LEWIS: HÍBRIDOS DE RESONANCIA**.
 
-- *Considerar TODAS las estructuras de Lewis que pueden describir a la molécula.*
+- _Considerar TODAS las estructuras de Lewis que pueden describir a la molécula._
 
 Arriba, la estructura del **SO₂** con un doble y un simple enlace (**:Ö=S—Ö:**). Abajo, las **dos** estructuras resonantes conectadas por ↔, con flechas curvas naranjas mostrando cómo "se mueve" un par de electrones de una a otra (en la segunda aparecen las cargas formales: **S⁺** y un **O⁻**).
 
-Texto al pie: *Experimentalmente se considera que existe una estructura híbrida entre las dos.*
+Texto al pie: _Experimentalmente se considera que existe una estructura híbrida entre las dos._
 
 **Explicación:** cierra la clase con el SO₂ (el mismo de la pág. P1-19) ahora visto como **resonancia**. El doble enlace puede estar en cualquiera de los dos O → **dos estructuras equivalentes** unidas por ↔. Las **flechas curvas** (naranjas) muestran el "movimiento" formal de un par de electrones al pasar de una estructura a otra — es sólo una convención de dibujo, los electrones no se mueven de verdad. La molécula real es el **híbrido**: los dos enlaces S–O son iguales (orden de enlace 1,5) y la geometría es **angular** (recordá: AB₂E, un par libre en el S).
 
 ---
+
 ---
 
 # Resumen de la Clase 2 en una página
 
 ## 1. Conceptos base
 
-| Concepto | Definición corta |
-|---|---|
-| **Electrones de valencia** | e⁻ del nivel más externo. Para bloque p: **grupo − 10** |
-| **Símbolo de Lewis** | símbolo + un punto por e⁻ de valencia |
-| **Enlace covalente** | par de e⁻ **compartido** entre dos átomos |
-| **Par libre** | par de e⁻ **no** compartido |
-| **Regla del octeto** | los átomos buscan **8 e⁻** ($ns^2 np^6$) en su capa externa |
+| Concepto                   | Definición corta                                            |
+| -------------------------- | ----------------------------------------------------------- |
+| **Electrones de valencia** | e⁻ del nivel más externo. Para bloque p: **grupo − 10**     |
+| **Símbolo de Lewis**       | símbolo + un punto por e⁻ de valencia                       |
+| **Enlace covalente**       | par de e⁻ **compartido** entre dos átomos                   |
+| **Par libre**              | par de e⁻ **no** compartido                                 |
+| **Regla del octeto**       | los átomos buscan **8 e⁻** ($ns^2 np^6$) en su capa externa |
 
 ## 2. Método para armar una estructura de Lewis
 
@@ -774,12 +801,12 @@ Texto al pie: *Experimentalmente se considera que existe una estructura híbrida
 
 ## 3. Excepciones al octeto
 
-| Excepción | Quién | e⁻ en el central | Ejemplo |
-|---|---|---|---|
-| **Dueto** | H | 2 | H₂ |
-| **Deficiente / incompleto** | grupo 13 (B, Al) | 6 | BF₃ |
-| **Expandido** | período ≥ 3 (S, P, Xe…) | 10, 12… | SF₄, XeF₄, SF₆ |
-| **Impar (radical)** | e⁻ total impar | 7 (1 desapareado) | NO |
+| Excepción                   | Quién                   | e⁻ en el central  | Ejemplo        |
+| --------------------------- | ----------------------- | ----------------- | -------------- |
+| **Dueto**                   | H                       | 2                 | H₂             |
+| **Deficiente / incompleto** | grupo 13 (B, Al)        | 6                 | BF₃            |
+| **Expandido**               | período ≥ 3 (S, P, Xe…) | 10, 12…           | SF₄, XeF₄, SF₆ |
+| **Impar (radical)**         | e⁻ total impar          | 7 (1 desapareado) | NO             |
 
 ## 4. Carga formal
 
@@ -796,26 +823,26 @@ $$\boxed{CF = N_{\text{e}^-\text{ valencia}} - N_{\text{e}^-\text{ libres}} - N_
 
 ### Sin pares libres (electrónica = molecular)
 
-| Regiones | Geometría | Ángulo | Ejemplo |
-|---|---|---|---|
-| 2 | Lineal | 180° | BeCl₂ |
-| 3 | Trigonal plana | 120° | BF₃ |
-| 4 | Tetraédrica | 109,5° | CH₄ |
-| 5 | Bipiramidal trigonal | 120°/90° | PCl₅ |
-| 6 | Octaédrica | 90° | SF₆ |
+| Regiones | Geometría            | Ángulo   | Ejemplo |
+| -------- | -------------------- | -------- | ------- |
+| 2        | Lineal               | 180°     | BeCl₂   |
+| 3        | Trigonal plana       | 120°     | BF₃     |
+| 4        | Tetraédrica          | 109,5°   | CH₄     |
+| 5        | Bipiramidal trigonal | 120°/90° | PCl₅    |
+| 6        | Octaédrica           | 90°      | SF₆     |
 
 ### Con pares libres (A=central, B=átomos, E=pares libres)
 
-| Clase | Total | Enl. | Libres | Geom. electrónica | Geom. molecular | Ejemplo |
-|---|---|---|---|---|---|---|
-| AB₂E | 3 | 2 | 1 | Trigonal plana | **Angular** | SO₂ |
-| AB₃E | 4 | 3 | 1 | Tetraédrica | **Piramidal trigonal** | NH₃ |
-| AB₂E₂ | 4 | 2 | 2 | Tetraédrica | **Angular** | H₂O |
-| AB₄E | 5 | 4 | 1 | Bipiramidal trigonal | **Balancín (sube y baja)** | SF₄ |
-| AB₃E₂ | 5 | 3 | 2 | Bipiramidal trigonal | **Forma de T** | ClF₃ |
-| AB₂E₃ | 5 | 2 | 3 | Bipiramidal trigonal | **Lineal** | I₃⁻ |
-| AB₅E | 6 | 5 | 1 | Octaédrica | **Pirámide cuadrada** | BrF₅ |
-| AB₄E₂ | 6 | 4 | 2 | Octaédrica | **Plana cuadrada** | XeF₄ |
+| Clase | Total | Enl. | Libres | Geom. electrónica    | Geom. molecular            | Ejemplo |
+| ----- | ----- | ---- | ------ | -------------------- | -------------------------- | ------- |
+| AB₂E  | 3     | 2    | 1      | Trigonal plana       | **Angular**                | SO₂     |
+| AB₃E  | 4     | 3    | 1      | Tetraédrica          | **Piramidal trigonal**     | NH₃     |
+| AB₂E₂ | 4     | 2    | 2      | Tetraédrica          | **Angular**                | H₂O     |
+| AB₄E  | 5     | 4    | 1      | Bipiramidal trigonal | **Balancín (sube y baja)** | SF₄     |
+| AB₃E₂ | 5     | 3    | 2      | Bipiramidal trigonal | **Forma de T**             | ClF₃    |
+| AB₂E₃ | 5     | 2    | 3      | Bipiramidal trigonal | **Lineal**                 | I₃⁻     |
+| AB₅E  | 6     | 5    | 1      | Octaédrica           | **Pirámide cuadrada**      | BrF₅    |
+| AB₄E₂ | 6     | 4    | 2      | Octaédrica           | **Plana cuadrada**         | XeF₄    |
 
 ## 6. Resonancia
 
