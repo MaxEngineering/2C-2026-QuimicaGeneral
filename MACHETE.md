@@ -3,7 +3,10 @@
 > Resumen operativo de toda la materia. Sólo lo que hay que saber para resolver.
 > Para la explicación desarrollada diapositiva por diapositiva ver `Clase1/Clase1-Explicacion-Completa.md`.
 
-**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría)
+**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · Serie 1 (métodos de cálculo)
+
+> **Series resueltas:** `Practica/Serie1-Resuelta.md`
+> **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
 
 ---
 
@@ -35,7 +38,18 @@
 | Masa del protón | mₚ | 1,673×10⁻²⁴ g ≈ 1 uma |
 | Masa del neutrón | mₙ | 1,675×10⁻²⁴ g ≈ 1 uma |
 | Masa del electrón | mₑ | 9,1×10⁻²⁸ g ≈ 0 |
+| **N° de Avogadro** | **N_A** | **6,022×10²³ 1/mol** |
 | 1 uma | | 1,66×10⁻²⁴ g = masa(¹²C)/12 |
+| **h·c** (producto útil) | | **1,989×10⁻²⁵ J·m** |
+
+**Conversiones que aparecen en la práctica**
+
+| De | A | Cómo |
+|---|---|---|
+| Wh | J | **× 3600** (1 Wh = 3600 J) |
+| J/fotón | J/mol | **× N_A** |
+| nm | m | × 10⁻⁹ |
+| Å | m | × 10⁻¹⁰ |
 
 **Prefijos y escalas**
 
@@ -102,6 +116,34 @@ $$\lambda \downarrow \;\Longleftrightarrow\; \nu \uparrow \;\Longleftrightarrow\
 **Cada elemento tiene un espectro único** → se usa como "huella digital" para identificar elementos (espectroscopía).
 
 **Analogía de la escalera:** el e⁻ sólo puede estar en escalones (niveles), nunca en el medio. Al bajar devuelve exactamente la energía que le costó subir → fotón de λ definida → raya espectral.
+
+### ⚠️ Energía POR MOL (lo que casi siempre piden)
+
+$$\boxed{E_{\text{mol}} = \frac{hc}{\lambda}\cdot N_A}$$
+
+**Método:**
+1. λ a **metros** (nm → ×10⁻⁹)
+2. E de **un fotón**: E = hc/λ (da ~10⁻¹⁹ J)
+3. **× N_A** → J/mol
+4. **/1000** → kJ/mol
+
+**Orden de magnitud para chequear:** en el visible, E_fotón ≈ 3–5×10⁻¹⁹ J y E_mol ≈ **180–300 kJ/mol**. Si te da muy distinto, revisá las unidades de λ.
+
+**Valores de referencia (salen en la Serie 1):**
+
+| λ | Color | E_mol |
+|---|---|---|
+| 656 nm | rojo (H, n=3→2) | 182,4 kJ/mol |
+| 589 nm | amarillo (Na, 3p→3s) | 203,3 kJ/mol |
+| 486 nm | verde (H, n=4→2) | 246,4 kJ/mol |
+
+### Comparar transiciones (sin calcular)
+
+Si todas las transiciones **terminan en el mismo nivel**, manda el nivel de partida:
+
+$$n_{\text{inicial}} \uparrow \;\Rightarrow\; \Delta E \uparrow \;\Rightarrow\; \lambda \downarrow$$
+
+⚠️ En el **átomo de hidrógeno** la energía depende **sólo de n** (no de ℓ) → 6s, 6p y 6d tienen la misma energía. En polielectrónicos **no**.
 
 ---
 
@@ -233,6 +275,53 @@ $$\boxed{\text{n° de } e^- = Z - \text{carga}}$$
 ⚠️ En **metales de transición**, al formar cationes se sacan primero los e⁻ de **mayor n** (el 4s antes que el 3d), aunque el 4s se haya llenado primero.
 Ej.: Fe (Z=26) = [Ar]4s²3d⁶ → **Fe²⁺ = [Ar]3d⁶** (se van los 4s).
 
+### 🔗 ISOELECTRÓNICOS
+
+> **Dos especies son isoelectrónicas cuando tienen la MISMA cantidad de electrones** (y por lo tanto **idéntica CE**), aunque tengan **distinto Z**.
+
+**Método:** contar electrones con `e⁻ = Z − carga` y comparar.
+
+⚠️ **Cuidado con el signo al despejar Z:**
+
+$$Z = e^- + \text{carga}$$
+
+- Ion **negativo** → el átomo neutro tiene **MENOS** electrones que el ion (X³⁻ con 18 e⁻ → Z = 15)
+- Ion **positivo** → el átomo neutro tiene **MÁS** electrones que el ion (M⁺ con 18 e⁻ → Z = 19)
+
+**Serie isoelectrónica con Ar (18 e⁻):** S²⁻ · Cl⁻ · **Ar** · K⁺ · Ca²⁺ · Sc³⁺
+**Serie isoelectrónica con Kr (36 e⁻):** Br⁻ · **Kr** · Rb⁺ · Sr²⁺
+**Serie isoelectrónica con Ne (10 e⁻):** N³⁻ · O²⁻ · F⁻ · **Ne** · Na⁺ · Mg²⁺ · Al³⁺
+
+⚠️ Isoelectrónico **NO** significa "mismo elemento". K⁺, Ar y S²⁻ tienen 19, 18 y 16 **protones**.
+
+### Ion más estable — criterio
+
+| Tipo de elemento | Criterio |
+|---|---|
+| **Representativos** (s y p) | El que alcanza la **capa llena del gas noble más cercano** cediendo/captando **la menor cantidad** de e⁻. **Uno solo por elemento.** |
+| **Transición** (d) | **NO sirve la CEE.** Forman **varios** estados de oxidación. Se sacan primero los **ns**, después los **(n−1)d**. Son extra estables las configuraciones **d⁵** y **d¹⁰** |
+
+**Ejemplos:**
+
+| Elemento | Ion(es) estable(s) | CE del ion | Por qué |
+|---|---|---|---|
+| Ba (Z=56) | **Ba²⁺** | [Xe] | capa llena |
+| F (Z=9) | **F⁻** | [Ne] | octeto |
+| Al (Z=13) | **Al³⁺** | [Ne] | capa llena |
+| S (Z=16) | **S²⁻** | [Ar] | octeto |
+| Fe (Z=26) | **Fe²⁺** y **Fe³⁺** | [Ar]3d⁶ · **[Ar]3d⁵** | Fe³⁺ tiene **d⁵** (semicapa llena) |
+| Zn (Z=30) | **Zn²⁺** | [Ar]3d¹⁰ | **d¹⁰** (capa d llena) |
+| Pb (Z=82) | **Pb²⁺** (> Pb⁴⁺) | [Xe]4f¹⁴5d¹⁰6s² | **efecto del par inerte**: el 6s² cuesta arrancarlo |
+
+### ⚠️ Excepciones a la regla de las diagonales
+
+Las configuraciones **d⁵** y **d¹⁰** tienen estabilidad extra: si se alcanzan promoviendo **un** electrón del ns al (n−1)d, el átomo lo hace.
+
+| Elemento | Z | Esperado | **Real** |
+|---|---|---|---|
+| **Cr** | 24 | [Ar] 4s² 3d⁴ | **[Ar] 3d⁵ 4s¹** |
+| **Cu** | 29 | [Ar] 4s² 3d⁹ | **[Ar] 3d¹⁰ 4s¹** |
+
 ---
 
 ## 6. Tabla periódica y valencia
@@ -267,6 +356,26 @@ Ej.: Fe (Z=26) = [Ar]4s²3d⁶ → **Fe²⁺ = [Ar]3d⁶** (se van los 4s).
 - **Misma columna (grupo)** → misma CEE → **misma química**
 - **Misma fila (período)** → mismo n de la capa externa
 
+### 📝 Cómo sacar PERÍODO y GRUPO de una CE
+
+| Dato | Cómo |
+|---|---|
+| **Z / elemento** | **Sumar TODOS los superíndices**, incluido el gas noble del corchete |
+| **Período** | El **n MÁXIMO** de la configuración |
+| **Grupo — representativos** (s, p) | Cantidad de e⁻ de la **CEE** |
+| **Grupo — transición** (d) | ⚠️ **e⁻ del ns + e⁻ del (n−1)d** (¡NO la CEE sola!) |
+
+**Ejemplos:**
+
+| CE | Z | Elemento | Período | Grupo |
+|---|---|---|---|---|
+| [Xe] 4f¹⁴ 5d¹⁰ 6s² 6p² | 82 | **Pb** | 6 | 14 (CEE = 6s²6p² → 4 e⁻) |
+| [Ar] 3d⁵ 4s² | 25 | **Mn** | 4 | 7 (2+5, **transición**) |
+| [Ar] 4s² 3d² | 22 | **Ti** | 4 | 4 (2+2, **transición**) |
+| [Kr] 4d¹⁰ 5s² 5p⁶ | 54 | **Xe** | 5 | 18 (octeto) |
+
+⚠️ **El He es la excepción:** CEE = **1s²** (no ns²np⁶), pero igual es gas noble del **grupo 18**, porque con 2 e⁻ ya completa la capa n=1 (en n=1 no existe subnivel p).
+
 ### 💡 La idea central de toda la materia
 
 > **Las configuraciones de capa llena (`ns² np⁶`, gas noble) son estables.**
@@ -276,6 +385,34 @@ Ej.: Fe (Z=26) = [Ar]4s²3d⁶ → **Fe²⁺ = [Ar]3d⁶** (se van los 4s).
 ---
 
 ## 7. Estructuras de Lewis
+
+### ⚠️ ANTES DE EMPEZAR: ¿corresponde hacer Lewis?
+
+> **Lewis y TRePEV son SÓLO para compuestos COVALENTES = NO METAL + NO METAL.**
+
+| Combinación | Unión | ¿Lewis? | ¿TRePEV? |
+|---|---|---|---|
+| **No metal + No metal** | **Covalente** (comparten) | ✅ **SÍ** | ✅ SÍ |
+| **Metal + No metal** | **Iónica** (transfieren) | ❌ No | ❌ No |
+| **Metal + Metal** | **Metálica** (deslocalizan) | ❌ No | ❌ No |
+
+**No metales:** H, C, N, O, F, P, S, Cl, Se, Br, I + gases nobles (arriba a la derecha) · **Metaloides** que se tratan como no metales: **B, Si**
+
+**Criterio de fondo — diferencia de electronegatividad:**
+
+$$\Delta EN = |EN_A - EN_B| \qquad \begin{cases} \approx 0 & \text{covalente NO polar} \\ 0{,}4 - 1{,}7 & \text{covalente POLAR} \\ > 1{,}7 & \textbf{IÓNICO} \end{cases}$$
+
+**EN de memoria:** F 4,0 · O 3,5 · N y Cl 3,0 · Br 2,8 · C, I, S 2,5 · H, P 2,1 · B 2,0 · Si, Be, Al 1,5 · Mg 1,2 · Li, Ca 1,0 · Na, Ba 0,9 · K 0,8
+
+⚠️ **Excepciones aparentes:** **BeCl₂, AlCl₃, HgCl₂** tienen metal pero son **covalentes** (ΔEN = 1,5 · 1,5 · 1,1 → todos < 1,7). Por eso aparecen en las tablas de TRePEV.
+
+⚠️ **Al revés:** el **HF** tiene ΔEN = 1,9 (> 1,7) pero es **covalente**, porque el H no es un metal. Cuando los dos criterios discrepan, **gana metal/no metal**.
+
+🔑 **Iones poliatómicos (SO₄²⁻, NO₃⁻, NH₄⁺, CO₃²⁻): por dentro son COVALENTES** → sí se les hace Lewis, entre corchetes con la carga. Lo que es iónico es la unión de ese ion con su contraión (en NaNO₃, el Na⁺ con el NO₃⁻).
+
+> Desarrollo completo en `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
+
+---
 
 **Teoría de Lewis:** *"los átomos COMparten PAres de electrones de VALENcia"* (**CO-VALENTE**).
 
@@ -550,10 +687,22 @@ Notación: **A** = central · **B** = átomo unido · **E** = par libre
 | Meter el 3d¹⁰ en la CEE del Br | La **CEE lleva sólo el n MÁXIMO** |
 | Cambiar Z al hacer un ion | **Z (protones) NUNCA cambia**; cambian los electrones |
 | Restar e⁻ para un anión | Anión = **SUMA** e⁻ · Catión = **RESTA** e⁻ |
+| Olvidarse de multiplicar por N_A cuando piden "por mol" | E_mol = (hc/λ)·**N_A** |
+| Sacar el grupo de un metal de transición sólo de la CEE | Transición: **grupo = ns + (n−1)d** |
+| Decir que una violación de Hund es "imposible" | Viola **Pauli** → imposible · viola **Aufbau/Hund** → **excitado** |
+| Dibujar el 3p como [↑↓][ ][ ] en el fundamental | **Hund**: [↑][↑][ ] |
+| Pensar que "isoelectrónico" = mismo elemento | Misma cantidad de **e⁻**, distinto **Z** |
+| Escribir Cr = [Ar]4s²3d⁴ o Cu = [Ar]4s²3d⁹ | **Excepciones**: Cr = [Ar]3d⁵4s¹ · Cu = [Ar]3d¹⁰4s¹ |
+| Buscar UN solo ion estable para un metal de transición | Forman **varios** (Fe²⁺ y Fe³⁺) |
+| Poner CEE(He) = 1s²2s²2p⁶ | **CEE(He) = 1s²** — igual es gas noble |
 | Aparear en el 2p antes de llenar los 3 | **Hund**: primero uno en cada orbital |
 | Contar un doble enlace como 2 grupos en TRePEV | Enlace múltiple = **1 solo grupo** |
 | Confundir geometría electrónica con molecular | **Molecular ignora los pares libres** |
 | Poner H o F como átomo central | **H y F SIEMPRE periféricos** |
+| Hacer Lewis de un compuesto con Na, K, Ca… | Ésos son **IÓNICOS** — Lewis es sólo para **no metal + no metal** |
+| Creer que existe "la molécula de NaCl" | En iónico **no hay moléculas**: hay red cristalina. NaCl es una **unidad fórmula** |
+| Decir "los covalentes funden bajo" a secas | Vale para los **moleculares**. Los **de red** (diamante, SiO₂, Si) funden altísimo |
+| Buscar geometría TRePEV de un compuesto iónico | No tiene: no hay molécula ni átomo central |
 | Forzar el octeto en BF₃ | El **B es deficiente**: se queda con 6 e⁻ |
 | Olvidar los corchetes y la carga en un ion | **[ … ]²⁻** |
 | No verificar la suma de superíndices en la CE | **Debe dar el n° de electrones** |
@@ -593,7 +742,9 @@ Notación: **A** = central · **B** = átomo unido · **E** = par libre
 
 $$c = \lambda\nu \qquad E = h\nu = \frac{hc}{\lambda} \qquad \Delta E = h\nu \qquad \lambda = \frac{h}{mv}$$
 
-$$A = Z + N \qquad e^- = Z - \text{carga} \qquad \Delta x\cdot\Delta p \geq \frac{h}{4\pi}$$
+$$A = Z + N \qquad e^- = Z - \text{carga} \qquad Z = e^- + \text{carga} \qquad \Delta x\cdot\Delta p \geq \frac{h}{4\pi}$$
+
+$$E_{\text{mol}} = \frac{hc}{\lambda}\cdot N_A \qquad 1\ \text{Wh} = 3600\ \text{J}$$
 
 $$\text{orbitales por subnivel} = 2\ell+1 \qquad \text{orbitales por capa} = n^2 \qquad e^-_{\text{máx por capa}} = 2n^2$$
 

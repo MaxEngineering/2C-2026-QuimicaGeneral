@@ -32,7 +32,18 @@ Este archivo documenta **cómo se procesan las clases**. Cuando se agregue una c
 **Convención de nombres:**
 - Los PDFs vienen numerados `P1-`, `P2-`, `P3-`… en el orden en que se dan en clase.
 - El apunte generado se llama siempre **`ClaseN/ClaseN-Explicacion-Completa.md`**.
+- Las profundizaciones: **`ClaseN/ClaseN-<Tema>-Profundizacion.md`**.
+- Las series resueltas: **`Practica/SerieN-Resuelta.md`**.
 - El machete es único y vive en la raíz: **`MACHETE.md`**.
+
+**Los cuatro tipos de archivo:**
+
+| Archivo | Qué es | Cuándo se crea |
+|---|---|---|
+| `ClaseN-Explicacion-Completa.md` | Apunte diapo por diapo | Al procesar una clase nueva |
+| `ClaseN-<Tema>-Profundizacion.md` | Un solo tema desarrollado a fondo | Cuando surge una duda conceptual que el apunte no cubre |
+| `SerieN-Resuelta.md` | Ejercicios resueltos paso a paso | Al resolver una serie |
+| `MACHETE.md` | Resumen operativo de todo | **Se actualiza después de cada uno de los anteriores** |
 
 ---
 
@@ -135,6 +146,32 @@ Tabla con los PDFs, cuántas diapositivas tiene cada uno y qué contiene.
 
 ---
 
+## 🔬 Cómo escribir una PROFUNDIZACIÓN
+
+Cuando el usuario pregunta algo conceptual que el apunte de clase no cubre en profundidad (o que el docente dio de palabra y no está en las diapositivas), se crea un archivo aparte: **`ClaseN/ClaseN-<Tema>-Profundizacion.md`**.
+
+**Ejemplos existentes:** `Clase1-Espectroscopia-Profundizacion.md` · `Clase2-TiposDeUnion-Profundizacion.md`
+
+### Reglas
+
+| Regla | Detalle |
+|---|---|
+| **Va en la carpeta de la clase** a la que pertenece el tema | No en la raíz |
+| **Un solo tema**, desarrollado hasta el fondo | No es un resumen de la clase |
+| **Nace de una charla de preguntas y respuestas** | Se reordena por temas, no se deja en formato diálogo |
+| **Aclarar en el encabezado que NO es un apunte de diapositivas** | Con un blockquote al inicio |
+| **Si el tema no está en las diapositivas, decirlo explícitamente** | Ej.: "la Clase 2 tal como está dada es enteramente covalente" |
+| **Numerar las secciones** desde 0 (el punto de partida / la duda original) | Facilita referenciar |
+| **Cerrar con "Ideas clave para llevarte"** numeradas | Es lo que se relee antes del parcial |
+| **Y con un bloque de resumen operativo** | Fórmulas y tablas mínimas |
+| **Corregir explícitamente** si la premisa de la pregunta era errónea | Sin dar vueltas: decir qué estaba al revés y por qué |
+| **Marcar las excepciones y los contraejemplos** | Son lo que más se pregunta, y dan confianza en la regla |
+| **Sección 📡 de conexión con Telecomunicaciones** cuando aplique | Sin forzarlo |
+
+Después: **llevar al machete sólo lo operativo** (la regla de decisión, la tabla, los valores a memorizar) y dejar el desarrollo en la profundización, con un puntero al archivo.
+
+---
+
 ## 📋 Cómo actualizar el `MACHETE.md`
 
 **Después de terminar el apunte de la clase, SIEMPRE actualizar el machete.** No es opcional: el machete es el archivo que se usa para estudiar y rendir.
@@ -200,6 +237,21 @@ Y el archivo cierra con **📌 Fórmulas — todas juntas**.
        [ ] Fórmulas nuevas en el bloque final
        [ ] Línea "Contenido actual:" actualizada
 [ ] 6. Verificar que la cantidad de secciones == cantidad de diapositivas
+```
+
+## ✅ Checklist para una profundización
+
+```
+[ ] 1. Identificar de qué clase es el tema → va en esa carpeta
+[ ] 2. Escribir ClaseN/ClaseN-<Tema>-Profundizacion.md
+       [ ] Encabezado + blockquote aclarando que no es apunte de diapositivas
+       [ ] Sección 0 con la duda que lo originó
+       [ ] Secciones numeradas
+       [ ] Excepciones y contraejemplos marcados
+       [ ] "Ideas clave para llevarte"
+       [ ] Resumen operativo final
+[ ] 3. Llevar SÓLO lo operativo al machete + puntero al archivo
+[ ] 4. Agregar los errores típicos nuevos al machete
 ```
 
 ---
