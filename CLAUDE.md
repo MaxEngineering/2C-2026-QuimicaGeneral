@@ -24,10 +24,16 @@ Este archivo documenta **cómo se procesan las clases**. Cuando se agregue una c
 │   ├── P2-(serie 2) Estructuras de Lewis y cargas formales.pdf
 │   ├── P3-Estructuras _resonancia _ej.pdf
 │   └── Clase2-Explicacion-Completa.md     ← (pendiente)
+├── Extra/                                  ← clases sueltas, no numeradas
+│   ├── clase Nomenclatura.pdf
+│   └── Nomenclatura-Explicacion-Completa.md
 └── Practica/
     ├── SERIE 1_2C_2026.pdf
-    └── SERIE 2_2C_2026.pdf
+    ├── SERIE 2_2C_2026.pdf
+    └── Serie1-Resuelta.md
 ```
+
+**Sobre `Extra/`:** algunas clases no vienen numeradas (materiales complementarios, teóricas grabadas aparte). Van en `Extra/` y su apunte se llama **`<Tema>-Explicacion-Completa.md`**, sin número de clase. El procedimiento de escritura es **exactamente el mismo** que para una clase numerada.
 
 **Convención de nombres:**
 - Los PDFs vienen numerados `P1-`, `P2-`, `P3-`… en el orden en que se dan en clase.

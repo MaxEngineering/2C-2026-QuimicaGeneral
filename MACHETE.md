@@ -3,7 +3,7 @@
 > Resumen operativo de toda la materia. Sólo lo que hay que saber para resolver.
 > Para la explicación desarrollada diapositiva por diapositiva ver `Clase1/Clase1-Explicacion-Completa.md`.
 
-**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · Serie 1 (métodos de cálculo)
+**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · Serie 1 (métodos de cálculo) · Nomenclatura (nº de oxidación y nombres)
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md`
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
@@ -23,8 +23,10 @@
 - [8. Cargas formales](#8-cargas-formales)
 - [9. Resonancia](#9-resonancia)
 - [10. Geometría molecular — TRePEV](#10-geometría-molecular--trepev)
-- [11. Errores típicos](#11-errores-típicos)
-- [12. Modelos atómicos — línea histórica](#12-modelos-atómicos--línea-histórica)
+- [11. Número de oxidación](#11-número-de-oxidación)
+- [12. Nomenclatura inorgánica](#12-nomenclatura-inorgánica)
+- [13. Errores típicos](#13-errores-típicos)
+- [14. Modelos atómicos — línea histórica](#14-modelos-atómicos--línea-histórica)
 
 ---
 
@@ -734,7 +736,130 @@ Notación: **A** = central · **B** = átomo unido · **E** = par libre
 
 ---
 
-## 11. Errores típicos
+## 11. Número de oxidación
+
+> **Representa el nº de electrones que un átomo pone en juego al formar un compuesto.**
+
+$$\text{n° de oxidación} = \begin{cases} \textbf{SIGNO} & \to \text{ELECTRONEGATIVIDAD (quién le gana a quién)} \\ \textbf{VALOR} & \to \text{CANTIDAD DE ENLACES} \end{cases}$$
+
+⚠️ **Es RELATIVO, no fijo.** El mismo Cl: **−1** con Na · **+1** con O · **0** con otro Cl.
+⚠️ **No es lo mismo que los e⁻ de valencia.** El Cl tiene 7 e⁻ de valencia pero nº ox −1 en el NaCl.
+⚠️ **No es lo mismo que la carga formal** (sección 8): la CF reparte el par por la mitad, el nº de ox se lo da entero al más electronegativo.
+
+### Las 6 reglas (de memoria)
+
+| # | Regla | Valor | Excepciones |
+|---|---|---|---|
+| **1** | **Sustancia simple** (Cl₂, O₂, N₂, Fe, Na) | **0** | ninguna |
+| **2** | **F** combinado | **−1** | **ninguna** (es el más E_N) |
+| **3** | **O** combinado | **−2** | **peróxidos (O—O) → −1** · con F → positivo · O₂ → 0 |
+| **4** | **H** combinado | **+1** | **hidruros metálicos (Metal+H) → −1** · H₂ → 0 |
+| **5** | **Ion monoatómico** | **= su carga** | ninguna |
+| **6** | **Suma** | $\sum(\text{atomicidad}\times\text{n° ox}) = \text{carga neta}$ | compuesto neutro → **0** |
+
+**Grupo 1 → +1 · Grupo 2 → +2.** Los demás **van de dato** en el parcial.
+
+### Método
+
+Asignás los que sabés (reglas 1–5) y **despejás el que falta** con la regla 6.
+
+| Compuesto | Cuenta | Resultado |
+|---|---|---|
+| H₂S | 2(+1) + S = 0 | S = **−2** |
+| Fe₂O₃ | 2Fe + 3(−2) = 0 | Fe = **+3** |
+| **SO₄²⁻** | S + 4(−2) = **−2** | S = **+6** |
+| HNO₃ | (+1) + N + 3(−2) = 0 | N = **+5** |
+| CaH₂ | (+2) + 2H = 0 | H = **−1** (hidruro) |
+| H₂O₂ | 2(+1) + 2O = 0 | O = **−1** (peróxido) |
+
+✅ **Chequeo:** el valor que te dé tiene que **estar entre los datos**. Si no está, la cuenta está mal.
+
+### Escritura de la fórmula
+
+> Los símbolos van de izquierda a derecha en orden de **E_N CRECIENTE**: CaCl₂ · H₂O · CO₂ · **HCl** (H a la izq.) vs **LiH** (H a la der.)
+
+---
+
+## 12. Nomenclatura inorgánica
+
+**Tres sistemas** — se usan **Stock** y **Tradicional**. ⚠️ **NO se mezclan** en un mismo nombre.
+
+### Clasificación (primer paso siempre)
+
+| Tipo | Composición | Iónico/Molecular |
+|---|---|---|
+| **Sal binaria** | Metal + NoMetal | Iónico |
+| **Óxido** | **O** + otro | Iónico (metal) / Molecular (no metal) |
+| **Hidrácido** | **H + NoMetal** | Molecular |
+| **Hidruro** | **Metal + H** | Iónico |
+| **Hidróxido** | Metal + **(OH)** | Iónico |
+| **Oxoácido** | **H + NoMetal + O** | Molecular |
+| **Oxosal** | **Metal + NoMetal + O** | Iónico |
+
+### Nombres
+
+| Tipo | **Stock** | **Tradicional** |
+|---|---|---|
+| **Sal binaria** | NoMetal-**uro** de Metal (nº ox) | NoMetal-**uro** Metal-sufijo |
+| **Óxido** | Óxido de Elemento (nº ox) | Óxido prefijo-Elem-sufijo |
+| **Hidrácido** | NoMetal-**uro** de hidrógeno | **ácido** NoMetal-**hídrico** |
+| **Hidruro** | Hidr-**uro** de Metal (nº ox) | Hidr-**uro** Metal-sufijo |
+| **Hidróxido** | Hidróxido de Metal (nº ox) | Hidróxido Metal-sufijo |
+| **Oxoácido** | NoMetal-**ato** (nº ox) de hidrógeno | **ácido** prefijo-Elem-sufijo |
+| **Oxosal** | NoMetal-**ato** (nº ox) de metal | prefijo-Elem-sufijo **de metal** |
+
+### Prefijos y sufijos — según CUÁNTOS nº ox tenga el elemento
+
+| Cantidad | De menor a mayor |
+|---|---|
+| **1** | **nada** (fluoruro de calcio, hidruro de calcio) |
+| **2** | -**oso** · -**ico** |
+| **3** | **hipo**--**oso** · -**oso** · -**ico** |
+| **4** | **hipo**--**oso** · -**oso** · -**ico** · **per**--**ico** |
+
+⚠️ El sufijo indica **posición relativa**, no un número fijo: "-ico" es +2 en el Cu y +5 en el I.
+
+### 🧠 Regla de oro
+
+$$\boxed{\textbf{OSO chiquITO} \qquad \textbf{pICO de pATO}}$$
+$$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal -ATO}$$
+
+| Sufijo | Compuesto | ¿Tiene O? |
+|---|---|---|
+| **-uro** | Sal binaria / hidrácido | ❌ **NO** |
+| **-ito / -ato** | Oxosal | ✅ **SÍ** |
+
+### Serie modelo del cloro (reconstruila para cualquier halógeno)
+
+| Nº ox | Oxoácido | Oxosal de Na |
+|---|---|---|
+| **−1** | HCl — ácido clor**hídrico** | NaCl — clor**uro** de sodio |
+| **+1** | HClO — ácido **hipo**clor**oso** | NaClO — **hipo**clor**ito** (¡lavandina!) |
+| **+3** | HClO₂ — ácido clor**oso** | NaClO₂ — clor**ito** |
+| **+5** | HClO₃ — ácido clór**ico** | NaClO₃ — clor**ato** |
+| **+7** | HClO₄ — ácido **per**clór**ico** | NaClO₄ — **per**clor**ato** |
+
+### 📝 Método para FORMULAR (nombre → fórmula)
+
+1. **Clasificá** por el nombre (sufijo, palabra "ácido"/"óxido"/"hidruro"/"hidróxido").
+2. **Deducí el nº de ox** del elemento central (por el prefijo/sufijo o el romano).
+3. **Asigná** los conocidos: O = −2 · H = +1 (o −1 si hay metal) · metal según grupo.
+4. **Planteá** $\sum(\text{atomicidad}\times\text{n° ox}) = 0$ y despejá los subíndices.
+5. **Verificá** que dé 0.
+
+💡 **Truco del intercambio:** el nº de ox de uno pasa como subíndice del otro, cruzado y sin signo. Hg⁺¹ + O⁻² → **Hg₂O**.
+
+**Ejemplos:** sulfito de magnesio → **MgSO₃** · ácido perclórico → **HClO₄** · óxido de mercurio(I) → **Hg₂O** · hidruro de potasio → **KH** · cloruro ferroso → **FeCl₂**
+
+### Nombres propios (memoria)
+
+**H₂O** agua · **NH₃** amoníaco · **PH₃** fosfina · **AsH₃** arsina · **SiH₄** silano
+
+> Desarrollo completo en `Extra/Nomenclatura-Explicacion-Completa.md`
+
+---
+
+## 13. Errores típicos
 
 | ❌ Error | ✅ Correcto |
 |---|---|
@@ -764,6 +889,14 @@ Notación: **A** = central · **B** = átomo unido · **E** = par libre
 | Poner al Ti en el período 3 porque llena el 3d | **Período = n máximo** (4s) → período **4** |
 | Creer que los halógenos son más reactivos abajo | Al revés: **F** es el más reactivo. Alcalinos sí van al revés (Cs) |
 | Ordenar la tabla por masa atómica | Se ordena por **Z**. Por masa se invierten Ar/K, Co/Ni y Te/I |
+| Mezclar Stock y Tradicional | "Óxido plúmb**ico**" **o** "óxido de plomo **(IV)**", nunca los dos juntos |
+| Confundir nº de oxidación con e⁻ de valencia | El Cl tiene **7** e⁻ de valencia pero nº ox **−1** en el NaCl |
+| Igualar la Σ de nº de ox a 0 en un **ion** | En SO₄²⁻ la suma da **−2**, no 0 |
+| Confundir **hidrácido** con **hidruro** | H+NoMetal → hidrácido (H = **+1**) · Metal+H → hidruro (H = **−1**) |
+| Confundir **-uro** con **-ito/-ato** | **-uro** = SIN oxígeno · **-ito/-ato** = CON oxígeno |
+| Poner sufijo con un solo nº de ox | "Fluor**uro de calcio**", no "fluoruro cálcico" |
+| Usar O = −2 en un **peróxido** | En el grupo O—O el oxígeno es **−1** (H₂O₂) |
+| Escribir Co(OH)₂ sin paréntesis | **Co(OH)₂**, nunca "CoOH₂" |
 | Forzar el octeto en BF₃ | El **B es deficiente**: se queda con 6 e⁻ |
 | Olvidar los corchetes y la carga en un ion | **[ … ]²⁻** |
 | No verificar la suma de superíndices en la CE | **Debe dar el n° de electrones** |
@@ -771,7 +904,7 @@ Notación: **A** = central · **B** = átomo unido · **E** = par libre
 
 ---
 
-## 12. Modelos atómicos — línea histórica
+## 14. Modelos atómicos — línea histórica
 
 | Año | Quién | Aporte | Falla |
 |---|---|---|---|
@@ -812,3 +945,5 @@ $$\text{orbitales por subnivel} = 2\ell+1 \qquad \text{orbitales por capa} = n^2
 $$CF = e^-_{\text{valencia}} - e^-_{\text{libres}} - N_{\text{enlaces}}$$
 
 $$e^-_{\text{Lewis}} = \textstyle\sum e^-_{\text{valencia}} + \text{carga}^- - \text{carga}^+ \qquad \text{pares} = \frac{e^-_{\text{totales}}}{2}$$
+
+$$\sum (\text{atomicidad} \times \text{n° de oxidación}) = \text{carga neta} \qquad \Delta EN = |EN_A - EN_B|$$
