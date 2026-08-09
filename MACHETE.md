@@ -3,9 +3,9 @@
 > Resumen operativo de toda la materia. Sólo lo que hay que saber para resolver.
 > Para la explicación desarrollada diapositiva por diapositiva ver `Clase1/Clase1-Explicacion-Completa.md`.
 
-**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · Serie 1 (métodos de cálculo) · Nomenclatura (nº de oxidación y nombres)
+**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · Nomenclatura (nº de oxidación y nombres) · Series 1 y 2 (métodos de cálculo)
 
-> **Series resueltas:** `Practica/Serie1-Resuelta.md`
+> **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md`
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
 
 ---
@@ -23,10 +23,11 @@
 - [8. Cargas formales](#8-cargas-formales)
 - [9. Resonancia](#9-resonancia)
 - [10. Geometría molecular — TRePEV](#10-geometría-molecular--trepev)
-- [11. Número de oxidación](#11-número-de-oxidación)
-- [12. Nomenclatura inorgánica](#12-nomenclatura-inorgánica)
-- [13. Errores típicos](#13-errores-típicos)
-- [14. Modelos atómicos — línea histórica](#14-modelos-atómicos--línea-histórica)
+- [11. Polaridad y momento dipolar](#11-polaridad-y-momento-dipolar)
+- [12. Número de oxidación](#12-número-de-oxidación)
+- [13. Nomenclatura inorgánica](#13-nomenclatura-inorgánica)
+- [14. Errores típicos](#14-errores-típicos)
+- [15. Modelos atómicos — línea histórica](#15-modelos-atómicos--línea-histórica)
 
 ---
 
@@ -736,7 +737,45 @@ Notación: **A** = central · **B** = átomo unido · **E** = par libre
 
 ---
 
-## 11. Número de oxidación
+## 11. Polaridad y momento dipolar
+
+### Polaridad de un ENLACE
+
+$$\Delta EN = |EN_A - EN_B| \qquad \begin{cases} \approx 0 & \text{covalente NO polar} \\ 0{,}4-1{,}7 & \text{covalente POLAR (}\delta^+ / \delta^-) \\ > 1{,}7 & \text{IÓNICO} \end{cases}$$
+
+### Momento dipolar
+
+$$\boxed{\mu = q \cdot d} \qquad\qquad 1\ \text{D} = 3{,}336\times10^{-30}\ \text{C·m}$$
+
+$$\% \text{ carácter iónico} = \frac{\mu_{\text{experimental}}}{\mu_{\text{teórico (cargas} \pm 1)}}\times 100$$
+
+**Ejemplo (HCl, d = 1,27 Å):** μ_teór = 1,6×10⁻¹⁹ × 1,27×10⁻¹⁰ = 2,03×10⁻²⁹ C·m = **6,1 D**. Con μ_exp = 1,8 D → **30% iónico** → δ = **±0,30**.
+
+### ⭐ Polaridad de una MOLÉCULA
+
+$$\boxed{\vec{\mu}_{\text{molécula}} = \sum \vec{\mu}_{\text{enlaces}}} \qquad \text{(suma VECTORIAL)}$$
+
+> **NO POLAR** si la geometría es **simétrica** Y **todos los sustituyentes son iguales** → los vectores se cancelan.
+
+| Situación | Polaridad |
+|---|---|
+| Diatómica **homo**nuclear (N₂, O₂, Cl₂) | **NO polar** |
+| Diatómica **hetero**nuclear (CO, HCl) | **POLAR** |
+| Geometría simétrica + sustituyentes iguales | **NO polar** |
+| **Pares libres** en el central que rompen la simetría | **POLAR** |
+| **Sustituyentes distintos** (CH₃F, CH₂Cl₂, CHCl₃) | **POLAR** |
+
+⚠️ **Enlaces polares ≠ molécula polar.** El **BF₃** tiene los enlaces más polares de la práctica (ΔEN = 2,0) y es **NO POLAR** (trigonal plana simétrica). Igual el **CO₂**, **CCl₄**, **SF₆**, **XeF₄**, **PF₅**.
+
+⚠️ **CO₂ vs H₂O:** misma cantidad de átomos, resultado opuesto. Lo que decide son **los pares libres del átomo central**: CO₂ (0 libres → lineal → **no polar**) vs H₂O (2 libres → angular → **POLAR**).
+
+⚠️ **CCl₄ vs CH₂Cl₂:** los dos tetraédricos, pero el CCl₄ tiene **4 sustituyentes iguales** (no polar) y el CH₂Cl₂ **dos tipos distintos** (**polar**).
+
+💡 **Uso inverso:** si te dan μ ≠ 0, podés **descartar geometrías simétricas**. Ej.: el H₂S tiene μ = 0,97 D → **no puede ser lineal** → es **angular**.
+
+---
+
+## 12. Número de oxidación
 
 > **Representa el nº de electrones que un átomo pone en juego al formar un compuesto.**
 
@@ -780,7 +819,7 @@ Asignás los que sabés (reglas 1–5) y **despejás el que falta** con la regla
 
 ---
 
-## 12. Nomenclatura inorgánica
+## 13. Nomenclatura inorgánica
 
 **Tres sistemas** — se usan **Stock** y **Tradicional**. ⚠️ **NO se mezclan** en un mismo nombre.
 
@@ -859,7 +898,7 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 
 ---
 
-## 13. Errores típicos
+## 14. Errores típicos
 
 | ❌ Error | ✅ Correcto |
 |---|---|
@@ -897,6 +936,12 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 | Poner sufijo con un solo nº de ox | "Fluor**uro de calcio**", no "fluoruro cálcico" |
 | Usar O = −2 en un **peróxido** | En el grupo O—O el oxígeno es **−1** (H₂O₂) |
 | Escribir Co(OH)₂ sin paréntesis | **Co(OH)₂**, nunca "CoOH₂" |
+| Decir que el **CO₂ es polar** porque sus enlaces lo son | Lineal simétrica → los vectores **se cancelan** → **NO polar** |
+| Decir que el **BF₃ es polar** (ΔEN = 2,0!) | Trigonal plana simétrica → **NO polar** |
+| Forzar el octeto en el **NO** | 11 e⁻ (**impar**) → imposible: es un **radical** |
+| Poner el H sobre el N en el **HNO₃** | En los oxoácidos el **H va sobre un O** |
+| Dar una sola geometría en moléculas con varios centros | CH₃OH: C **tetraédrico** + O **angular** |
+| Sumar los μ de enlace como números | Es una suma **VECTORIAL** |
 | Forzar el octeto en BF₃ | El **B es deficiente**: se queda con 6 e⁻ |
 | Olvidar los corchetes y la carga en un ion | **[ … ]²⁻** |
 | No verificar la suma de superíndices en la CE | **Debe dar el n° de electrones** |
@@ -904,7 +949,7 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 
 ---
 
-## 14. Modelos atómicos — línea histórica
+## 15. Modelos atómicos — línea histórica
 
 | Año | Quién | Aporte | Falla |
 |---|---|---|---|
@@ -947,3 +992,5 @@ $$CF = e^-_{\text{valencia}} - e^-_{\text{libres}} - N_{\text{enlaces}}$$
 $$e^-_{\text{Lewis}} = \textstyle\sum e^-_{\text{valencia}} + \text{carga}^- - \text{carga}^+ \qquad \text{pares} = \frac{e^-_{\text{totales}}}{2}$$
 
 $$\sum (\text{atomicidad} \times \text{n° de oxidación}) = \text{carga neta} \qquad \Delta EN = |EN_A - EN_B|$$
+
+$$\mu = q\cdot d \qquad 1\ \text{D} = 3{,}336\times10^{-30}\ \text{C·m} \qquad \%\text{ iónico} = \frac{\mu_{\exp}}{\mu_{\text{teór}}}\times100 \qquad \vec{\mu}_{\text{mol}} = \textstyle\sum \vec{\mu}_{\text{enlaces}}$$
