@@ -9,14 +9,15 @@
 
 **Datos que se usan en toda la serie:**
 
-| Constante | Valor |
-|---|---|
-| h (Planck) | 6,63×10⁻³⁴ J·s |
-| c (luz) | 3,0×10⁸ m/s |
+| Constante      | Valor            |
+| -------------- | ---------------- |
+| h (Planck)     | 6,63×10⁻³⁴ J·s   |
+| c (luz)        | 3,0×10⁸ m/s      |
 | N_A (Avogadro) | 6,022×10²³ 1/mol |
-| h·c | 1,989×10⁻²⁵ J·m |
+| h·c            | 1,989×10⁻²⁵ J·m  |
 
 ---
+
 ---
 
 # PROBLEMAS PARA DISCUTIR EN CLASE
@@ -67,12 +68,12 @@ $$\boxed{n \approx 1,3\times10^{6}\ \text{átomos de carbono}}$$
 
 **Detalle de las líneas (serie de Balmer, todas terminan en n = 2):**
 
-| λ | Color | Transición |
-|---|---|---|
-| 656 nm | Rojo | n = 3 → n = 2 |
+| λ      | Color          | Transición    |
+| ------ | -------------- | ------------- |
+| 656 nm | Rojo           | n = 3 → n = 2 |
 | 486 nm | Verde-turquesa | n = 4 → n = 2 |
-| 434 nm | Azul | n = 5 → n = 2 |
-| 410 nm | Violeta | n = 6 → n = 2 |
+| 434 nm | Azul           | n = 5 → n = 2 |
+| 410 nm | Violeta        | n = 6 → n = 2 |
 
 ---
 
@@ -110,7 +111,7 @@ $$E_{\text{mol}} = 4,09\times10^{-19} \times 6,022\times10^{23} = 2,46\times10^{
 
 $$\boxed{E_{486} \approx 246{,}5\ \text{kJ/mol}}$$
 
-> *(La guía da 182,4 y 246,4 kJ/mol. La diferencia en la última cifra viene del redondeo de h y N_A — es irrelevante.)*
+> _(La guía da 182,4 y 246,4 kJ/mol. La diferencia en la última cifra viene del redondeo de h y N_A — es irrelevante.)_
 
 ### ✅ ¿Cuál es la de mayor energía?
 
@@ -138,12 +139,12 @@ $$15\ \text{Wh} = 15\ \text{W} \times 3600\ \text{s} = 54.000\ \text{J} = 54\ \t
 
 **Paso 2 — Comparar.**
 
-| Magnitud | Energía |
-|---|---|
-| 1 fotón rojo (656 nm) | 3,03×10⁻¹⁹ J |
-| 1 **mol** de fotones rojos | 182,5 kJ |
-| 1 **mol** de fotones verdes | 246,5 kJ |
-| **Cargar el celular** | **54 kJ** |
+| Magnitud                    | Energía      |
+| --------------------------- | ------------ |
+| 1 fotón rojo (656 nm)       | 3,03×10⁻¹⁹ J |
+| 1 **mol** de fotones rojos  | 182,5 kJ     |
+| 1 **mol** de fotones verdes | 246,5 kJ     |
+| **Cargar el celular**       | **54 kJ**    |
 
 **Paso 3 — Cuántos moles de fotones harían falta.**
 
@@ -170,7 +171,7 @@ $$0,30\ \text{mol} \times 6,022\times10^{23} = 1,8\times10^{23}\ \text{fotones r
 ## Ejercicio 3 — Transiciones electrónicas en el hidrógeno
 
 > ¿Cuál de las siguientes transiciones produce la emisión de luz de **menor longitud de onda**? ¿Cuál corresponde a la de **menor energía**? Justifique.
-> a) 6s → 2p  b) 5s → 2p  c) 4s → 2p  d) 3s → 2p
+> a) 6s → 2p b) 5s → 2p c) 4s → 2p d) 3s → 2p
 
 ### Procedimiento
 
@@ -190,10 +191,10 @@ $$\lambda = \frac{hc}{\Delta E} \qquad \Longrightarrow \qquad \Delta E \uparrow 
 
 ### ✅ Respuestas
 
-| Pregunta | Opción |
-|---|---|
+| Pregunta                   | Opción         |
+| -------------------------- | -------------- |
 | **Menor longitud de onda** | **a) 6s → 2p** |
-| **Menor energía** | **d) 3s → 2p** |
+| **Menor energía**          | **d) 3s → 2p** |
 
 📝 **Respuesta tipo parcial**
 
@@ -203,7 +204,7 @@ $$\lambda = \frac{hc}{\Delta E} \qquad \Longrightarrow \qquad \Delta E \uparrow 
 >
 > **d) 3s → 2p** es la de **menor energía**: parte del nivel más bajo de los cuatro (n = 3), por lo que es el salto más chico y libera el fotón menos energético (el de mayor λ).
 >
-> *(En el átomo de hidrógeno la energía depende sólo del número cuántico principal n, no de ℓ; por eso alcanza con comparar 6 > 5 > 4 > 3.)*
+> _(En el átomo de hidrógeno la energía depende sólo del número cuántico principal n, no de ℓ; por eso alcanza con comparar 6 > 5 > 4 > 3.)_
 
 > ⚠️ **La trampa del ejercicio:** "menor longitud de onda" y "menor energía" son **opuestos**. Si contestás lo mismo en las dos, seguro está mal una.
 
@@ -211,7 +212,7 @@ $$\lambda = \frac{hc}{\Delta E} \qquad \Longrightarrow \qquad \Delta E \uparrow 
 
 ## Ejercicio 4 — Tachar lo que NO corresponde
 
-### a) La mecánica cuántica (~~es~~ / **no es**) una herramienta apropiada para describir las propiedades de la materia a nivel atómico.
+### a) La mecánica cuántica (**es** / ~~no es~~) una herramienta apropiada para describir las propiedades de la materia a nivel atómico.
 
 ✅ **Queda: "ES"** → se tacha **"no es"**
 
@@ -219,7 +220,7 @@ $$\lambda = \frac{hc}{\Delta E} \qquad \Longrightarrow \qquad \Delta E \uparrow 
 
 ---
 
-### b) Los electrones (**son** / ~~no son~~) considerados como partículas en el marco de la mecánica cuántica.
+### b) Los electrones (~~son~~ / **no son**) considerados como partículas en el marco de la mecánica cuántica.
 
 ✅ **Queda: "NO SON"** → se tacha **"son"**
 
@@ -251,25 +252,25 @@ $$\lambda = \frac{hc}{\Delta E} \qquad \Longrightarrow \qquad \Delta E \uparrow 
 
 Reconocer la **forma** para identificar el subnivel (ℓ), y la **orientación respecto de los ejes** para identificar mℓ:
 
-| Forma | Subnivel |
-|---|---|
-| Esfera | **s** (ℓ = 0) |
-| 2 lóbulos sobre un eje | **p** (ℓ = 1) |
+| Forma                                   | Subnivel      |
+| --------------------------------------- | ------------- |
+| Esfera                                  | **s** (ℓ = 0) |
+| 2 lóbulos sobre un eje                  | **p** (ℓ = 1) |
 | 4 lóbulos (trébol) o 2 lóbulos + anillo | **d** (ℓ = 2) |
 
 ### ✅ Respuestas
 
-| | Qué se ve | Orbital |
-|---|---|---|
-| **a)** | Dos lóbulos enfrentados alineados con el eje **z** (uno arriba, otro abajo del origen), con signos opuestos de la función de onda (colores distintos) | **p_z** |
-| **b)** | Cuatro lóbulos en el plano xy, ubicados **entre** los ejes (en las diagonales) | **d_xy** |
-| **c)** | Una esfera centrada en el origen | **s** (1s, 2s, 3s… según el tamaño) |
+|        | Qué se ve                                                                                                                                             | Orbital                             |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| **a)** | Dos lóbulos enfrentados alineados con el eje **z** (uno arriba, otro abajo del origen), con signos opuestos de la función de onda (colores distintos) | **p_z**                             |
+| **b)** | Cuatro lóbulos en el plano xy, ubicados **entre** los ejes (en las diagonales)                                                                        | **d_xy**                            |
+| **c)** | Una esfera centrada en el origen                                                                                                                      | **s** (1s, 2s, 3s… según el tamaño) |
 
 **Aclaraciones que conviene poner:**
 
 - En **a)** los dos colores indican el **signo de la función de onda Ψ** (positivo y negativo en cada lóbulo), no dos orbitales distintos. Entre los dos lóbulos hay un **nodo** en el núcleo.
 - En **b)**, la diferencia entre **d_xy** y **d_x²−y²** está en la orientación: si los lóbulos están **entre** los ejes → **d_xy**; si están **sobre** los ejes → **d_x²−y²**.
-- En **c)** no se puede decir *cuál* orbital s es (1s, 2s, 3s) mirando sólo la superficie límite: todos son esferas y sólo se diferencian por el **tamaño** y por la cantidad de **nodos internos**.
+- En **c)** no se puede decir _cuál_ orbital s es (1s, 2s, 3s) mirando sólo la superficie límite: todos son esferas y sólo se diferencian por el **tamaño** y por la cantidad de **nodos internos**.
 
 ---
 
@@ -282,11 +283,11 @@ Reconocer la **forma** para identificar el subnivel (ℓ), y la **orientación r
 **Paso 1 — Identificar cada nivel por la CANTIDAD DE CAJAS.** La cantidad de cajas es la cantidad de orbitales del subnivel:
 
 | Cajas | Subnivel |
-|---|---|
-| 1 | **s** |
-| 3 | **p** |
-| 5 | **d** |
-| 7 | **f** |
+| ----- | -------- |
+| 1     | **s**    |
+| 3     | **p**    |
+| 5     | **d**    |
+| 7     | **f**    |
 
 **Paso 2 — Ordenar de abajo (menor energía) hacia arriba** siguiendo la regla de las diagonales:
 
@@ -296,23 +297,23 @@ $$1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p$$
 
 ### ✅ Identificación de los orbitales (de abajo hacia arriba)
 
-| Posición | Cajas | **Orbital** | e⁻ máx |
-|---|---|---|---|
-| 1 (más bajo) | 1 | **1s** | 2 |
-| 2 | 1 | **2s** | 2 |
-| 3 | 3 | **2p** | 6 |
-| 4 | 1 | **3s** | 2 |
-| 5 | 3 | **3p** | 6 |
-| 6 | 1 | **4s** | 2 |
-| 7 | 5 | **3d** | 10 |
-| 8 (más alto) | 3 | **4p** | 6 |
-| | **18 orbitales** | | **36 e⁻** |
+| Posición     | Cajas            | **Orbital** | e⁻ máx    |
+| ------------ | ---------------- | ----------- | --------- |
+| 1 (más bajo) | 1                | **1s**      | 2         |
+| 2            | 1                | **2s**      | 2         |
+| 3            | 3                | **2p**      | 6         |
+| 4            | 1                | **3s**      | 2         |
+| 5            | 3                | **3p**      | 6         |
+| 6            | 1                | **4s**      | 2         |
+| 7            | 5                | **3d**      | 10        |
+| 8 (más alto) | 3                | **4p**      | 6         |
+|              | **18 orbitales** |             | **36 e⁻** |
 
 ### ✅ Máxima cantidad de electrones
 
 $$\text{18 orbitales} \times 2\ \tfrac{e^-}{\text{orbital}} = \boxed{36\ \text{electrones}}$$
 
-*(Por el principio de exclusión de Pauli: máximo 2 electrones por orbital, con spines opuestos.)*
+_(Por el principio de exclusión de Pauli: máximo 2 electrones por orbital, con spines opuestos.)_
 
 ### ✅ ¿A qué elemento corresponde?
 
@@ -338,11 +339,11 @@ Cada **grupo de cajas** del ejercicio 6 se corresponde con el **conjunto de orbi
 
 ### ✅ Correspondencia
 
-| Figuras del ejercicio 7 | Cuántas son | Cajas del ejercicio 6 |
-|---|---|---|
-| **Esferas 1s, 2s, 3s, 4s** (4 esferas de tamaño creciente) | 1 cada una | Las **4 cajas individuales**: 1s, 2s, 3s, 4s |
-| **pₓ, p_y, p_z** (3 lóbulos dobles sobre cada eje) | 3 | Cada uno de los **3 grupos de 3 cajas**: 2p, 3p y 4p |
-| **d_z², d_x²−y², d_zx, d_yz, d_xy** (5 orbitales) | 5 | El único **grupo de 5 cajas**: 3d |
+| Figuras del ejercicio 7                                    | Cuántas son | Cajas del ejercicio 6                                |
+| ---------------------------------------------------------- | ----------- | ---------------------------------------------------- |
+| **Esferas 1s, 2s, 3s, 4s** (4 esferas de tamaño creciente) | 1 cada una  | Las **4 cajas individuales**: 1s, 2s, 3s, 4s         |
+| **pₓ, p_y, p_z** (3 lóbulos dobles sobre cada eje)         | 3           | Cada uno de los **3 grupos de 3 cajas**: 2p, 3p y 4p |
+| **d_z², d_x²−y², d_zx, d_yz, d_xy** (5 orbitales)          | 5           | El único **grupo de 5 cajas**: 3d                    |
 
 ### Observaciones que conviene agregar
 
@@ -360,28 +361,28 @@ Cada **grupo de cajas** del ejercicio 6 se corresponde con el **conjunto de orbi
 
 ### Procedimiento — los 3 filtros, en este orden
 
-| # | Filtro | Si falla… |
-|---|---|---|
+| #     | Filtro                                                        | Si falla…                                      |
+| ----- | ------------------------------------------------------------- | ---------------------------------------------- |
 | **1** | **Pauli** — máx. 2 e⁻ por orbital, 6 por subnivel p, 10 por d | ❌ **IMPOSIBLE** (no existe ningún estado así) |
-| **2** | **Aufbau** — se llenan de menor a mayor energía | ⚠️ **EXCITADO** |
-| **3** | **Hund** — en orbitales degenerados, primero uno en cada uno | ⚠️ **EXCITADO** |
+| **2** | **Aufbau** — se llenan de menor a mayor energía               | ⚠️ **EXCITADO**                                |
+| **3** | **Hund** — en orbitales degenerados, primero uno en cada uno  | ⚠️ **EXCITADO**                                |
 
 Si cumple los tres → **FUNDAMENTAL**.
 Para asignar el elemento: **sumar los superíndices** → ése es Z (si es neutro).
 
 ### ✅ Tabla de respuestas
 
-| | Configuración | e⁻ (=Z) | Estado | Elemento | Por qué |
-|---|---|---|---|---|---|
-| **a)** | 1s² | 2 | ✅ **FUNDAMENTAL** | **He** | Cumple las 3 reglas |
-| **b)** | 1s² 2p¹ | 3 | ⚠️ **EXCITADO** | **Li** | Viola **Aufbau**: el 2s tiene menos energía que el 2p y está vacío. El fundamental es 1s² 2s¹ |
-| **c)** | 1s³ | — | ❌ **IMPOSIBLE** | — | Viola **Pauli**: en el orbital 1s entran máximo 2 e⁻ (no hay un tercer juego de números cuánticos disponible) |
-| **d)** | 1s¹ 2s¹ | 2 | ⚠️ **EXCITADO** | **He** | Viola **Aufbau**: el 1s está a medio llenar y ya hay un e⁻ en el 2s. El fundamental es 1s² |
-| **e)** | 1s² 2s¹ | 3 | ✅ **FUNDAMENTAL** | **Li** | Cumple las 3 reglas |
-| **f)** | 1s² 2s² 2pₓ¹ 2p_y¹ | 6 | ✅ **FUNDAMENTAL** | **C** | Cumple **Hund**: los 2 e⁻ p van en orbitales distintos |
-| **g)** | 1s² 2s² 2pₓ² | 6 | ⚠️ **EXCITADO** | **C** | Viola **Hund**: aparea los 2 e⁻ en el mismo orbital p habiendo 2 orbitales p vacíos. Pauli sí se cumple, así que el estado existe, pero no es el de mínima energía |
-| **h)** | 1s² 2s² 2pₓ¹ 2p_z¹ | 6 | ✅ **FUNDAMENTAL** | **C** | Igual que f): los 2 e⁻ p en orbitales distintos. Cuál de los tres p se ocupe es **indistinto** (están degenerados) |
-| **i)** | 1s² 2s² 2pₓ² 2p_y¹ 2p_z¹ | 8 | ✅ **FUNDAMENTAL** | **O** | Con 4 e⁻ en el 2p, primero uno en cada orbital (Hund) y el cuarto obligadamente aparea |
+|        | Configuración            | e⁻ (=Z) | Estado             | Elemento | Por qué                                                                                                                                                            |
+| ------ | ------------------------ | ------- | ------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **a)** | 1s²                      | 2       | ✅ **FUNDAMENTAL** | **He**   | Cumple las 3 reglas                                                                                                                                                |
+| **b)** | 1s² 2p¹                  | 3       | ⚠️ **EXCITADO**    | **Li**   | Viola **Aufbau**: el 2s tiene menos energía que el 2p y está vacío. El fundamental es 1s² 2s¹                                                                      |
+| **c)** | 1s³                      | —       | ❌ **IMPOSIBLE**   | —        | Viola **Pauli**: en el orbital 1s entran máximo 2 e⁻ (no hay un tercer juego de números cuánticos disponible)                                                      |
+| **d)** | 1s¹ 2s¹                  | 2       | ⚠️ **EXCITADO**    | **He**   | Viola **Aufbau**: el 1s está a medio llenar y ya hay un e⁻ en el 2s. El fundamental es 1s²                                                                         |
+| **e)** | 1s² 2s¹                  | 3       | ✅ **FUNDAMENTAL** | **Li**   | Cumple las 3 reglas                                                                                                                                                |
+| **f)** | 1s² 2s² 2pₓ¹ 2p_y¹       | 6       | ✅ **FUNDAMENTAL** | **C**    | Cumple **Hund**: los 2 e⁻ p van en orbitales distintos                                                                                                             |
+| **g)** | 1s² 2s² 2pₓ²             | 6       | ⚠️ **EXCITADO**    | **C**    | Viola **Hund**: aparea los 2 e⁻ en el mismo orbital p habiendo 2 orbitales p vacíos. Pauli sí se cumple, así que el estado existe, pero no es el de mínima energía |
+| **h)** | 1s² 2s² 2pₓ¹ 2p_z¹       | 6       | ✅ **FUNDAMENTAL** | **C**    | Igual que f): los 2 e⁻ p en orbitales distintos. Cuál de los tres p se ocupe es **indistinto** (están degenerados)                                                 |
+| **i)** | 1s² 2s² 2pₓ² 2p_y¹ 2p_z¹ | 8       | ✅ **FUNDAMENTAL** | **O**    | Con 4 e⁻ en el 2p, primero uno en cada orbital (Hund) y el cuarto obligadamente aparea                                                                             |
 
 📝 **Respuesta tipo parcial (para la c)**
 
@@ -415,7 +416,7 @@ $$\text{CE} = 1s^2\,2s^2\,2p^6 \qquad (2+2+6 = 10\ ✓)$$
 
 $$\boxed{\text{CEE} = 2s^2\,2p^6} \quad \text{→ 8 e}^-\text{ de valencia}$$
 
-*Octeto completo → gas noble.*
+_Octeto completo → gas noble._
 
 ---
 
@@ -493,32 +494,32 @@ $$\boxed{\text{CE(Cl}^-) = 1s^2\,2s^2\,2p^6\,3s^2\,3p^6 = [\text{Ar}]}$$
 
 ### Procedimiento
 
-| Dato | Cómo se obtiene |
-|---|---|
-| **Período** | El valor de **n MÁXIMO** de la configuración |
+| Dato                        | Cómo se obtiene                                             |
+| --------------------------- | ----------------------------------------------------------- |
+| **Período**                 | El valor de **n MÁXIMO** de la configuración                |
 | **Grupo** (representativos) | La **cantidad de electrones de la CEE** (numeración I–VIII) |
-| **Grupo** (IUPAC 1–18) | Bloque s: G = e⁻ CEE · Bloque p: G = e⁻ CEE + 10 |
-| **Grupo** (transición) | e⁻ del ns + e⁻ del (n−1)d |
+| **Grupo** (IUPAC 1–18)      | Bloque s: G = e⁻ CEE · Bloque p: G = e⁻ CEE + 10            |
+| **Grupo** (transición)      | e⁻ del ns + e⁻ del (n−1)d                                   |
 
 ### ✅ Elementos del ejercicio 8
 
-| Elemento | Z | CE (fundamental) | n máx | CEE | **Período** | **Grupo** |
-|---|---|---|---|---|---|---|
-| **He** | 2 | 1s² | 1 | 1s² | **1** | **18 (VIII A)** — gas noble |
-| **Li** | 3 | 1s² 2s¹ | 2 | 2s¹ | **2** | **1 (I A)** — alcalino |
-| **C** | 6 | 1s² 2s² 2p² | 2 | 2s² 2p² | **2** | **14 (IV A)** — carbonoideos |
-| **O** | 8 | 1s² 2s² 2p⁴ | 2 | 2s² 2p⁴ | **2** | **16 (VI A)** — anfígenos |
+| Elemento | Z   | CE (fundamental) | n máx | CEE     | **Período** | **Grupo**                    |
+| -------- | --- | ---------------- | ----- | ------- | ----------- | ---------------------------- |
+| **He**   | 2   | 1s²              | 1     | 1s²     | **1**       | **18 (VIII A)** — gas noble  |
+| **Li**   | 3   | 1s² 2s¹          | 2     | 2s¹     | **2**       | **1 (I A)** — alcalino       |
+| **C**    | 6   | 1s² 2s² 2p²      | 2     | 2s² 2p² | **2**       | **14 (IV A)** — carbonoideos |
+| **O**    | 8   | 1s² 2s² 2p⁴      | 2     | 2s² 2p⁴ | **2**       | **16 (VI A)** — anfígenos    |
 
 > ⚠️ **El He es la excepción de siempre:** su CEE es **1s²** (sólo 2 electrones, no 8), porque en n=1 no existe subnivel p. Igual es gas noble, porque con esos 2 electrones ya tiene la capa n=1 **completa**. Se ubica en el grupo 18 por su comportamiento químico (inerte), no por su cantidad de electrones de valencia.
 
 ### ✅ Elementos del ejercicio 9
 
-| Elemento | Z | CE | n máx | CEE | **Período** | **Grupo** |
-|---|---|---|---|---|---|---|
-| **Ne** | 10 | 1s² 2s² 2p⁶ | 2 | 2s² 2p⁶ | **2** | **18 (VIII A)** — gas noble |
-| **Na** | 11 | [Ne] 3s¹ | 3 | 3s¹ | **3** | **1 (I A)** — alcalino |
-| **Cl** | 17 | [Ne] 3s² 3p⁵ | 3 | 3s² 3p⁵ | **3** | **17 (VII A)** — halógeno |
-| **Ti** | 22 | [Ar] 4s² 3d² | 4 | 4s² | **4** | **4 (IV B)** — metal de transición |
+| Elemento | Z   | CE           | n máx | CEE     | **Período** | **Grupo**                          |
+| -------- | --- | ------------ | ----- | ------- | ----------- | ---------------------------------- |
+| **Ne**   | 10  | 1s² 2s² 2p⁶  | 2     | 2s² 2p⁶ | **2**       | **18 (VIII A)** — gas noble        |
+| **Na**   | 11  | [Ne] 3s¹     | 3     | 3s¹     | **3**       | **1 (I A)** — alcalino             |
+| **Cl**   | 17  | [Ne] 3s² 3p⁵ | 3     | 3s² 3p⁵ | **3**       | **17 (VII A)** — halógeno          |
+| **Ti**   | 22  | [Ar] 4s² 3d² | 4     | 4s²     | **4**       | **4 (IV B)** — metal de transición |
 
 > ⚠️ **Ojo con el Ti:** por ser **metal de transición** (bloque d), el grupo **NO** se saca sólo de la CEE. Se calcula sumando **e⁻ del 4s + e⁻ del 3d = 2 + 2 = 4** → grupo 4 (IV B). Si usaras sólo la CEE (4s² → 2 e⁻) darías mal el grupo.
 
@@ -546,7 +547,7 @@ $$\boxed{\text{CE(Cl}^-) = 1s^2\,2s^2\,2p^6\,3s^2\,3p^6 = [\text{Ar}]}$$
 
 $$\boxed{\text{Elemento: PLOMO (Pb, Z = 82) — Período 6, Grupo 14 (IV A)}}$$
 
-*(El 4f¹⁴ y el 5d¹⁰ no entran en la CEE: tienen n = 4 y 5, menores que 6.)*
+_(El 4f¹⁴ y el 5d¹⁰ no entran en la CEE: tienen n = 4 y 5, menores que 6.)_
 
 ---
 
@@ -590,12 +591,12 @@ $$\boxed{\text{Elemento: XENÓN (Xe, Z = 54) — Período 5, Grupo 18 (VIII A) �
 
 ### Resumen del ejercicio 12
 
-| | CE | Z | Elemento | Período | Grupo |
-|---|---|---|---|---|---|
-| a) | [Xe] 4f¹⁴ 5d¹⁰ 6s² 6p² | 82 | **Pb** | 6 | 14 (IV A) |
-| b) | [Ar] 3d⁵ 4s² | 25 | **Mn** | 4 | 7 (VII B) |
-| c) | 1s² 2s² 2p⁶ 3s² | 12 | **Mg** | 3 | 2 (II A) |
-| d) | [Kr] 4d¹⁰ 5s² 5p⁶ | 54 | **Xe** | 5 | 18 (VIII A) |
+|     | CE                     | Z   | Elemento | Período | Grupo       |
+| --- | ---------------------- | --- | -------- | ------- | ----------- |
+| a)  | [Xe] 4f¹⁴ 5d¹⁰ 6s² 6p² | 82  | **Pb**   | 6       | 14 (IV A)   |
+| b)  | [Ar] 3d⁵ 4s²           | 25  | **Mn**   | 4       | 7 (VII B)   |
+| c)  | 1s² 2s² 2p⁶ 3s²        | 12  | **Mg**   | 3       | 2 (II A)    |
+| d)  | [Kr] 4d¹⁰ 5s² 5p⁶      | 54  | **Xe**   | 5       | 18 (VIII A) |
 
 ---
 
@@ -615,10 +616,10 @@ $$\text{CE(Ba)} = [\text{Xe}]\,6s^2 \qquad \text{CEE} = 6s^2 \quad \text{→ Gru
 
 **Iones posibles:**
 
-| Ion | e⁻ | CE | ¿Capa llena? |
-|---|---|---|---|
-| **Ba⁺** | 55 | [Xe] 6s¹ | ❌ No — le queda 1 e⁻ suelto en el 6s |
-| **Ba²⁺** | 54 | **[Xe]** | ✅ **SÍ** — isoelectrónico con el xenón |
+| Ion      | e⁻  | CE       | ¿Capa llena?                            |
+| -------- | --- | -------- | --------------------------------------- |
+| **Ba⁺**  | 55  | [Xe] 6s¹ | ❌ No — le queda 1 e⁻ suelto en el 6s   |
+| **Ba²⁺** | 54  | **[Xe]** | ✅ **SÍ** — isoelectrónico con el xenón |
 
 $$\boxed{\text{Ion más estable: } \mathbf{Ba^{2+}} \quad \text{CE} = [\text{Xe}] = 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6}$$
 
@@ -630,10 +631,10 @@ $$\text{CE(F)} = 1s^2\,2s^2\,2p^5 \qquad \text{CEE} = 2s^2\,2p^5 \quad \text{→
 
 **Iones posibles:**
 
-| Ion | e⁻ | CE | ¿Capa llena? |
-|---|---|---|---|
-| **F⁻** | 10 | **1s² 2s² 2p⁶ = [Ne]** | ✅ **SÍ** — isoelectrónico con el neón |
-| **F⁺** | 8 | 1s² 2s² 2p⁴ | ❌ No — y encima cuesta muchísima energía |
+| Ion    | e⁻  | CE                     | ¿Capa llena?                              |
+| ------ | --- | ---------------------- | ----------------------------------------- |
+| **F⁻** | 10  | **1s² 2s² 2p⁶ = [Ne]** | ✅ **SÍ** — isoelectrónico con el neón    |
+| **F⁺** | 8   | 1s² 2s² 2p⁴            | ❌ No — y encima cuesta muchísima energía |
 
 $$\boxed{\text{Ion más estable: } \mathbf{F^-} \quad \text{CE} = 1s^2\,2s^2\,2p^6 = [\text{Ne}]}$$
 
@@ -705,10 +706,10 @@ $$\text{CE(Fe)} = [\text{Ar}]\,4s^2\,3d^6$$
 
 **Iones más estables:**
 
-| Ion | e⁻ | CE | Por qué es estable |
-|---|---|---|---|
-| **Fe²⁺** | 24 | **[Ar] 3d⁶** | Pierde los 2 e⁻ del **4s** (los de mayor n) |
-| **Fe³⁺** | 23 | **[Ar] 3d⁵** | Pierde los 2 del 4s **más** 1 del 3d → queda con **semicapa d llena (d⁵)**, que tiene estabilidad extra |
+| Ion      | e⁻  | CE           | Por qué es estable                                                                                      |
+| -------- | --- | ------------ | ------------------------------------------------------------------------------------------------------- |
+| **Fe²⁺** | 24  | **[Ar] 3d⁶** | Pierde los 2 e⁻ del **4s** (los de mayor n)                                                             |
+| **Fe³⁺** | 23  | **[Ar] 3d⁵** | Pierde los 2 del 4s **más** 1 del 3d → queda con **semicapa d llena (d⁵)**, que tiene estabilidad extra |
 
 > ⚠️ **Regla clave:** al formar cationes de metales de transición se quitan **PRIMERO los electrones del orbital ns** (mayor n), y recién después los del (n−1)d — **aunque el ns se haya llenado primero** según la regla de las diagonales.
 
@@ -757,6 +758,7 @@ $$\boxed{\text{COBRE (Cu, Z = 29)}}$$
 > **Regla general de las excepciones:** las configuraciones **d⁵ (semillena)** y **d¹⁰ (completa)** poseen una estabilidad adicional, y cuando se puede alcanzarlas promoviendo un solo electrón del ns al (n−1)d, el átomo lo hace.
 
 ---
+
 ---
 
 # PARA TRABAJAR FUERA DE CLASE
@@ -785,7 +787,7 @@ $$E_{\text{mol}} = 3,377\times10^{-19}\times6,022\times10^{23} = 2,033\times10^{
 
 $$\boxed{E \approx 203{,}3\ \text{kJ/mol}}$$
 
-*(Coincide con la respuesta de la guía.)*
+_(Coincide con la respuesta de la guía.)_
 
 ---
 
@@ -875,10 +877,10 @@ $$\text{CE(Pb)} = [\text{Xe}]\,4f^{14}\,5d^{10}\,6s^2\,6p^2 \qquad \text{CEE} = 
 
 **Iones posibles:**
 
-| Ion | e⁻ perdidos | CE |
-|---|---|---|
-| **Pb²⁺** | los 2 del **6p** | [Xe] 4f¹⁴ 5d¹⁰ **6s²** |
-| **Pb⁴⁺** | los 2 del 6p **y** los 2 del 6s | [Xe] 4f¹⁴ 5d¹⁰ |
+| Ion      | e⁻ perdidos                     | CE                     |
+| -------- | ------------------------------- | ---------------------- |
+| **Pb²⁺** | los 2 del **6p**                | [Xe] 4f¹⁴ 5d¹⁰ **6s²** |
+| **Pb⁴⁺** | los 2 del 6p **y** los 2 del 6s | [Xe] 4f¹⁴ 5d¹⁰         |
 
 $$\boxed{\text{Más estable: } \mathbf{Pb^{2+}}}$$
 
@@ -898,7 +900,7 @@ Tiene 6 electrones de valencia → le faltan **2** para el octeto.
 
 $$\boxed{\text{Más estable: } \mathbf{S^{2-}} \quad \text{CE} = [\text{Ne}]\,3s^2\,3p^6 = [\text{Ar}]}$$
 
-*Isoelectrónico con el argón.* Ganar 2 electrones es mucho más favorable que perder 6.
+_Isoelectrónico con el argón._ Ganar 2 electrones es mucho más favorable que perder 6.
 
 ---
 
@@ -910,17 +912,17 @@ Tiene 3 electrones de valencia → le conviene **perderlos** (ganar 5 sería inv
 
 $$\boxed{\text{Más estable: } \mathbf{Al^{3+}} \quad \text{CE} = 1s^2\,2s^2\,2p^6 = [\text{Ne}]}$$
 
-*Isoelectrónico con el neón.*
+_Isoelectrónico con el neón._
 
 ---
 
 ### Resumen del ejercicio 4
 
-| Elemento | Z | CEE | Grupo | **Ion más estable** | CE del ion |
-|---|---|---|---|---|---|
-| **Pb** | 82 | 6s² 6p² | 14 | **Pb²⁺** | [Xe] 4f¹⁴ 5d¹⁰ 6s² |
-| **S** | 16 | 3s² 3p⁴ | 16 | **S²⁻** | [Ar] |
-| **Al** | 13 | 3s² 3p¹ | 13 | **Al³⁺** | [Ne] |
+| Elemento | Z   | CEE     | Grupo | **Ion más estable** | CE del ion         |
+| -------- | --- | ------- | ----- | ------------------- | ------------------ |
+| **Pb**   | 82  | 6s² 6p² | 14    | **Pb²⁺**            | [Xe] 4f¹⁴ 5d¹⁰ 6s² |
+| **S**    | 16  | 3s² 3p⁴ | 16    | **S²⁻**             | [Ar]               |
+| **Al**   | 13  | 3s² 3p¹ | 13    | **Al³⁺**            | [Ne]               |
 
 ---
 
@@ -928,14 +930,14 @@ $$\boxed{\text{Más estable: } \mathbf{Al^{3+}} \quad \text{CE} = 1s^2\,2s^2\,2p
 
 ### Tabla completa
 
-| Elemento | Z | **CE** | **CEE** | **Período** | **Grupo** |
-|---|---|---|---|---|---|
-| **K** | 19 | [Ar] 4s¹ | 4s¹ | **4** | **1 (I A)** |
-| **I** | 53 | [Kr] 5s² 4d¹⁰ 5p⁵ | 5s² 5p⁵ | **5** | **17 (VII A)** |
-| **Br** | 35 | [Ar] 4s² 3d¹⁰ 4p⁵ | 4s² 4p⁵ | **4** | **17 (VII A)** |
-| **Rb** | 37 | [Kr] 5s¹ | 5s¹ | **5** | **1 (I A)** |
-| **S** | 16 | [Ne] 3s² 3p⁴ | 3s² 3p⁴ | **3** | **16 (VI A)** |
-| **Mg** | 12 | [Ne] 3s² | 3s² | **3** | **2 (II A)** |
+| Elemento | Z   | **CE**            | **CEE** | **Período** | **Grupo**      |
+| -------- | --- | ----------------- | ------- | ----------- | -------------- |
+| **K**    | 19  | [Ar] 4s¹          | 4s¹     | **4**       | **1 (I A)**    |
+| **I**    | 53  | [Kr] 5s² 4d¹⁰ 5p⁵ | 5s² 5p⁵ | **5**       | **17 (VII A)** |
+| **Br**   | 35  | [Ar] 4s² 3d¹⁰ 4p⁵ | 4s² 4p⁵ | **4**       | **17 (VII A)** |
+| **Rb**   | 37  | [Kr] 5s¹          | 5s¹     | **5**       | **1 (I A)**    |
+| **S**    | 16  | [Ne] 3s² 3p⁴      | 3s² 3p⁴ | **3**       | **16 (VI A)**  |
+| **Mg**   | 12  | [Ne] 3s²          | 3s²     | **3**       | **2 (II A)**   |
 
 ### ¿Cuáles forman iones isoelectrónicos con el argón (Z = 18)?
 
@@ -943,14 +945,14 @@ $$\boxed{\text{Más estable: } \mathbf{Al^{3+}} \quad \text{CE} = 1s^2\,2s^2\,2p
 
 Un ion es isoelectrónico con el Ar si tiene **exactamente 18 electrones**. Se calcula el ion más estable de cada elemento y se cuentan sus electrones:
 
-| Elemento | Z | Ion estable | e⁻ del ion | ¿= 18? |
-|---|---|---|---|---|
-| **K** | 19 | K⁺ | 19 − 1 = **18** | ✅ **SÍ** |
-| I | 53 | I⁻ | 53 + 1 = 54 | ❌ (es [Xe]) |
-| Br | 35 | Br⁻ | 35 + 1 = 36 | ❌ (es [Kr]) |
-| Rb | 37 | Rb⁺ | 37 − 1 = 36 | ❌ (es [Kr]) |
-| **S** | 16 | S²⁻ | 16 + 2 = **18** | ✅ **SÍ** |
-| Mg | 12 | Mg²⁺ | 12 − 2 = 10 | ❌ (es [Ne]) |
+| Elemento | Z   | Ion estable | e⁻ del ion      | ¿= 18?       |
+| -------- | --- | ----------- | --------------- | ------------ |
+| **K**    | 19  | K⁺          | 19 − 1 = **18** | ✅ **SÍ**    |
+| I        | 53  | I⁻          | 53 + 1 = 54     | ❌ (es [Xe]) |
+| Br       | 35  | Br⁻         | 35 + 1 = 36     | ❌ (es [Kr]) |
+| Rb       | 37  | Rb⁺         | 37 − 1 = 36     | ❌ (es [Kr]) |
+| **S**    | 16  | S²⁻         | 16 + 2 = **18** | ✅ **SÍ**    |
+| Mg       | 12  | Mg²⁺        | 12 − 2 = 10     | ❌ (es [Ne]) |
 
 ### ✅ Respuesta
 
@@ -1001,21 +1003,21 @@ $$Z = 2+2+6+2+2 = 14 \quad \Longrightarrow \quad \boxed{\text{X = SILICIO (Si)}}
 
 **Con cajas:**
 
-| Subnivel | Diagrama |
-|---|---|
-| **3p** | `[↑ ][↑ ][  ]` |
-| **3s** | `[↑↓]` |
-| **2p** | `[↑↓][↑↓][↑↓]` |
-| **2s** | `[↑↓]` |
-| **1s** | `[↑↓]` |
+| Subnivel | Diagrama       |
+| -------- | -------------- |
+| **3p**   | `[↑ ][↑ ][  ]` |
+| **3s**   | `[↑↓]`         |
+| **2p**   | `[↑↓][↑↓][↑↓]` |
+| **2s**   | `[↑↓]`         |
+| **1s**   | `[↑↓]`         |
 
 ### Justificación de cada regla aplicada
 
-| Regla | Dónde se ve |
-|---|---|
-| **Aufbau** | Se llenó de abajo hacia arriba: 1s → 2s → 2p → 3s → 3p |
-| **Pauli** | Ningún orbital tiene más de 2 flechas, y las que están apareadas van en sentido opuesto (↑↓) |
-| **Hund** | Los 2 electrones del 3p van **en orbitales distintos y con el mismo spin** (↑ ↑), dejando el tercer orbital 3p vacío. **No** se aparean en 3pₓ² |
+| Regla      | Dónde se ve                                                                                                                                     |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Aufbau** | Se llenó de abajo hacia arriba: 1s → 2s → 2p → 3s → 3p                                                                                          |
+| **Pauli**  | Ningún orbital tiene más de 2 flechas, y las que están apareadas van en sentido opuesto (↑↓)                                                    |
+| **Hund**   | Los 2 electrones del 3p van **en orbitales distintos y con el mismo spin** (↑ ↑), dejando el tercer orbital 3p vacío. **No** se aparean en 3pₓ² |
 
 > ⚠️ **El error clásico acá** es dibujar el 3p como `[↑↓][  ][  ]`. Eso sería un **estado excitado** (viola Hund), no el fundamental.
 
@@ -1041,21 +1043,21 @@ $$e^- = Z - \text{carga} \qquad \Longrightarrow \qquad Z = e^- + \text{carga}$$
 
 ### ✅ Desarrollo
 
-| Ion | e⁻ | Cuenta | **Z** | **Elemento** |
-|---|---|---|---|---|
-| **X³⁻** | 18 | Z = 18 + (−3) = 18 − 3 | **15** | **P** (fósforo) |
-| **Y⁻** | 18 | Z = 18 + (−1) = 18 − 1 | **17** | **Cl** (cloro) |
-| **M⁺** | 18 | Z = 18 + (+1) | **19** | **K** (potasio) |
-| **P³⁺** | 18 | Z = 18 + (+3) | **21** | **Sc** (escandio) |
+| Ion     | e⁻  | Cuenta                 | **Z**  | **Elemento**      |
+| ------- | --- | ---------------------- | ------ | ----------------- |
+| **X³⁻** | 18  | Z = 18 + (−3) = 18 − 3 | **15** | **P** (fósforo)   |
+| **Y⁻**  | 18  | Z = 18 + (−1) = 18 − 1 | **17** | **Cl** (cloro)    |
+| **M⁺**  | 18  | Z = 18 + (+1)          | **19** | **K** (potasio)   |
+| **P³⁺** | 18  | Z = 18 + (+3)          | **21** | **Sc** (escandio) |
 
 ### ✅ Tabla de respuestas
 
-| Elemento | Z | CE | **CEE** | **Grupo** | **Período** |
-|---|---|---|---|---|---|
-| **X = Fósforo (P)** | 15 | [Ne] 3s² 3p³ | **3s² 3p³** | **15 (V A)** | **3** |
-| **Y = Cloro (Cl)** | 17 | [Ne] 3s² 3p⁵ | **3s² 3p⁵** | **17 (VII A)** | **3** |
-| **M = Potasio (K)** | 19 | [Ar] 4s¹ | **4s¹** | **1 (I A)** | **4** |
-| **P = Escandio (Sc)** | 21 | [Ar] 4s² 3d¹ | **4s²** | **3 (III B)** | **4** |
+| Elemento              | Z   | CE           | **CEE**     | **Grupo**      | **Período** |
+| --------------------- | --- | ------------ | ----------- | -------------- | ----------- |
+| **X = Fósforo (P)**   | 15  | [Ne] 3s² 3p³ | **3s² 3p³** | **15 (V A)**   | **3**       |
+| **Y = Cloro (Cl)**    | 17  | [Ne] 3s² 3p⁵ | **3s² 3p⁵** | **17 (VII A)** | **3**       |
+| **M = Potasio (K)**   | 19  | [Ar] 4s¹     | **4s¹**     | **1 (I A)**    | **4**       |
+| **P = Escandio (Sc)** | 21  | [Ar] 4s² 3d¹ | **4s²**     | **3 (III B)**  | **4**       |
 
 > ⚠️ **Cuidado con la notación del enunciado:** el elemento llamado "**P**" en el problema **no es el fósforo** — es sólo un nombre genérico. Resulta ser el **escandio**. (Y para peor, el elemento "X" **sí** termina siendo el fósforo, cuyo símbolo real es P. Es una coincidencia desafortunada del enunciado.)
 
@@ -1088,7 +1090,7 @@ $$Z(X) = 18 + (-2) = 18 - 2 = 16 \quad \Longrightarrow \quad \boxed{X = \text{AZ
 
 $$\text{CE(S)} = [\text{Ne}]\,3s^2\,3p^4 \qquad \text{CEE} = 3s^2\,3p^4 \quad \text{→ Grupo 16 (VI A), Período 3}$$
 
-*Coherente: con 6 e⁻ de valencia le faltan 2 para el octeto → forma S²⁻.* ✓
+_Coherente: con 6 e⁻ de valencia le faltan 2 para el octeto → forma S²⁻._ ✓
 
 ---
 
@@ -1113,7 +1115,7 @@ Grupo 17 + período 2 → CEE = **2s² 2p⁵**
 
 $$Z(W) = 2 + 2 + 5 = 9 \quad \Longrightarrow \quad \boxed{W = \text{FLÚOR (F)}}$$
 
-*Verificación: el compuesto sería **NaF** (fluoruro de sodio), que efectivamente existe y es iónico 1:1.* ✓
+_Verificación: el compuesto sería **NaF** (fluoruro de sodio), que efectivamente existe y es iónico 1:1._ ✓
 
 ---
 
@@ -1123,11 +1125,11 @@ $$\boxed{Z(X) = 16 \quad\quad Z(Y) = 17 \quad\quad Z(W) = 9}$$
 
 ### ✅ b) Grupo y período
 
-| Elemento | Z | Símbolo | CE | CEE | **Grupo** | **Período** |
-|---|---|---|---|---|---|---|
-| **X** | 16 | **S** | [Ne] 3s² 3p⁴ | 3s² 3p⁴ | **16 (VI A)** | **3** |
-| **Y** | 17 | **Cl** | [Ne] 3s² 3p⁵ | 3s² 3p⁵ | **17 (VII A)** | **3** |
-| **W** | 9 | **F** | 1s² 2s² 2p⁵ | 2s² 2p⁵ | **17 (VII A)** | **2** |
+| Elemento | Z   | Símbolo | CE           | CEE     | **Grupo**      | **Período** |
+| -------- | --- | ------- | ------------ | ------- | -------------- | ----------- |
+| **X**    | 16  | **S**   | [Ne] 3s² 3p⁴ | 3s² 3p⁴ | **16 (VI A)**  | **3**       |
+| **Y**    | 17  | **Cl**  | [Ne] 3s² 3p⁵ | 3s² 3p⁵ | **17 (VII A)** | **3**       |
+| **W**    | 9   | **F**   | 1s² 2s² 2p⁵  | 2s² 2p⁵ | **17 (VII A)** | **2**       |
 
 📝 **Respuesta tipo parcial (para W, que es la parte más pensada)**
 
@@ -1145,65 +1147,67 @@ La CEE genérica se escribe con **n** en lugar de un número concreto, porque **
 
 ### ✅ Respuestas
 
-| | Grupo | **CEE genérica** | e⁻ de valencia |
-|---|---|---|---|
-| **a)** | **Gases nobles** (18 / VIII A) | **ns² np⁶** | 8 |
-| **b)** | **Metales alcalinos** (1 / I A) | **ns¹** | 1 |
-| **c)** | **Halógenos** (17 / VII A) | **ns² np⁵** | 7 |
-| **d)** | **Metales alcalino térreos** (2 / II A) | **ns²** | 2 |
-| **e)** | **Grupo del carbono** (14 / IV A) | **ns² np²** | 4 |
-| **f)** | **Grupo del oxígeno** (16 / VI A) | **ns² np⁴** | 6 |
-| **g)** | **Metales de transición** (3–12 / B) | **ns² (n−1)d^(1–10)** | variable |
-| **h)** | **Lantánidos y actínidos** | **ns² (n−2)f^(1–14)** | variable |
+|        | Grupo                                   | **CEE genérica**      | e⁻ de valencia |
+| ------ | --------------------------------------- | --------------------- | -------------- |
+| **a)** | **Gases nobles** (18 / VIII A)          | **ns² np⁶**           | 8              |
+| **b)** | **Metales alcalinos** (1 / I A)         | **ns¹**               | 1              |
+| **c)** | **Halógenos** (17 / VII A)              | **ns² np⁵**           | 7              |
+| **d)** | **Metales alcalino térreos** (2 / II A) | **ns²**               | 2              |
+| **e)** | **Grupo del carbono** (14 / IV A)       | **ns² np²**           | 4              |
+| **f)** | **Grupo del oxígeno** (16 / VI A)       | **ns² np⁴**           | 6              |
+| **g)** | **Metales de transición** (3–12 / B)    | **ns² (n−1)d^(1–10)** | variable       |
+| **h)** | **Lantánidos y actínidos**              | **ns² (n−2)f^(1–14)** | variable       |
 
 ### Aclaraciones importantes
 
 > ⚠️ **a) Gases nobles — la excepción del helio.** La CEE genérica es **ns² np⁶**, pero el **He** no la cumple: su configuración es **1s²**, porque en n = 1 no existe subnivel p. Igual es gas noble porque con esos 2 electrones tiene la capa n = 1 **completa**.
 
 > ⚠️ **g) y h) — cuidado con la CEE estricta.** En los metales de transición y en los lantánidos/actínidos, los orbitales **d** y **f** que se están llenando **NO pertenecen al nivel n máximo**:
-> - Metales de transición: se llena el **(n−1)d** mientras el nivel externo es el **ns**. La CEE *estricta* (sólo n máximo) es **ns¹⁻²**.
+>
+> - Metales de transición: se llena el **(n−1)d** mientras el nivel externo es el **ns**. La CEE _estricta_ (sólo n máximo) es **ns¹⁻²**.
 > - Lantánidos y actínidos: se llena el **(n−2)f**. La CEE estricta es **ns²**.
 >
 > Por eso **para estos elementos el grupo NO se deduce de la CEE**, sino sumando los electrones **ns + (n−1)d** (ver ejercicios 11, 12b y 15).
 
 ### Patrón general (bloques s y p)
 
-| e⁻ de valencia | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
-|---|---|---|---|---|---|---|---|---|
-| **CEE** | ns¹ | ns² | ns²np¹ | ns²np² | ns²np³ | ns²np⁴ | ns²np⁵ | ns²np⁶ |
-| **Grupo (romano)** | I A | II A | III A | IV A | V A | VI A | VII A | VIII A |
-| **Grupo (IUPAC)** | 1 | 2 | 13 | 14 | 15 | 16 | 17 | 18 |
+| e⁻ de valencia     | 1   | 2    | 3      | 4      | 5      | 6      | 7      | 8      |
+| ------------------ | --- | ---- | ------ | ------ | ------ | ------ | ------ | ------ |
+| **CEE**            | ns¹ | ns²  | ns²np¹ | ns²np² | ns²np³ | ns²np⁴ | ns²np⁵ | ns²np⁶ |
+| **Grupo (romano)** | I A | II A | III A  | IV A   | V A    | VI A   | VII A  | VIII A |
+| **Grupo (IUPAC)**  | 1   | 2    | 13     | 14     | 15     | 16     | 17     | 18     |
 
 ---
+
 ---
 
 # ✅ Verificación con las respuestas de la guía
 
-| Ejercicio | Respuesta de la guía | Lo que dio acá | ¿Coincide? |
-|---|---|---|---|
-| Clase 1 | 1,3×10⁶ átomos de C | 1,3×10⁶ | ✅ |
-| Clase 2b | 182,4 kJ/mol (roja) · 246,4 kJ/mol (verde) | 182,5 · 246,5 | ✅ (redondeo de constantes) |
-| Casa 1a | 203,3 kJ/mol | 203,3 | ✅ |
+| Ejercicio | Respuesta de la guía                       | Lo que dio acá | ¿Coincide?                  |
+| --------- | ------------------------------------------ | -------------- | --------------------------- |
+| Clase 1   | 1,3×10⁶ átomos de C                        | 1,3×10⁶        | ✅                          |
+| Clase 2b  | 182,4 kJ/mol (roja) · 246,4 kJ/mol (verde) | 182,5 · 246,5  | ✅ (redondeo de constantes) |
+| Casa 1a   | 203,3 kJ/mol                               | 203,3          | ✅                          |
 
 ---
 
 # 📌 Resumen de métodos que usa esta serie
 
-| Método | Dónde se usa |
-|---|---|
-| **Conversión de unidades** (Å, nm, mm → m) | Clase 1, 2, Casa 1 |
-| **E = hc/λ** y energía **por mol** (×N_A) | Clase 2, Casa 1 |
-| **Wh → J** (× 3600) | Clase 2c |
-| **ΔE mayor ⇒ λ menor** | Clase 2b, 3 |
-| **Identificar orbitales por su forma** | Clase 5, 7 |
-| **Cantidad de cajas → subnivel** (1=s, 3=p, 5=d, 7=f) | Clase 6, 7 |
-| **Filtros Pauli / Aufbau / Hund** | Clase 8, Casa 6 |
-| **Regla de las diagonales** | Clase 9, 12, 14; Casa 2, 3, 5 |
-| **CEE = sólo los e⁻ de n máximo** | Clase 9d, 11, 12 |
-| **e⁻ = Z − carga** | Clase 10, 13, 14; Casa 3, 4, 5, 7, 8 |
-| **Isoelectrónicos** (misma cantidad de e⁻) | Clase 10, 14; Casa 5, 7, 8 |
-| **Grupo = e⁻ de valencia** (representativos) | Clase 11, 12; Casa 5, 7, 8, 9 |
-| **Grupo = ns + (n−1)d** (transición) | Clase 11 (Ti), 12b, 15 |
-| **Iones de transición: sacar ns primero** | Clase 15; Casa 3 |
-| **Estabilidad extra de d⁵ y d¹⁰** | Clase 15 (Fe³⁺, Cu) |
-| **Estequiometría iónica → carga → grupo** | Casa 8 (W) |
+| Método                                                | Dónde se usa                         |
+| ----------------------------------------------------- | ------------------------------------ |
+| **Conversión de unidades** (Å, nm, mm → m)            | Clase 1, 2, Casa 1                   |
+| **E = hc/λ** y energía **por mol** (×N_A)             | Clase 2, Casa 1                      |
+| **Wh → J** (× 3600)                                   | Clase 2c                             |
+| **ΔE mayor ⇒ λ menor**                                | Clase 2b, 3                          |
+| **Identificar orbitales por su forma**                | Clase 5, 7                           |
+| **Cantidad de cajas → subnivel** (1=s, 3=p, 5=d, 7=f) | Clase 6, 7                           |
+| **Filtros Pauli / Aufbau / Hund**                     | Clase 8, Casa 6                      |
+| **Regla de las diagonales**                           | Clase 9, 12, 14; Casa 2, 3, 5        |
+| **CEE = sólo los e⁻ de n máximo**                     | Clase 9d, 11, 12                     |
+| **e⁻ = Z − carga**                                    | Clase 10, 13, 14; Casa 3, 4, 5, 7, 8 |
+| **Isoelectrónicos** (misma cantidad de e⁻)            | Clase 10, 14; Casa 5, 7, 8           |
+| **Grupo = e⁻ de valencia** (representativos)          | Clase 11, 12; Casa 5, 7, 8, 9        |
+| **Grupo = ns + (n−1)d** (transición)                  | Clase 11 (Ti), 12b, 15               |
+| **Iones de transición: sacar ns primero**             | Clase 15; Casa 3                     |
+| **Estabilidad extra de d⁵ y d¹⁰**                     | Clase 15 (Fe³⁺, Cu)                  |
+| **Estequiometría iónica → carga → grupo**             | Casa 8 (W)                           |

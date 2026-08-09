@@ -6,7 +6,7 @@
 **Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · Serie 1 (métodos de cálculo)
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md`
-> **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
+> **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
 
 ---
 
@@ -375,6 +375,63 @@ Las configuraciones **d⁵** y **d¹⁰** tienen estabilidad extra: si se alcanz
 | [Kr] 4d¹⁰ 5s² 5p⁶ | 54 | **Xe** | 5 | 18 (octeto) |
 
 ⚠️ **El He es la excepción:** CEE = **1s²** (no ns²np⁶), pero igual es gas noble del **grupo 18**, porque con 2 e⁻ ya completa la capa n=1 (en n=1 no existe subnivel p).
+⚠️ **El H** tiene CE de alcalino (1s¹) pero **es un no metal**. Forma H⁺ y también H⁻.
+
+### Grupo según el bloque (IUPAC 1–18)
+
+| Bloque | Grupo | Ejemplo |
+|---|---|---|
+| **s** | e⁻ del **ns** | Mg [Ne]3s² → **2** |
+| **p** | **10 +** (e⁻ ns + np) | Cl [Ne]3s²3p⁵ → 10+7 = **17** |
+| **d** | e⁻ **ns + (n−1)d** | Mn [Ar]4s²3d⁵ → 2+5 = **7** · Cu [Ar]3d¹⁰4s¹ → 1+10 = **11** |
+
+### Longitud de los períodos y bloques
+
+| Período | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|---|
+| Se llena | 1s | 2s2p | 3s3p | 4s **3d** 4p | 5s **4d** 5p | 6s **4f** 5d 6p | 7s **5f** 6d 7p |
+| **Elementos** | **2** | **8** | **8** | **18** | **18** | **32** | **32** |
+
+**Ancho de los bloques:** s = 2 · p = 6 · d = 10 · f = 14 (son las capacidades de cada subnivel).
+⚠️ Bloque **d** llena **(n−1)d** · bloque **f** llena **(n−2)f** → **el período NO es el número del subnivel que se llena** (el Ti llena 3d pero está en el período 4).
+
+### CE desde la posición (atajo)
+
+1. **Gas noble del período anterior** entre corchetes.
+2. Recorrer el período agregando los subniveles que cruzás.
+
+Ej. **Se** (período 4, grupo 16): [Ar] + 4s² (bloque s) + 3d¹⁰ (bloque d) + 4p⁴ (4ª columna del bloque p) = **[Ar]4s²3d¹⁰4p⁴** ✓ (18+2+10+4 = 34)
+
+**CEE directa:** bloque s → ns^G · bloque p → **ns² np^(G−12)**
+
+### 📈 Tendencias periódicas
+
+$$Z_{ef} = Z - S \qquad \begin{cases} \to \text{período} & Z_{ef} \textbf{ AUMENTA} \\ \downarrow \text{grupo} & \text{manda la DISTANCIA} \end{cases}$$
+
+| Propiedad | **→** (período) | **↓** (grupo) | Máximo |
+|---|---|---|---|
+| **Radio atómico** | ↓ **baja** | ↑ **sube** | Cs / Fr |
+| **Energía de ionización** | ↑ sube | ↓ baja | He / F |
+| **Afinidad electrónica** | ↑ sube | ↓ baja | Cl / F |
+| **Electronegatividad** | ↑ sube | ↓ baja | **F = 4,0** |
+| **Carácter metálico** | ↓ **baja** | ↑ **sube** | Cs / Fr |
+
+🔑 **Regla:** casi todo crece hacia **arriba y a la derecha** (hacia el F) — **menos radio y carácter metálico**, que crecen **abajo y a la izquierda** (hacia el Fr).
+
+**Radio iónico:** catión **<** átomo neutro **<** anión
+**Serie isoelectrónica** (mismos e⁻): más **Z** → **más chico**
+$$\text{N}^{3-} > \text{O}^{2-} > \text{F}^- > \text{Ne} > \text{Na}^+ > \text{Mg}^{2+} > \text{Al}^{3+}$$
+
+**Reactividad — ojo que va al revés:**
+
+| Grupo | Al bajar | Más reactivo |
+|---|---|---|
+| **1 (alcalinos)** — ceden | **MÁS** reactivo | Cs, Fr (abajo) |
+| **17 (halógenos)** — captan | **MENOS** reactivo | **F** (arriba) |
+
+**Anomalías de EI:** **Be→B** baja (el e⁻ del B sale de un 2p, más energético) · **N→O** baja (el 4° e⁻ p del O se aparea → repulsión)
+
+> Desarrollo completo en `Clase1/Clase1-TablaPeriodica-Profundizacion.md`
 
 ### 💡 La idea central de toda la materia
 
@@ -703,6 +760,10 @@ Notación: **A** = central · **B** = átomo unido · **E** = par libre
 | Creer que existe "la molécula de NaCl" | En iónico **no hay moléculas**: hay red cristalina. NaCl es una **unidad fórmula** |
 | Decir "los covalentes funden bajo" a secas | Vale para los **moleculares**. Los **de red** (diamante, SiO₂, Si) funden altísimo |
 | Buscar geometría TRePEV de un compuesto iónico | No tiene: no hay molécula ni átomo central |
+| Decir que el radio **aumenta** a lo largo del período | **DISMINUYE**: Z_ef ↑ comprime la misma capa (aunque haya más e⁻) |
+| Poner al Ti en el período 3 porque llena el 3d | **Período = n máximo** (4s) → período **4** |
+| Creer que los halógenos son más reactivos abajo | Al revés: **F** es el más reactivo. Alcalinos sí van al revés (Cs) |
+| Ordenar la tabla por masa atómica | Se ordena por **Z**. Por masa se invierten Ar/K, Co/Ni y Te/I |
 | Forzar el octeto en BF₃ | El **B es deficiente**: se queda con 6 e⁻ |
 | Olvidar los corchetes y la carga en un ion | **[ … ]²⁻** |
 | No verificar la suma de superíndices en la CE | **Debe dar el n° de electrones** |
