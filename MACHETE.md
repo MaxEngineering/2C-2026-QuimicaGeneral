@@ -2,9 +2,9 @@
 
 > Resumen operativo de toda la materia. Sólo lo que hay que saber para resolver.
 > Para la explicación desarrollada diapositiva por diapositiva:
-> `Clase1/Clase1-Explicacion-Completa.md` · `Clase2/Clase2-Explicacion-Completa.md` · `Clase3/Clase3-Explicacion-Completa.md` · `Extra/Nomenclatura-Explicacion-Completa.md`
+> `Clase1/Clase1-Explicacion-Completa.md` · `Clase2/Clase2-Explicacion-Completa.md` · `Clase3/Clase3-Explicacion-Completa.md` · `Clase4/Clase4-Explicacion-Completa.md` · `Extra/Nomenclatura-Explicacion-Completa.md`
 
-**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad, geometría y fuerzas intermoleculares)** · Nomenclatura (nº de oxidación y nombres) · Series 1 y 2 (métodos de cálculo)
+**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · Nomenclatura (nº de oxidación y nombres) · Series 1 y 2 (métodos de cálculo)
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md`
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
@@ -797,6 +797,8 @@ Notación: **A** = central · **B** = átomo unido · **E** = par libre
 
 ## 11. Polaridad y momento dipolar
 
+> 📖 Clase 3 — `Clase3/Clase3-Explicacion-Completa.md`
+
 ### Polaridad de un ENLACE
 
 $$\Delta EN = |EN_A - EN_B| \qquad \begin{cases} \approx 0 & \text{covalente NO polar} \\ 0{,}4-1{,}7 & \text{covalente POLAR (}\delta^+ / \delta^-) \\ > 1{,}7 & \text{IÓNICO} \end{cases}$$
@@ -911,6 +913,8 @@ Las **polares** son **cinco**: **angular · pirámide trigonal · balancín · f
 ---
 
 ## 12. Interacciones intermoleculares
+
+> 📖 Clase 4 — `Clase4/Clase4-Explicacion-Completa.md`
 
 ### ⚠️ Primero: INTRA ≠ INTER (no confundir nunca)
 
@@ -1054,6 +1058,8 @@ La **energía de hidratación** compensa la **energía de red**. Si gana o empat
 ---
 
 ## 13. Estados de agregación y propiedades físicas
+
+> 📖 Clase 4 — `Clase4/Clase4-Explicacion-Completa.md`
 
 ### El criterio
 
