@@ -1,9 +1,10 @@
 # 🧪 MACHETE — Química General (ECyT / UNSAM · 2C 2026)
 
 > Resumen operativo de toda la materia. Sólo lo que hay que saber para resolver.
-> Para la explicación desarrollada diapositiva por diapositiva ver `Clase1/Clase1-Explicacion-Completa.md`.
+> Para la explicación desarrollada diapositiva por diapositiva:
+> `Clase1/Clase1-Explicacion-Completa.md` · `Clase2/Clase2-Explicacion-Completa.md` · `Clase3/Clase3-Explicacion-Completa.md` · `Extra/Nomenclatura-Explicacion-Completa.md`
 
-**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · Nomenclatura (nº de oxidación y nombres) · Series 1 y 2 (métodos de cálculo)
+**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad, geometría y fuerzas intermoleculares)** · Nomenclatura (nº de oxidación y nombres) · Series 1 y 2 (métodos de cálculo)
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md`
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
@@ -24,10 +25,30 @@
 - [9. Resonancia](#9-resonancia)
 - [10. Geometría molecular — TRePEV](#10-geometría-molecular--trepev)
 - [11. Polaridad y momento dipolar](#11-polaridad-y-momento-dipolar)
-- [12. Número de oxidación](#12-número-de-oxidación)
-- [13. Nomenclatura inorgánica](#13-nomenclatura-inorgánica)
-- [14. Errores típicos](#14-errores-típicos)
-- [15. Modelos atómicos — línea histórica](#15-modelos-atómicos--línea-histórica)
+- [12. Interacciones intermoleculares](#12-interacciones-intermoleculares)
+- [13. Estados de agregación y propiedades físicas](#13-estados-de-agregación-y-propiedades-físicas)
+- [14. Número de oxidación](#14-número-de-oxidación)
+- [15. Nomenclatura inorgánica](#15-nomenclatura-inorgánica)
+- [16. Errores típicos](#16-errores-típicos)
+- [17. Modelos atómicos — línea histórica](#17-modelos-atómicos--línea-histórica)
+
+---
+
+## 🗺️ La RUTA DE ESTUDIO (el mapa de toda la materia)
+
+$$\text{Átomos} \Rightarrow \text{Molécula} \Rightarrow \text{Lewis} \Rightarrow \text{TRePEV} \Rightarrow \boxed{\text{POLAR o NO POLAR}} \Rightarrow \text{Fuerzas intermoleculares} \Rightarrow \boxed{\text{T}_f,\ \text{T}_{eb},\ \text{estado}}$$
+
+| Paso | Herramienta | Sección |
+|---|---|---|
+| 1. Átomos → configuración electrónica | Diagonales | **4** |
+| 2. ¿Qué tipo de enlace? | ΔEN + metal/no metal + Katelaar | **7** |
+| 3. Estructura de Lewis | Método de 8 pasos | **7** |
+| 4. Geometría electrónica y molecular | TRePEV | **10** |
+| 5. ¿Polar o no polar? | Suma vectorial de μ | **11** |
+| 6. ¿Qué fuerza intermolecular actúa? | Matriz Q/μ/α | **12** |
+| 7. T_f, T_eb, estado, solubilidad | E_c vs E_p | **13** |
+
+⚠️ **Cada eslabón necesita el anterior. Éste es el formato del ejercicio integrador del parcial.**
 
 ---
 
@@ -470,7 +491,44 @@ $$\Delta EN = |EN_A - EN_B| \qquad \begin{cases} \approx 0 & \text{covalente NO 
 
 🔑 **Iones poliatómicos (SO₄²⁻, NO₃⁻, NH₄⁺, CO₃²⁻): por dentro son COVALENTES** → sí se les hace Lewis, entre corchetes con la carga. Lo que es iónico es la unión de ese ion con su contraión (en NaNO₃, el Na⁺ con el NO₃⁻).
 
-> Desarrollo completo en `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
+### 🔺 Triángulo de Arkel–Katelaar — el criterio COMPLETO (hacen falta 2 números)
+
+**ΔEN solo NO alcanza.** Hacen falta **dos** coordenadas:
+
+$$\Delta EN = |EN_A - EN_B| \qquad\qquad EN_{prom} = \frac{EN_A + EN_B}{2}$$
+
+$$\boxed{\begin{cases} \Delta EN \text{ GRANDE (arriba)} & \to \textbf{IÓNICO} \\ \Delta EN \approx 0 \;+\; EN_{prom} \textbf{ BAJA} & \to \textbf{METÁLICO} \\ \Delta EN \approx 0 \;+\; EN_{prom} \textbf{ ALTA} & \to \textbf{COVALENTE} \\ \text{intermedio, } EN_{prom} \text{ alta} & \to \text{covalente POLAR} \end{cases}}$$
+
+**Por qué hace falta el segundo eje:**
+
+| Par | ΔEN | EN_prom | Tipo |
+|---|---|---|---|
+| **Cs—Cs** | 0 | **0,7** | **METÁLICO** |
+| **F—F** | 0 | **4,0** | **COVALENTE** |
+
+Los dos tienen **ΔEN = 0** y son cosas distintas. Con un solo eje son indistinguibles.
+
+**Vértices del triángulo:** Cs (metálico) · F₂ (covalente) · **CsF** (iónico, el ΔEN máximo posible = 4,0 − 0,7 = **3,3**). Puntos de referencia: MgO (iónico) · SiO₂ (covalente). La cuña entre metálico e iónico es la **fase de Zintl** (no se evalúa).
+
+⚠️ **Es un triángulo y no un cuadrado** porque ΔEN y EN_prom **no son independientes**: si EN_prom = 4,0 los dos átomos tienen que ser F → ΔEN = 0 forzosamente. El ΔEN máximo se da con EN_prom en el medio.
+
+💡 **No hay tres cajones, hay un CONTINUO.** Un enlace es "75 % iónico y 25 % covalente"; los tres nombres son sólo los **vértices**.
+
+### ⚙️ Enlace metálico — modelo del mar de electrones
+
+Cada átomo **suelta sus e⁻ de valencia** al conjunto → red de **cationes** bañada en un **"mar" de electrones deslocalizados** que pertenecen a todo el metal.
+
+Ej. **Na** (1s² 2s² 2p⁶ **3s¹**): quedan Na⁺ (núcleo + 10 e⁻ internos) + el **3s¹** al mar.
+
+| Propiedad metálica | Por qué |
+|---|---|
+| **Conductividad eléctrica** | Los e⁻ del mar están **libres para moverse** |
+| **Conductividad térmica** | Los mismos e⁻ transportan energía cinética |
+| **Maleabilidad / ductilidad** | Se pueden **deslizar planos** de cationes: el mar se reacomoda y la unión no se rompe |
+
+⚠️ **Contraste con el iónico:** en un cristal iónico, deslizar un plano pone + frente a + → **se parte**. Los iónicos son **frágiles**, los metales **maleables**.
+
+> Desarrollo completo en `Clase2/Clase2-TiposDeUnion-Profundizacion.md` y `Clase3/Clase3-Explicacion-Completa.md`
 
 ---
 
@@ -743,9 +801,33 @@ Notación: **A** = central · **B** = átomo unido · **E** = par libre
 
 $$\Delta EN = |EN_A - EN_B| \qquad \begin{cases} \approx 0 & \text{covalente NO polar} \\ 0{,}4-1{,}7 & \text{covalente POLAR (}\delta^+ / \delta^-) \\ > 1{,}7 & \text{IÓNICO} \end{cases}$$
 
+$$\delta^+ \to \text{átomo MENOS electronegativo} \qquad\qquad \delta^- \to \text{átomo MÁS electronegativo}$$
+
+### ➡️ Convención del vector μ (se pregunta)
+
+| Propiedad | Regla |
+|---|---|
+| **Dirección** | Paralela a la línea internuclear (a lo largo del enlace) |
+| **Sentido** | **DEL δ⁺ AL δ⁻** → apunta al átomo **más electronegativo** |
+| **Módulo** | ∝ δ × distancia |
+
+⚠️ En **física** el momento dipolar se define al revés (del − al +). En **química** —y en este curso— es **del + al −**.
+
 ### Momento dipolar
 
 $$\boxed{\mu = q \cdot d} \qquad\qquad 1\ \text{D} = 3{,}336\times10^{-30}\ \text{C·m}$$
+
+**Por qué existe el debye:** 1 carga elemental separada 1 Å da 1,6×10⁻²⁹ C·m = **4,8 D**. La unidad está calibrada para que los dipolos reales den números de 0 a 5.
+
+**Valores de referencia:**
+
+| Molécula | μ (D) | | Molécula | μ (D) |
+|---|---|---|---|---|
+| Cl₂, N₂, CO₂, CCl₄, BF₃, SF₆ | **0** | | HCl | **1,08** |
+| CO | 0,11 | | NH₃ | **1,47** |
+| HI | 0,44 | | HF | 1,82 |
+| HBr | 0,79 | | **H₂O** | **1,85** |
+| CH₂Cl₂ | 1,60 | | HCN | 2,98 |
 
 $$\% \text{ carácter iónico} = \frac{\mu_{\text{experimental}}}{\mu_{\text{teórico (cargas} \pm 1)}}\times 100$$
 
@@ -765,7 +847,60 @@ $$\boxed{\vec{\mu}_{\text{molécula}} = \sum \vec{\mu}_{\text{enlaces}}} \qquad 
 | **Pares libres** en el central que rompen la simetría | **POLAR** |
 | **Sustituyentes distintos** (CH₃F, CH₂Cl₂, CHCl₃) | **POLAR** |
 
+### ⭐ TABLA MAESTRA — polaridad por geometría (hay que saberla toda)
+
+Notación: **A** = central · **B** = sustituyente · **B′** = sustituyente distinto · **E** = par libre
+
+| Grupos | Clase | Geom. MOLECULAR | Ejemplos | **¿Polar?** |
+|---|---|---|---|---|
+| 1 | **AB** | Lineal | Cl₂, N₂ / **HCl, CO** | **No** / **Sí** |
+| 2 | **AB₂** | Lineal | CO₂, CS₂, BeCl₂, HgCl₂ | **No** |
+| 2 | **ABB′** | Lineal | **HCN**, OCS | **Sí** |
+| 3 | **AB₃** | Plana trigonal | **BF₃**, BCl₃, SO₃, CO₃²⁻ | **No** |
+| 3 | **AB₂B′** | Plana trigonal | COCl₂, HCHO | **Sí** |
+| 3 | **AB₂E** | **Angular** | **SO₂**, O₃, NO₂⁻ | **Sí** |
+| 4 | **AB₄** | Tetraédrica | **CH₄, CCl₄**, SiF₄, NH₄⁺, SO₄²⁻ | **No** |
+| 4 | **AB₃B′** | Tetraédrica | CH₃Cl, CHCl₃ | **Sí** |
+| 4 | **AB₂B′₂** | Tetraédrica | **CH₂Cl₂** | **Sí** |
+| 4 | **AB₃E** | **Pirámide trigonal** | **NH₃**, PCl₃, H₃O⁺ | **Sí** |
+| 4 | **AB₂E₂** | **Angular** | **H₂O**, H₂S, SCl₂ | **Sí** |
+| 5 | **AB₅** | Bipirámide trigonal | **PCl₅**, PF₅ | **No** |
+| 5 | **AB₄E** | **Balancín** (sube y baja) | **SF₄** | **Sí** |
+| 5 | **AB₃E₂** | **Forma de T** | **ClF₃**, BrF₃ | **Sí** |
+| 5 | **AB₂E₃** | **Lineal** | **XeF₂**, I₃⁻ | **No** ⚠️ |
+| 6 | **AB₆** | Octaédrica | **SF₆**, PF₆⁻ | **No** |
+| 6 | **AB₅E** | **Pirámide cuadrada** | **BrF₅**, IF₅ | **Sí** |
+| 6 | **AB₄E₂** | **Plana cuadrada** | **XeF₄**, ICl₄⁻ | **No** ⚠️ |
+
+$$\boxed{\text{NO POLAR} \iff \text{geometría SIMÉTRICA} \;\textbf{Y}\; \text{sustituyentes TODOS IGUALES}}$$
+
+💡 **Atajo:** las geometrías moleculares **no polares** (con sustituyentes iguales) son **seis**:
+**lineal · plana trigonal · tetraédrica · bipirámide trigonal · octaédrica · plana cuadrada**
+Las **polares** son **cinco**: **angular · pirámide trigonal · balancín · forma de T · pirámide cuadrada**
+
+### 📝 Algoritmo de polaridad (6 pasos)
+
+```
+1. Lewis → contar grupos electrónicos y pares libres del central
+2. Grupos → geometría ELECTRÓNICA
+3. Ignorar pares libres → geometría MOLECULAR
+4. ¿Hay enlaces polares (ΔEN ≠ 0)?   NO → NO POLAR (fin)
+5. ¿Sustituyentes TODOS iguales?     NO → POLAR (fin)
+6. ¿Vectores simétricamente distribuidos?  SÍ → NO POLAR | NO → POLAR
+```
+
+### ⚠️ Reglas de posición de los pares libres (necesarias para los pasos 3 y 6)
+
+| Geometría electrónica | Dónde va el par libre |
+|---|---|
+| **Bipirámide trigonal** (5) | **SIEMPRE ECUATORIAL** (2 vecinos a 90° en vez de 3) |
+| **Octaédrica** (6), 2 pares | **TRANS** (a 180°, opuestos) → plana cuadrada |
+
 ⚠️ **Enlaces polares ≠ molécula polar.** El **BF₃** tiene los enlaces más polares de la práctica (ΔEN = 2,0) y es **NO POLAR** (trigonal plana simétrica). Igual el **CO₂**, **CCl₄**, **SF₆**, **XeF₄**, **PF₅**.
+
+⚠️ **"Pares libres" NO implica polar.** **XeF₂** (3 pares libres) y **XeF₄** (2 pares libres) son **NO POLARES**, porque los pares quedan **simétricamente distribuidos entre sí** (3 a 120° en el ecuador / 2 a 180° trans). Lo que importa no es *cuántos* pares libres hay, sino *si desbalancean*.
+
+⚠️ **Contar enlaces polares no responde nada:** 2 en el no polar CO₂ y 2 en el polar H₂O; 3 en el no polar BF₃ y 3 en el polar NH₃. **Sólo la geometría decide.**
 
 ⚠️ **CO₂ vs H₂O:** misma cantidad de átomos, resultado opuesto. Lo que decide son **los pares libres del átomo central**: CO₂ (0 libres → lineal → **no polar**) vs H₂O (2 libres → angular → **POLAR**).
 
@@ -775,7 +910,208 @@ $$\boxed{\vec{\mu}_{\text{molécula}} = \sum \vec{\mu}_{\text{enlaces}}} \qquad 
 
 ---
 
-## 12. Número de oxidación
+## 12. Interacciones intermoleculares
+
+### ⚠️ Primero: INTRA ≠ INTER (no confundir nunca)
+
+| | Qué une | Magnitud | Se rompe al |
+|---|---|---|---|
+| **INTRAmolecular** = **enlace químico** | Átomos **dentro** de la molécula | **150–1000 kJ/mol** | Hacer una **reacción química** |
+| **INTERmolecular** = **interacción** | Moléculas **entre sí** | **< 1 – 250 kJ/mol** | **Fundir / hervir** |
+
+⚠️ Al **hervir agua NO se rompe ningún enlace O—H**: la molécula queda entera en el vapor. Se rompen las **uniones H entre moléculas**. Hervir agua: ~41 kJ/mol · romper un O—H: ~460 kJ/mol.
+
+### Los 3 personajes
+
+| Personaje | Símbolo | Qué tiene |
+|---|---|---|
+| **Ion** (atómico o **poliatómico**: SO₄²⁻, NH₄⁺) | **Q** | Carga **neta entera** |
+| **Molécula polar** | **μ** | Dipolo **permanente** |
+| **Molécula no polar** | **α** | **Nada** hasta que se lo inducen |
+
+### La matriz — todas las combinaciones posibles (son 6, no hay más)
+
+| | Ion (Q) | Polar (μ) | No polar (α) |
+|---|---|---|---|
+| **Ion (Q)** | ion–ion | ion–dipolo | ion–dip. inducido |
+| **Polar (μ)** | — | dipolo–dipolo (**+ unión H**) | dipolo–dip. inducido |
+| **No polar (α)** | — | — | **London** |
+
+🔑 **Cada interacción = producto de las magnitudes de los dos participantes.** Si te acordás de esto, deducís la columna "depende de" sin memorizarla.
+
+### ⭐ TABLA DE MAGNITUDES (memorizar el ORDEN)
+
+| Familia | Interacción | Depende de | **Magnitud** | Alcance | Ejemplo |
+|---|---|---|---|---|---|
+| **Electrostática** | **Ion – Ion** | $Q_1Q_2$ | **250 kJ/mol** | $1/d$ | NaCl, LiF |
+| **Unión H** | **Puente hidrógeno** | — | **20 kJ/mol** | **direccional** | H₂O/H₂O |
+| **Electrostática** | **Ion – Dipolo** | $Q_1\mu_2$ | **15 kJ/mol** | $1/d^2$ | Na⁺/H₂O, Na⁺/HCl |
+| **Inductiva** | **Ion – Dip. inducido** | $Q_1\alpha_2$ | **10 kJ/mol** | $1/d^4$ | Na⁺/Cl₂ |
+| **Dispersiva** | **London** (= van der Waals) | $\alpha_1\alpha_2$ | **5 kJ/mol** | **$1/d^6$** | Cl₂/Cl₂, Br₂/Br₂ |
+| **Electrostática** | **Dipolo – Dipolo** | $\mu_1\mu_2$ | **0,6 kJ/mol** | $1/d^3$ | HCl/HCl |
+| **Inductiva** | **Dip. – Dip. inducido** | $\mu_1\alpha_2$ | **< 1 kJ/mol** | — | HCl/Cl₂ |
+
+**Referencias para comparar:** agitación térmica a 25 °C ≈ **2,5 kJ/mol** (RT) · enlace covalente **150–1000 kJ/mol**
+
+⚠️ **London (5) es MÁS fuerte que dipolo–dipolo (0,6).** Contraintuitivo y es la clave de media práctica: en moléculas medianas o grandes **London domina sobre la polaridad**.
+
+⚠️ **London es la ÚNICA fuerza entre especies no polares** (frase textual del docente), pero **actúa en TODAS las sustancias**, polares incluidas.
+
+📌 **Nomenclatura:** en sentido estricto "**van der Waals**" abarca las tres débiles (Keesom = dipolo–dipolo · Debye = inductivas · **London** = dispersivas). El docente lo usa como sinónimo de **London**.
+
+### 🔵 Unión hidrógeno — los DOS requisitos
+
+$$\boxed{\text{Unión H} \iff \begin{cases} \text{un } \mathbf{H} \text{ unido a } \mathbf{F,\,O,\,N} & \text{(DADOR)} \\ \text{un } \mathbf{F,\,O,\,N} \text{ con } \mathbf{par\ libre} & \text{(ACEPTOR)} \end{cases}}$$
+
+**Sólo F, O, N** (mnemotecnia: "**FON**"). Es un **dipolo–dipolo de intensidad anormalmente alta** (~33× uno común), **direccional**.
+
+**Por qué es tan fuerte:** ① ΔEN enorme (O—H = 1,4 · F—H = 1,9) ② el **H no tiene electrones internos** → queda un protón casi desnudo, carga muy concentrada, se acerca muchísimo ③ hay un **par libre** esperando en una dirección definida.
+
+| Sustancia | ¿Unión H entre sus moléculas? | Por qué |
+|---|---|---|
+| **H₂O** | ✅ **Sí — 4 por molécula** (2 dadores + 2 aceptores) | la campeona |
+| **NH₃** · **HF** | ✅ Sí (1 dador cada una) | |
+| **CH₃OH**, alcoholes, ácidos, aminas | ✅ Sí | tienen O—H o N—H |
+| **CH₃OCH₃** (éter) | ❌ **No consigo mismo** | aceptor ✓ pero **sin dador** (sí hace unión H **con agua**) |
+| **CH₄** | ❌ No | el H está unido a **C** (EN 2,5, insuficiente) |
+| **HCl** | ❌ No | el Cl es **muy grande**, carga dispersa |
+
+**Distancias en el agua:** enlace covalente O—H = **0,101 nm** · puente H·····O = **0,175 nm** (**1,7× más largo** → interacción real pero más débil que un enlace; se dibuja con **puntos**).
+
+### 💧 Las anomalías del agua (todas por unión H)
+
+| Sustancia | Mr | T_eb | ¿Unión H? |
+|---|---|---|---|
+| CH₄ | 16 | **−161 °C** | No |
+| NH₃ | 17 | −33 °C | Sí |
+| **H₂O** | **18** | **+100 °C** | **Sí (4/molécula)** |
+| HF | 20 | +20 °C | Sí |
+| H₂S | 34 | −60 °C | No |
+
+⚠️ El H₂O tiene casi la misma Mr que el CH₄ y hierve **261 °C más arriba**. El H₂S es **el doble** de pesado y hierve 160 °C **más abajo**. **Sólo la unión H lo explica.**
+
+| Anomalía | Valor | Consecuencia |
+|---|---|---|
+| **T_eb altísima** | 100 °C | El agua es **líquida** en la Tierra |
+| **Calor específico altísimo** | 4,18 J/g·K | El mar regula el clima |
+| **Tensión superficial alta** | 72 mN/m | Capilaridad |
+| **🧊 Hielo MENOS denso que el agua** | **0,917** vs 1,000 g/cm³ | **FLOTA** |
+
+**Por qué el hielo flota:** cada H₂O hace **4 uniones H tetraédricas** (rígidas y direccionales) → red **abierta** con huecos hexagonales → menos denso. Los lagos se congelan **de arriba hacia abajo** y los peces sobreviven. Densidad máxima del agua a **4 °C**. Al congelarse **se expande ~9 %**.
+
+**Por qué el agua gana al HF** (que tiene más ΔEN): el agua hace **4 uniones H por molécula** (2 H + 2 pares libres); el HF sólo **1** (3 pares libres pero **un solo H**).
+
+**El agua es líquida y no sólida** porque los puentes son **transitorios**: se rompen y forman ~10¹² veces/s.
+
+**ADN:** A–T = **2** puentes · G–C = **3** puentes → un ADN rico en **G–C** cuesta más separar (T_m mayor).
+
+### 🌀 London y polarizabilidad (α)
+
+**α = capacidad de deformar la nube electrónica** ante un dipolo o una carga.
+
+$$\boxed{\alpha \uparrow \iff \text{n° de } e^- \uparrow \iff \text{Mr} \uparrow \;\Longrightarrow\; \text{London} \uparrow \;\Longrightarrow\; \text{T}_{eb},\,\text{T}_f \uparrow}$$
+
+**Mecanismo de London (3 pasos):** ① fluctuación **espontánea** de la nube → **dipolo instantáneo** (~10⁻¹⁵ s) ② **induce** un dipolo complementario en el vecino ③ se **atraen**. El efecto neto promediado es **siempre atractivo**.
+
+**Los 3 factores que determinan London, en orden de importancia:**
+
+$$1.\ \textbf{n° de electrones (Mr)} \qquad 2.\ \textbf{FORMA (superficie de contacto)} \qquad 3.\ \text{difusividad de la nube}$$
+
+| Serie | Orden de T_eb | Factor |
+|---|---|---|
+| He < Ne < Ar < Kr < Xe | ↑ | ① más e⁻ |
+| **F₂ (gas) < Cl₂ (gas) < Br₂ (líq.) < I₂ (sól.)** | ↑ | ① 18 → 34 → 70 → 106 e⁻ |
+| CH₄ < C₂H₆ < C₃H₈ < C₄H₁₀ | ↑ | ① más e⁻ |
+| HCl < HBr < HI (**sin** el HF) | ↑ | ① gana London a la polaridad |
+| **n-pentano (36°) > isopentano (28°) > neopentano (10°)** | ↓ | ② **misma Mr**, más ramificado = **menos contacto** |
+
+🔑 **Regla de la forma:** **a igual Mr y polaridad, la molécula MÁS ALARGADA hierve MÁS ALTO.** Ramificar **baja** el punto de ebullición (se acerca a la esfera → menos superficie de contacto). Funciona porque London decae con **1/d⁶** → sólo contribuye lo que está casi en contacto.
+
+⚠️ **No digas "el I₂ es sólido porque es más pesado".** Decí "**porque tiene más electrones → más polarizable → más London**". La masa molar es un **indicador**, no la causa.
+
+### ⚙️ Las dos inductivas
+
+| Interacción | Inductor | Magnitud | Ejemplo de la vida real |
+|---|---|---|---|
+| **Ion – dipolo inducido** | Carga **entera** | ~10 kJ/mol | I₂ en solución de KI |
+| **Dipolo – dipolo inducido** | Carga **parcial** | **< 1 kJ/mol** | **O₂ y N₂ disueltos en agua** (los peces respiran) |
+
+**Mecanismo:** la carga/dipolo **deforma** la nube de la molécula no polar → aparece un dipolo **que no existía** → se atraen. Si sacás el inductor, **desaparece** (a diferencia de un dipolo permanente).
+
+### 🧂 Ion–dipolo: por qué la sal se disuelve en agua
+
+Cada ion queda rodeado por una **esfera de solvatación (hidratación)**:
+
+| Ion | Qué le apunta |
+|---|---|
+| **Catión** (Na⁺) | el **O** del agua (δ−) |
+| **Anión** (Cl⁻) | los **H** del agua (δ+) |
+
+La **energía de hidratación** compensa la **energía de red**. Si gana o empata → se disuelve. Si la red es demasiado fuerte (CaCO₃, AgCl) → **no** se disuelve.
+
+⚠️ **Ion–ion depende MUCHO de la carga** ($Q_1Q_2$): NaCl (+1)(−1) funde a **801 °C** · **MgO** (+2)(−2) funde a **2852 °C**.
+
+---
+
+## 13. Estados de agregación y propiedades físicas
+
+### El criterio
+
+$$\boxed{\begin{cases} E_c > E_p & \to \textbf{GAS} \\ E_c \approx E_p & \to \textbf{LÍQUIDO} \\ E_c < E_p & \to \textbf{SÓLIDO} \end{cases}}$$
+
+| | Qué la produce | ¿Depende de T? | Qué "quiere" |
+|---|---|---|---|
+| **E cinética** | Agitación térmica ($E_c \propto T$, **lineal**) | **SÍ** | **Separar** |
+| **E potencial** | **Fuerzas intermoleculares** | **NO** (1ª aprox.) | **Juntar** |
+
+**Hay DOS maneras de cambiar el estado:**
+
+| Camino | Qué cambia | Ejemplo |
+|---|---|---|
+| **Cambiar T** (mismo material) | E_c | Hielo → agua → vapor |
+| **Cambiar la sustancia** (misma T) | E_p | **F₂, Cl₂, Br₂, I₂ todos a 25 °C** → gas, gas, líquido, sólido |
+
+### ⭐ MÉTODO para ordenar puntos de ebullición / fusión
+
+```
+1. ¿Es IÓNICO / METÁLICO / COVALENTE DE RED (diamante, SiO₂, Si)?
+      → SÓLIDO, T_f altísima (fin)
+2. Es MOLECULAR. ¿Alguna tiene UNIÓN H?
+      → ésa va más arriba (a Mr comparable)
+3. ¿Masas molares MUY distintas?
+      SÍ → manda la MASA MOLAR / n° de e⁻ (London)
+      NO → manda la POLARIDAD (dipolo-dipolo)
+4. ¿Misma Mr y misma polaridad?
+      → manda la FORMA (más alargada = más alto)
+```
+
+### ⚠️ Las tres trampas clásicas (y cómo se resuelven)
+
+| Comparación | Resultado | Por qué |
+|---|---|---|
+| **HCl (−85 °C) < HI (−35 °C)** | El **menos** polar hierve más alto | HI es **mucho más grande** → gana **London** |
+| **CH₃OH (65 °C) < CCl₄ (77 °C)** | El que tiene **unión H** hierve más **bajo** | CCl₄ tiene **74 e⁻** vs 18 → gana **London** |
+| **H₂O (100 °C) ⋙ H₂S (−60 °C)** | El **más liviano** hierve más alto | El agua tiene **unión H** |
+
+🔑 **La moraleja de las tres: la unión H y la polaridad ganan "A IGUAL TAMAÑO", no en términos absolutos.** Siempre chequeá primero si las masas molares son comparables.
+
+### Ejemplo integrador resuelto — ordenar CH₄, CH₃OH, CCl₄
+
+| | **CH₄** | **CH₃OH** | **CCl₄** |
+|---|---|---|---|
+| Geom. molecular | Tetraédrica | Tetraédrica (C) + angular (O) | Tetraédrica |
+| Sustituyentes | 4 iguales | **distintos** | 4 iguales |
+| **Polaridad** | **NO polar** | **POLAR** | **NO polar** |
+| ¿Unión H? | No | **SÍ** | No |
+| e⁻ totales | 10 | 18 | **74** |
+| **Fuerzas** | Sólo **London** (chico) | **Unión H** + dip–dip + London | Sólo **London** (grande) |
+| **T_eb** | **−161 °C** | **+65 °C** | **+77 °C** |
+
+**Orden: CH₄ ⟨ CH₃OH ⟨ CCl₄** — el CCl₄ gana al metanol **aunque el metanol tenga unión H**, porque tiene 4× más electrones.
+
+---
+
+## 14. Número de oxidación
 
 > **Representa el nº de electrones que un átomo pone en juego al formar un compuesto.**
 
@@ -819,7 +1155,7 @@ Asignás los que sabés (reglas 1–5) y **despejás el que falta** con la regla
 
 ---
 
-## 13. Nomenclatura inorgánica
+## 15. Nomenclatura inorgánica
 
 **Tres sistemas** — se usan **Stock** y **Tradicional**. ⚠️ **NO se mezclan** en un mismo nombre.
 
@@ -898,7 +1234,7 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 
 ---
 
-## 14. Errores típicos
+## 16. Errores típicos
 
 | ❌ Error | ✅ Correcto |
 |---|---|
@@ -946,10 +1282,27 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 | Olvidar los corchetes y la carga en un ion | **[ … ]²⁻** |
 | No verificar la suma de superíndices en la CE | **Debe dar el n° de electrones** |
 | Pensar que la resonancia oscila | Es un **híbrido**, una sola especie promedio |
+| Usar sólo ΔEN para clasificar el enlace | Hacen falta **ΔEN + EN_promedio** (Katelaar). Cs—Cs y F—F tienen los dos ΔEN = 0 |
+| Dibujar el vector μ del δ⁻ al δ⁺ | Convención química: **del δ⁺ al δ⁻** (apunta al más electronegativo) |
+| "Si hay pares libres, la molécula es polar" | **XeF₂ (3 pares) y XeF₄ (2 pares) son NO polares**: quedan simétricos |
+| Poner el par libre **axial** en bipirámide trigonal | Van **SIEMPRE ECUATORIAL** (2 vecinos a 90° en vez de 3) |
+| Poner los 2 pares libres **cis** en octaédrica | Van **TRANS** (180°) → **plana cuadrada** |
+| Contar enlaces polares para decidir la polaridad | No sirve: 2 en CO₂ (no polar) y 2 en H₂O (polar). **Sólo la geometría decide** |
+| Decir que al hervir agua se rompen los enlaces O—H | Se rompen las **uniones H INTERmoleculares**; la molécula queda entera |
+| "Más polar ⇒ hierve más alto", a secas | Sólo **a masa molar comparable**. **HCl (−85°) < HI (−35°)** lo rompe |
+| Creer que dipolo–dipolo > London | **London (5) > dipolo–dipolo (0,6) kJ/mol** |
+| Decir que el CH₄ hace uniones H (¡tiene 4 H!) | El H tiene que estar unido a **F, O o N**. El C no alcanza |
+| Decir que el HCl hace uniones H (Cl tiene EN 3,0) | El Cl es **muy grande**: la carga queda dispersa |
+| Decir que el éter CH₃OCH₃ hace unión H consigo mismo | Tiene **aceptor** pero **NO dador** (ningún H sobre el O). Con agua **sí** |
+| "El I₂ es sólido porque es más pesado" | Porque tiene **más e⁻ → más polarizable → más London** |
+| Decir que London actúa **sólo** entre no polares | Actúa en **todas**; es la **única** entre no polares |
+| Olvidar la **forma** al comparar isómeros | Pentano (36 °C) vs neopentano (10 °C): **misma Mr**, distinta superficie de contacto |
+| Decir que el hielo es más denso que el agua | **MENOS** denso (0,917) → **flota**. Red tetraédrica abierta por unión H |
+| Confundir E cinética con E potencial | **E_c ∝ T** (separa) · **E_p = fuerzas intermoleculares** (junta), ~indep. de T |
 
 ---
 
-## 15. Modelos atómicos — línea histórica
+## 17. Modelos atómicos — línea histórica
 
 | Año | Quién | Aporte | Falla |
 |---|---|---|---|
@@ -994,3 +1347,11 @@ $$e^-_{\text{Lewis}} = \textstyle\sum e^-_{\text{valencia}} + \text{carga}^- - \
 $$\sum (\text{atomicidad} \times \text{n° de oxidación}) = \text{carga neta} \qquad \Delta EN = |EN_A - EN_B|$$
 
 $$\mu = q\cdot d \qquad 1\ \text{D} = 3{,}336\times10^{-30}\ \text{C·m} \qquad \%\text{ iónico} = \frac{\mu_{\exp}}{\mu_{\text{teór}}}\times100 \qquad \vec{\mu}_{\text{mol}} = \textstyle\sum \vec{\mu}_{\text{enlaces}}$$
+
+$$\Delta EN = |EN_A - EN_B| \qquad EN_{prom} = \frac{EN_A + EN_B}{2} \qquad \text{(las 2 coordenadas del triángulo de Katelaar)}$$
+
+$$E_{\text{ion-ion}} \propto \frac{Q_1Q_2}{d} \quad E_{\text{ion-}\mu} \propto \frac{Q_1\mu_2}{d^2} \quad E_{\mu\text{-}\mu} \propto \frac{\mu_1\mu_2}{d^3} \quad E_{\text{ion-}\alpha} \propto \frac{Q_1\alpha_2}{d^4} \quad E_{\text{London}} \propto \frac{\alpha_1\alpha_2}{d^6}$$
+
+$$E_c \propto T \qquad\qquad \begin{cases} E_c > E_p & \to \text{GAS} \\ E_c \approx E_p & \to \text{LÍQUIDO} \\ E_c < E_p & \to \text{SÓLIDO}\end{cases} \qquad\qquad RT_{25°C} \approx 2{,}5\ \text{kJ/mol}$$
+
+$$\alpha \uparrow \iff n_{e^-} \uparrow \iff M_r \uparrow \;\Longrightarrow\; \text{London} \uparrow \;\Longrightarrow\; T_{eb} \uparrow$$
