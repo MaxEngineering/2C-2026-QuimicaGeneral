@@ -4,9 +4,9 @@
 > Para la explicación desarrollada diapositiva por diapositiva:
 > `Clase1/Clase1-Explicacion-Completa.md` · `Clase2/Clase2-Explicacion-Completa.md` · `Clase3/Clase3-Explicacion-Completa.md` · `Clase4/Clase4-Explicacion-Completa.md` · `Extra/Nomenclatura-Explicacion-Completa.md`
 
-**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · Nomenclatura (nº de oxidación y nombres) · Series 1 y 2 (métodos de cálculo)
+**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · Nomenclatura (nº de oxidación y nombres) · **Solubilidad** · Series 1, 2 y 3 (métodos de cálculo)
 
-> **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md`
+> **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md`
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
 
 ---
@@ -27,10 +27,11 @@
 - [11. Polaridad y momento dipolar](#11-polaridad-y-momento-dipolar)
 - [12. Interacciones intermoleculares](#12-interacciones-intermoleculares)
 - [13. Estados de agregación y propiedades físicas](#13-estados-de-agregación-y-propiedades-físicas)
-- [14. Número de oxidación](#14-número-de-oxidación)
-- [15. Nomenclatura inorgánica](#15-nomenclatura-inorgánica)
-- [16. Errores típicos](#16-errores-típicos)
-- [17. Modelos atómicos — línea histórica](#17-modelos-atómicos--línea-histórica)
+- [14. Solubilidad](#14-solubilidad)
+- [15. Número de oxidación](#15-número-de-oxidación)
+- [16. Nomenclatura inorgánica](#16-nomenclatura-inorgánica)
+- [17. Errores típicos](#17-errores-típicos)
+- [18. Modelos atómicos — línea histórica](#18-modelos-atómicos--línea-histórica)
 
 ---
 
@@ -46,7 +47,8 @@ $$\text{Átomos} \Rightarrow \text{Molécula} \Rightarrow \text{Lewis} \Rightarr
 | 4. Geometría electrónica y molecular | TRePEV | **10** |
 | 5. ¿Polar o no polar? | Suma vectorial de μ | **11** |
 | 6. ¿Qué fuerza intermolecular actúa? | Matriz Q/μ/α | **12** |
-| 7. T_f, T_eb, estado, solubilidad | E_c vs E_p | **13** |
+| 7. T_f, T_eb, estado | E_c vs E_p | **13** |
+| 8. ¿Se disuelve? | Balance romper vs formar | **14** |
 
 ⚠️ **Cada eslabón necesita el anterior. Éste es el formato del ejercicio integrador del parcial.**
 
@@ -1033,6 +1035,29 @@ $$1.\ \textbf{n° de electrones (Mr)} \qquad 2.\ \textbf{FORMA (superficie de co
 
 ⚠️ **No digas "el I₂ es sólido porque es más pesado".** Decí "**porque tiene más electrones → más polarizable → más London**". La masa molar es un **indicador**, no la causa.
 
+⚠️⚠️ **El nº de e⁻ es sólo un PROXY de α — vale dentro de una misma familia, no entre familias distintas.** Contraejemplo que sale en la serie:
+
+| | e⁻ | **α (Å³)** | **T_eb** |
+|---|---|---|---|
+| Ar | **18** | 1,64 | −186 °C |
+| **CH₄** | **10** | **2,59** | **−161 °C** ← ¡gana con MENOS electrones! |
+
+El CH₄ tiene menos electrones pero repartidos en un **volumen molecular mucho mayor** y sujetos por núcleos livianos → nube más difusa → **más polarizable**.
+🔑 **Si el enunciado te DA la polarizabilidad, usá α y no el nº de electrones.**
+
+### 🎭 Dipolo permanente vs inducido vs transitorio (se pregunta textual)
+
+| | **PERMANENTE** | **INDUCIDO** | **TRANSITORIO** (instantáneo) |
+|---|---|---|---|
+| Causa | ΔEN + geometría asimétrica | **Campo externo** (ion o dipolo vecino) | **Fluctuación espontánea** de la nube |
+| ¿Necesita algo cerca? | **No** | **Sí** (si se va la fuente, desaparece) | **No** |
+| Duración | Siempre | Mientras dure el campo | **~10⁻¹⁵ s** |
+| Depende de | **μ** | **α** y el campo: $\mu_{ind} = \alpha\cdot E$ | **α** |
+| Origina | dip–dip · ion–dip · unión H | ion–dip. ind. · dip–dip. ind. | **LONDON** |
+| En qué moléculas | **Sólo polares** | Cualquiera (sobre todo no polares grandes) | **TODAS** |
+
+**Ejemplos:** permanente → **HCl, H₂O** · inducido → **Na⁺ deformando al Cl₂** · transitorio → **Ar con Ar, I₂ con I₂**.
+
 ### ⚙️ Las dos inductivas
 
 | Interacción | Inductor | Magnitud | Ejemplo de la vida real |
@@ -1091,13 +1116,16 @@ $$\boxed{\begin{cases} E_c > E_p & \to \textbf{GAS} \\ E_c \approx E_p & \to \te
       → manda la FORMA (más alargada = más alto)
 ```
 
-### ⚠️ Las tres trampas clásicas (y cómo se resuelven)
+### ⚠️ Las trampas clásicas (y cómo se resuelven)
 
 | Comparación | Resultado | Por qué |
 |---|---|---|
 | **HCl (−85 °C) < HI (−35 °C)** | El **menos** polar hierve más alto | HI es **mucho más grande** → gana **London** |
 | **CH₃OH (65 °C) < CCl₄ (77 °C)** | El que tiene **unión H** hierve más **bajo** | CCl₄ tiene **74 e⁻** vs 18 → gana **London** |
 | **H₂O (100 °C) ⋙ H₂S (−60 °C)** | El **más liviano** hierve más alto | El agua tiene **unión H** |
+| **NH₃ (−33 °C) ⋙ PH₃ (−87,8 °C)** | El **más liviano** hierve más alto | El NH₃ tiene **unión H**; el P–H tiene **ΔEN = 0** |
+| **ICl (T_f 27 °C) > Br₂ (T_f −7 °C)** | Mismos **70 e⁻** y misma masa | **London EMPATA** → desempata la **POLARIDAD** |
+| **I₂ (sólido) vs F₂ (gas)** | Las **dos** tienen **μ = 0** | No es polaridad: es **α** (106 vs 18 e⁻) |
 
 🔑 **La moraleja de las tres: la unión H y la polaridad ganan "A IGUAL TAMAÑO", no en términos absolutos.** Siempre chequeá primero si las masas molares son comparables.
 
@@ -1115,9 +1143,127 @@ $$\boxed{\begin{cases} E_c > E_p & \to \textbf{GAS} \\ E_c \approx E_p & \to \te
 
 **Orden: CH₄ ⟨ CH₃OH ⟨ CCl₄** — el CCl₄ gana al metanol **aunque el metanol tenga unión H**, porque tiene 4× más electrones.
 
+### 🎯 Los 5 casos que hay que tener de memoria
+
+| # | Comparación | Gana | Por qué |
+|---|---|---|---|
+| **1** | **H₂O (100) vs H₂S (−60)** | H₂O, **más liviana** | **Unión H** vence a London |
+| **2** | **NH₃ (−33) vs PH₃ (−87,8)** | NH₃, **más liviano** | **Unión H** vence a London |
+| **3** | **CCl₄ (77) vs CH₃OH (65)** | CCl₄, **sin unión H** | **London** (74 e⁻) vence a la unión H |
+| **4** | **ICl (27) vs Br₂ (−7)** — mismos e⁻ | ICl | A London igual, manda la **POLARIDAD** |
+| **5** | **I₂ (sól.) vs F₂ (gas)** — μ = 0 en las dos | I₂ | A polaridad igual, manda la **α** |
+
+**Los cinco en una frase:** *primero mirá si hay unión H, después compará tamaños, y sólo si empatan desempatá por polaridad.*
+
+### 📊 Los hidruros — el gráfico de T_eb vs período (sale en el parcial)
+
+| Grupo | Hidruros | Clase | Geometría molecular | μ | Tendencia |
+|---|---|---|---|---|---|
+| **14** | CH₄ SiH₄ GeH₄ SnH₄ | AB₄ | **Tetraédrica** | **0 — no polares** | **Recta creciente**, sin anomalía |
+| **15** | NH₃ PH₃ AsH₃ SbH₃ | AB₃E | **Pirámide trigonal** | ≠0 | **Pico en NH₃** |
+| **16** | H₂O H₂S H₂Se H₂Te | AB₂E₂ | **Angular** | ≠0 | **Pico en H₂O** ⭐ |
+| **17** | HF HCl HBr HI | AB | Lineal | ≠0 | **Pico en HF** |
+
+**Los tres porqués del gráfico:**
+1. **El grupo 14 va siempre por abajo** → es el **único no polar**: sólo London.
+2. **El grupo 14 no tiene anomalía** → ninguno tiene H sobre F/O/N.
+3. **NH₃, H₂O y HF se disparan** → **unión hidrógeno** (sólo N, O, F: EN alta **+** átomo chico). Del período 3 en adelante manda London y la tendencia vuelve a ser creciente.
+
+**Magnitud de la anomalía: H₂O > HF > NH₃** — no sigue la EN (F>O>N) sino el **nº de uniones H por molécula**:
+
+| | Dadores (H sobre F/O/N) | Aceptores (pares libres) | Uniones efectivas | T_eb |
+|---|---|---|---|---|
+| **H₂O** | **2** | **2** | **2 — balanceado → red 3D** | **100 °C** |
+| HF | 1 | 3 | 1 (limita el **dador**) | 19,5 °C |
+| NH₃ | 3 | **1** | 1 (limita el **aceptor**) | −33 °C |
+
+**Valores para tener a mano (°C):**
+
+| Grupo 14 | | Grupo 15 | | Grupo 16 | | Grupo 17 | |
+|---|---|---|---|---|---|---|---|
+| CH₄ | **−161** | NH₃ | **−33** | H₂O | **100** | HF | **19,5** |
+| SiH₄ | −111 | PH₃ | −87,8 | H₂S | −60 | HCl | −85 |
+| GeH₄ | −88 | AsH₃ | −62 | H₂Se | −41 | HBr | −67 |
+| SnH₄ | −52 | SbH₃ | −17 | H₂Te | −2 | HI | −35 |
+
 ---
 
-## 14. Número de oxidación
+## 14. Solubilidad
+
+> 📖 Clase 4 — `Clase4/Clase4-Explicacion-Completa.md` · Ejercicios: `Practica/Serie3-Resuelta.md`
+
+### El criterio: *"lo semejante disuelve a lo semejante"*
+
+Pero eso es el eslogan. **Lo que hay que escribir en el parcial es el balance energético:**
+
+```
+Disolver = ROMPER  interacciones soluto–soluto
+         + ROMPER  interacciones solvente–solvente
+         + FORMAR  interacciones SOLUTO–SOLVENTE
+
+Se disuelve  ⟺  lo que se GANA (soluto–solvente)
+                 compensa lo que se ROMPE (solvente–solvente)
+```
+
+🔑 **En una solución hay que mirar TRES pares, pero el que decide es siempre soluto–solvente.**
+
+### ⭐ Qué interacción soluto–solvente aparece en cada caso
+
+| Soluto | Solvente | **Interacción soluto–solvente** | kJ/mol | ¿Se disuelve? |
+|---|---|---|---|---|
+| **Ion** (NaCl, KCl, CaCl₂) | **Polar** (H₂O, NH₃ líq.) | **ION – DIPOLO** | **15** | **SÍ** ✓ |
+| **Ion** | **No polar** (CCl₄, C₆H₆) | Ion – dipolo **inducido** | 10 | **NO** ❌ |
+| **Polar** (HCl, CH₃OH) | **Polar** (H₂O) | Dipolo–dipolo (+ unión H si aplica) | 0,6–20 | **SÍ** ✓ |
+| **No polar** (I₂, Br₂, Ar, O₂) | **No polar** (CS₂, C₆H₆, CCl₄) | **LONDON** | 5 | **SÍ** ✓ |
+| **No polar** | **Polar** (H₂O) | Dipolo – dipolo **inducido** | **< 1** | **NO** ❌ |
+
+⚠️ **La fila que más se pregunta es la última.** El agua es el solvente **más difícil de abrir**: hay que romper uniones H de **20 kJ/mol** y un soluto no polar sólo devuelve **< 1 kJ/mol**. Balance pésimo → **no se disuelve**.
+
+### 🔑 El razonamiento tipo parcial, en 4 pasos
+
+```
+1. ¿El SOLUTO es iónico, polar o no polar?   (ΔEN → Lewis → TRePEV → μ)
+2. ¿El SOLVENTE es polar o no polar?         (ídem)
+3. ¿Qué interacción soluto–solvente se forma? (tabla de arriba)
+4. Comparar con lo que hay que ROMPER en el solvente:
+      solvente con UNIÓN H (agua, NH₃, alcoholes) → hay que pagar ~20 kJ/mol
+      solvente NO POLAR (CCl₄, C₆H₆, CS₂)        → sólo hay que pagar ~5 kJ/mol
+```
+
+### Casos resueltos (los que aparecen en la Serie 3)
+
+| Soluto | ¿Dónde se disuelve mejor? | Por qué |
+|---|---|---|
+| **Br₂** (μ=0) | **C₆H₆** (μ=0), no en agua | London ↔ London. En agua: romper 20, ganar <1 |
+| **I₂** (μ=0) | **CS₂** (μ=0), no en agua | Ídem. En CS₂ da solución **violeta** |
+| **KCl** (iónico) | **NH₃ líquido** (polar), no en CCl₄ | Necesita **ion–dipolo** para solvatar los iones |
+| **NaCl** (iónico) | **Agua** | **Ion–dipolo**: 15 kJ/mol × ~6 aguas por ion |
+| **Ar** (μ=0) | **Casi nada en agua** | Sólo dipolo–dipolo **inducido** (<1 kJ/mol) |
+
+### ⚠️ Las trampas de solubilidad
+
+| ❌ Error | ✅ Correcto |
+|---|---|
+| "El CCl₄ es polar porque los enlaces C–Cl son polares" | **Tetraédrico simétrico → μ = 0 → NO polar** |
+| "El CS₂ es polar porque tiene dos S" | **Lineal S=C=S** y además ΔEN(C–S) = 0 → **no polar por partida doble** |
+| Justificar sólo con "semejante disuelve a semejante" | Hay que decir **qué se rompe y qué se gana**, con las magnitudes |
+| Olvidar que el agua hay que **abrirla** | Su red de uniones H (20 kJ/mol) es el costo de entrada |
+
+### 🧂 Solvatación de iones — el dibujo que hay que saber hacer
+
+```
+   Na⁺ (catión)                    Cl⁻ (anión)
+        δ-  O                            δ+  H
+            \                               /
+         H   H   el O (δ-) APUNTA        O    los H (δ+) APUNTAN
+                 al CATIÓN                \        al ANIÓN
+```
+
+La **energía de hidratación** (suma de todas las ion–dipolo) compensa la **energía de red**. Si gana o empata → se disuelve. Si la red es demasiado fuerte (**CaCO₃, AgCl**) → **insoluble**.
+
+---
+
+## 15. Número de oxidación
 
 > **Representa el nº de electrones que un átomo pone en juego al formar un compuesto.**
 
@@ -1161,7 +1307,7 @@ Asignás los que sabés (reglas 1–5) y **despejás el que falta** con la regla
 
 ---
 
-## 15. Nomenclatura inorgánica
+## 16. Nomenclatura inorgánica
 
 **Tres sistemas** — se usan **Stock** y **Tradicional**. ⚠️ **NO se mezclan** en un mismo nombre.
 
@@ -1240,7 +1386,7 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 
 ---
 
-## 16. Errores típicos
+## 17. Errores típicos
 
 | ❌ Error | ✅ Correcto |
 |---|---|
@@ -1305,10 +1451,19 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 | Olvidar la **forma** al comparar isómeros | Pentano (36 °C) vs neopentano (10 °C): **misma Mr**, distinta superficie de contacto |
 | Decir que el hielo es más denso que el agua | **MENOS** denso (0,917) → **flota**. Red tetraédrica abierta por unión H |
 | Confundir E cinética con E potencial | **E_c ∝ T** (separa) · **E_p = fuerzas intermoleculares** (junta), ~indep. de T |
+| Deducir la geometría de la **fórmula** sin hacer Lewis | **SiF₄ es AB₄ (tetraédrico) y SeF₄ es AB₄E (balancín)** — los centrales son de grupos distintos |
+| Decir que el **PCl₃** hace unión H porque es piramidal como el NH₃ | **No tiene ningún H** |
+| Decir que el **CH₂O** hace unión H consigo mismo porque tiene O | Los H están sobre el **C**: hay **aceptor** pero **no dador** |
+| Usar el **nº de e⁻** cuando el enunciado da la **α** | **CH₄ (10 e⁻) es MÁS polarizable que Ar (18 e⁻)** |
+| Atribuir la diferencia **F₂ (gas) / I₂ (sólido)** a la polaridad | Las **dos tienen μ = 0**. La causa es la **α** (18 vs 106 e⁻) |
+| "A masa parecida gana siempre el más pesado" | **ICl vs Br₂**: mismos 70 e⁻ → desempata la **polaridad**, gana el ICl |
+| Decir que el **NH₃ hierve más bajo que el PH₃** porque es más liviano | **NH₃ −33 °C > PH₃ −87,8 °C**: gana la **unión H** |
+| Decir que el **CS₂** es polar (tiene dos S) | **Lineal simétrica** y ΔEN(C–S) = 0 → **no polar** |
+| Justificar solubilidad sólo con "semejante disuelve a semejante" | Hay que decir **qué se rompe** (solvente–solvente) **y qué se gana** (soluto–solvente), con magnitudes |
 
 ---
 
-## 17. Modelos atómicos — línea histórica
+## 18. Modelos atómicos — línea histórica
 
 | Año | Quién | Aporte | Falla |
 |---|---|---|---|
@@ -1361,3 +1516,7 @@ $$E_{\text{ion-ion}} \propto \frac{Q_1Q_2}{d} \quad E_{\text{ion-}\mu} \propto \
 $$E_c \propto T \qquad\qquad \begin{cases} E_c > E_p & \to \text{GAS} \\ E_c \approx E_p & \to \text{LÍQUIDO} \\ E_c < E_p & \to \text{SÓLIDO}\end{cases} \qquad\qquad RT_{25°C} \approx 2{,}5\ \text{kJ/mol}$$
 
 $$\alpha \uparrow \iff n_{e^-} \uparrow \iff M_r \uparrow \;\Longrightarrow\; \text{London} \uparrow \;\Longrightarrow\; T_{eb} \uparrow$$
+
+$$\mu_{\text{inducido}} = \alpha \cdot E \qquad\qquad \text{(dipolo inducido: proporcional a } \alpha \text{ y al campo)}$$
+
+$$\boxed{\text{Se disuelve} \iff \underbrace{E_{\text{soluto-solvente}}}_{\text{lo que se GANA}} \;\gtrsim\; \underbrace{E_{\text{solvente-solvente}}}_{\text{lo que se ROMPE}}}$$
