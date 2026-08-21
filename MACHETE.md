@@ -2,9 +2,9 @@
 
 > Resumen operativo de toda la materia. Sólo lo que hay que saber para resolver.
 > Para la explicación desarrollada diapositiva por diapositiva:
-> `Clase1/Clase1-Explicacion-Completa.md` · `Clase2/Clase2-Explicacion-Completa.md` · `Clase3/Clase3-Explicacion-Completa.md` · `Clase4/Clase4-Explicacion-Completa.md` · `Extra/Nomenclatura-Explicacion-Completa.md`
+> `Clase1/Clase1-Explicacion-Completa.md` · `Clase2/Clase2-Explicacion-Completa.md` · `Clase3/Clase3-Explicacion-Completa.md` · `Clase4/Clase4-Explicacion-Completa.md` · `Clase6(5nohay)/Clase6-Explicacion-Completa.md` · `Extra/Nomenclatura-Explicacion-Completa.md`
 
-**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · Nomenclatura (nº de oxidación y nombres) · **Solubilidad** · Series 1, 2 y 3 (métodos de cálculo)
+**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · **Clase 6 (Soluciones: concentración, preparación, diluciones y solubilidad)** · Nomenclatura (nº de oxidación y nombres) · **Solubilidad** · Series 1, 2 y 3 (métodos de cálculo)
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md`
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
@@ -28,10 +28,14 @@
 - [12. Interacciones intermoleculares](#12-interacciones-intermoleculares)
 - [13. Estados de agregación y propiedades físicas](#13-estados-de-agregación-y-propiedades-físicas)
 - [14. Solubilidad](#14-solubilidad)
-- [15. Número de oxidación](#15-número-de-oxidación)
-- [16. Nomenclatura inorgánica](#16-nomenclatura-inorgánica)
-- [17. Errores típicos](#17-errores-típicos)
-- [18. Modelos atómicos — línea histórica](#18-modelos-atómicos--línea-histórica)
+- [15. Sistemas materiales y densidad](#15-sistemas-materiales-y-densidad)
+- [16. Soluciones — unidades de concentración](#16-soluciones--unidades-de-concentración)
+- [17. Preparación de soluciones y diluciones](#17-preparación-de-soluciones-y-diluciones)
+- [18. Solubilidad cuantitativa — curvas y saturación](#18-solubilidad-cuantitativa--curvas-y-saturación)
+- [19. Número de oxidación](#19-número-de-oxidación)
+- [20. Nomenclatura inorgánica](#20-nomenclatura-inorgánica)
+- [21. Errores típicos](#21-errores-típicos)
+- [22. Modelos atómicos — línea histórica](#22-modelos-atómicos--línea-histórica)
 
 ---
 
@@ -49,6 +53,8 @@ $$\text{Átomos} \Rightarrow \text{Molécula} \Rightarrow \text{Lewis} \Rightarr
 | 6. ¿Qué fuerza intermolecular actúa? | Matriz Q/μ/α | **12** |
 | 7. T_f, T_eb, estado | E_c vs E_p | **13** |
 | 8. ¿Se disuelve? | Balance romper vs formar | **14** |
+| 9. ¿CUÁNTO hay disuelto? | Unidades de concentración | **16** |
+| 10. ¿CUÁNTO como máximo? | Solubilidad y curvas | **18** |
 
 ⚠️ **Cada eslabón necesita el anterior. Éste es el formato del ejercicio integrador del parcial.**
 
@@ -1261,9 +1267,296 @@ Se disuelve  ⟺  lo que se GANA (soluto–solvente)
 
 La **energía de hidratación** (suma de todas las ion–dipolo) compensa la **energía de red**. Si gana o empata → se disuelve. Si la red es demasiado fuerte (**CaCO₃, AgCl**) → **insoluble**.
 
+> 👉 Esta sección contesta **¿se disuelve?** (cualitativo). El **cuánto** está en las secciones **16** y **18**.
+
 ---
 
-## 15. Número de oxidación
+## 15. Sistemas materiales y densidad
+
+> 📖 Clase 6 — `Clase6(5nohay)/Clase6-Explicacion-Completa.md`
+
+### Las dos clasificaciones de propiedades
+
+| Par | Definición | Ejemplos |
+|---|---|---|
+| **Físicas** / **Químicas** | Físicas: se miden **sin** cambiar la identidad · Químicas: **con** cambio de identidad | δ, T_f / combustión, oxidación |
+| **Extensivas** / **Intensivas** | Extensivas: **dependen** de la cantidad · Intensivas: **NO** dependen | masa, V, moles / **δ, T, concentración, solubilidad** |
+
+⚠️ **Las INTENSIVAS son las que caracterizan un material.** Toda intensiva = cociente de dos extensivas (δ = m/V, concentración = sto/sc).
+
+### Densidad
+
+$$\boxed{\delta = \frac{m}{V}} \qquad 1\ \tfrac{g}{cm^3} = 1\ \tfrac{g}{mL} = 1\ \tfrac{kg}{L} = 1000\ \tfrac{kg}{m^3}$$
+
+| Cuerpo | Cómo medir V |
+|---|---|
+| Sólido **regular** | Fórmula geométrica (regla/calibre) |
+| Sólido **irregular** | **Desplazamiento de líquido** (Arquímedes) |
+| Líquido | Probeta / matraz aforado |
+
+💡 δ(H₂O) ≈ **1 g/mL** · δ(oro) = 19,3 g/cm³. **La densidad es el puente obligado masa ↔ volumen** en todos los ejercicios de soluciones.
+
+### Fases y componentes — la tabla de doble entrada (reconstruila de memoria)
+
+| | **Sustancia pura** (1 componente) | **Mezcla** (≥ 2 componentes) |
+|---|---|---|
+| **Homogéneo** (1 fase) | Agua destilada | ⭐ **Alcohol + agua = SOLUCIÓN** |
+| **Heterogéneo** (≥ 2 fases) | ⚠️ **Agua + hielo** (1 comp., 2 fases) | Agua + aceite, lámpara de lava |
+
+| Concepto | Definición |
+|---|---|
+| **Homogéneo** | Las propiedades **intensivas** son iguales en cualquier porción → **1 fase** |
+| **Heterogéneo** | Las intensivas **cambian** según la porción → **≥ 2 fases** |
+| **Fase** | Porción con propiedades intensivas uniformes |
+| **Interfaz** | Superficie de discontinuidad entre dos fases |
+
+⚠️ **Fase ≠ componente.** 20 cubitos en un vaso de agua = **2 fases** (no 21), **1 componente**.
+
+---
+
+## 16. Soluciones — unidades de concentración
+
+> 📖 Clase 6 — `Clase6(5nohay)/Clase6-Explicacion-Completa.md`
+
+### Definiciones (se piden textuales)
+
+> Una **solución** es una **mezcla HOMOGÉNEA** de dos o más sustancias que **NO reaccionan entre sí**.
+> **Soluto (sto)** = la de **menor** cantidad · **Solvente (sv)** = la de **mayor** cantidad · **Solución (sc)** = el todo.
+
+⚠️ Se definen por **cantidad, no por estado**: en el aire el solvente es el **N₂**; en el bronce (aleación Cu/Zn) el solvente es el **Cu**. Hay soluciones **gaseosas** (aire), **líquidas** (NaCl ac.) y **sólidas** (bronce, Si dopado).
+
+| Escala cualitativa | Qué es |
+|---|---|
+| **Diluida / concentrada** | **Relativa**, sin número |
+| **Saturada** | **Absoluta**: límite físico = la **solubilidad** (sección 18) |
+
+### ⭐ LA TABLA DE UNIDADES (la que hay que saber entera)
+
+| Unidad | Fórmula | Denominador | Unidades obligadas |
+|---|---|---|---|
+| **% m/m** | $\dfrac{m_{sto}}{m_{sc}}\cdot 100$ | **Solución** | Las **mismas** arriba y abajo |
+| **% m/V** | $\dfrac{m_{sto}}{V_{sc}}\cdot 100$ | **Solución** | **g** y **cm³ (= mL)** |
+| **% V/V** | $\dfrac{V_{sto}}{V_{sc}}\cdot 100$ | **Solución** | Las mismas |
+| **M** (molaridad) | $\dfrac{n_{sto}}{V_{sc}}$ | **Solución** | mol y **LITROS** ⚠️ |
+| **m** (molalidad) | $\dfrac{n_{sto}}{m_{sv}}$ | ⚠️⚠️ **SOLVENTE** | mol y **kg** |
+| **x** (fracción molar) | $\dfrac{n_{sto}}{n_{sto}+n_{sv}}$ | Totales | mol · queda entre **0 y 1** |
+| **ppm** | $\dfrac{m_{sto}}{m_{sc}}\cdot 10^6$ | **Solución** | Las mismas |
+
+$$\boxed{\chi_{sto} + \chi_{sv} = 1} \qquad \boxed{1\ \% = 10\,000\ \text{ppm}} \qquad \boxed{ppm \approx \tfrac{mg_{sto}}{L}}$$
+
+⚠️ El atajo **ppm = mg/L** vale **SÓLO** si el solvente es **agua** y la solución está **MUY diluida** (ahí δ_sc ≈ δ_sv ≈ 1 g/mL).
+
+### ⚠️ M vs m (el error de notación clásico)
+
+| | **M** (molar) | **m** (molal) |
+|---|---|---|
+| Denominador | **Solución**, en **L** | **SOLVENTE**, en **kg** |
+| ¿Depende de T? | **SÍ** (el volumen se dilata) | **NO** |
+| Se usa para | Reacciones, estequiometría, pH | **Propiedades coligativas** |
+
+💡 **Sólo la molalidad va sobre el solvente. Todas las demás van sobre la solución.**
+
+### ⭐ RELACIONES ÚTILES — sin esto no se resuelve nada
+
+$$n = \frac{m}{Mr} \qquad \delta = \frac{m}{V}$$
+
+| Magnitud | ¿Aditiva? |
+|---|---|
+| **Masas** | ✓ **SÍ** — $m_{sto} + m_{sv} = m_{sc}$ |
+| **Moles** | ✓ **SÍ** — $n_{sto} + n_{sv} = n_{tot}$ |
+| **Volúmenes** | ❌ **NO** — $V_{sto} + V_{sv} \neq V_{sc}$ *(salvo que el problema lo aclare)* |
+
+**Contraejemplo obligatorio:** 1 L H₂O + 1 L EtOH = **1,93 L** → **contracción del 3,5 %**.
+
+### 🔑 EL PUENTE MAESTRO (la cadena que resuelve casi todo)
+
+$$V_{sc} \xrightarrow{\ \times\ \delta_{sc}\ } m_{sc} \xrightarrow{\ \times\ \%m/m\ } m_{sto} \xrightarrow{\ \div\ Mr\ } n_{sto} \xrightarrow{\ \div\ V_{sc}(L)\ } M$$
+
+Y para la molalidad, el desvío obligado: $\ \boxed{m_{sv} = m_{sc} - m_{sto}}$
+
+**Rótulo comercial → molaridad (fórmula directa):**
+
+$$\boxed{M = \frac{\%m/m \cdot \delta_{sc}\left(\tfrac{g}{mL}\right) \cdot 10}{Mr_{sto}}}$$
+
+📝 HCl 37 % m/m, δ = 1,19 g/mL, Mr = 36,5 → M = (37 × 1,19 × 10)/36,5 ≈ **12,1 M** ✓
+
+### Valores de referencia
+
+| Dato | Valor |
+|---|---|
+| 1 L de agua | **55,6 mol** (no es despreciable en la fracción molar) |
+| Suero fisiológico | NaCl **0,9 % m/V** |
+| Suero glucosado | glucosa **5 % m/V** |
+| HCl concentrado comercial | 37 % m/m ≈ **12 M** |
+| H₂SO₄ concentrado | 98 % m/m ≈ **18 M** |
+| 1 ppm | 1 mg/L ≈ 1 mm en 1 km ≈ 1 s cada 11,5 días |
+
+---
+
+## 17. Preparación de soluciones y diluciones
+
+> 📖 Clase 6 — `Clase6(5nohay)/Clase6-Explicacion-Completa.md`
+
+### 🔑 MÉTODO A — preparar desde el soluto sólido
+
+```
+1. n_sto = M · V_sc(L)                    ⚠️ V en LITROS
+2. m_sto = n_sto · Mr                     ⚠️ Mr de la fórmula CORRECTA
+   Todo junto:   m_sto = M · V(L) · Mr
+3. En el laboratorio, EN ESTE ORDEN:
+   pesar → sólido al matraz → poco solvente → DISOLVER → enrasar al aforo
+```
+
+$$\boxed{m_{sto} = M \cdot V_{sc}(L) \cdot Mr_{sto}}$$
+
+📝 **Ejemplo modelo:** 200 mL de CuCl₂ 0,50 M → n = 0,2 × 0,5 = 0,1 mol → m = 0,1 × 135 = **13,5 g**
+*(Mr CuCl₂ = 63,5 + 2×35,5 = 134,5 ≈ 135)*
+
+⚠️ **Se DISUELVE antes de enrasar**, porque los volúmenes **no son aditivos**.
+⚠️ "Disolver **hasta** 200 mL de solución" **≠** "disolver **en** 200 mL de agua".
+
+| Método de preparación | Qué controlás | Unidad que sale sola |
+|---|---|---|
+| **Volumétrico** (matraz aforado) | masa de sto + **V final de sc** | **M**, **% m/V** |
+| **Gravimétrico** (pesar los dos) | masa de sto + **masa de sv** | **% m/m**, **molalidad** |
+| **Dilución** (de una solución madre) | C₀, V₀, V_F | cualquiera |
+
+### 🔑 MÉTODO B — diluciones
+
+$$\boxed{C_0 \cdot V_0 = C_F \cdot V_F} \qquad\text{porque}\qquad \boxed{\text{los MOLES de soluto NO cambian}}$$
+
+| Variable | Qué es |
+|---|---|
+| **V₀** | Volumen **tomado con la pipeta** de la solución madre (alícuota) |
+| **V_F** | Volumen **FINAL TOTAL** (el del matraz) |
+| Solvente agregado | $V_F - V_0$ ⚠️ **no es V_F** |
+
+⚠️ Las unidades **se cancelan**: cualquier concentración y cualquier volumen, siempre que sean coherentes. **NO hace falta pasar mL a L en las diluciones.**
+
+$$V_0 = \frac{C_F V_F}{C_0} \qquad C_F = \frac{C_0 V_0}{V_F} \qquad V_F = \frac{C_0 V_0}{C_F}$$
+
+📝 250 mL de HCl 0,1 M desde HCl 2 M → V₀ = (0,1 × 250)/2 = **12,5 mL** al matraz de 250 mL y enrasar.
+
+### Notación 1:n
+
+> **1:n = 1 volumen de solución original llevado a *n* volúmenes TOTALES.**
+
+$$\boxed{M_2 = M_1 \cdot \frac{1}{n}}$$
+
+| Desde 0,1 M | 1:2 | 1:10 | 1:25 | 1:50 |
+|---|---|---|---|---|
+| M₂ | 0,05 | 0,01 | 0,004 | 0,002 |
+
+⚠️ **1:10 NO es "1 parte + 10 de agua"** (eso sería 1:11).
+⚠️ En **serie**, los factores se **MULTIPLICAN**: dos diluciones 1:10 = **1:100**, no 1:20.
+
+### Vocabulario de laboratorio (se pregunta)
+
+| Término | Qué es |
+|---|---|
+| **Matraz aforado** | Volumen exacto, **una sola marca** de enrase |
+| **Solución madre** (stock) | La concentrada de partida |
+| **Propipeta** | Pera de válvulas. ⚠️ **Nunca pipetear con la boca** |
+| **Menisco** | Curva del líquido. Se enrasa con la parte **inferior**, **a la altura de la vista** (error de **paralaje**) |
+| **Enrasar** | Llevar el menisco a la marca del aforo |
+
+⚠️ **Seguridad:** para diluir ácidos concentrados, **el ácido sobre el agua** (nunca al revés).
+
+---
+
+## 18. Solubilidad cuantitativa — curvas y saturación
+
+> 📖 Clase 6 — `Clase6(5nohay)/Clase6-Explicacion-Completa.md` · El criterio cualitativo está en la sección **14**.
+
+### Definición (textual)
+
+> **Solubilidad:** la **máxima** concentración de un soluto que puede disolverse en **cierto** solvente a una **determinada temperatura**.
+
+Se estila expresarla en **g de soluto / 100 g de solvente**. Es un **equilibrio dinámico**:
+
+$$\text{NaCl(s)} \xrightleftharpoons[\text{cristalización}]{\text{disolución}} \text{Na}^+_{(ac)} + \text{Cl}^-_{(ac)}$$
+
+⚠️ "Equilibrio" **no** es "quieto": las dos velocidades son iguales, el neto es cero.
+⚠️ Sin la **temperatura**, un valor de solubilidad no significa nada.
+
+### ⭐ Los tres tipos de solución
+
+| Tipo | Relación | En la curva | ¿Estable? | ¿Admite más? |
+|---|---|---|---|---|
+| **Insaturada** | c **<** S | **DEBAJO** | ✓ | ✓ se disuelve |
+| **Saturada** | c **=** S | **SOBRE** la curva | ✓ (equilibrio) | ❌ va al fondo |
+| **Sobresaturada** | c **>** S | **ARRIBA** | ❌ **metaestable** | ❌ |
+
+💡 **Sobresaturada** se consigue enfriando **despacio** una saturada en caliente; una perturbación precipita todo de golpe (miel cristalizada, bolsitas de calor de acetato de sodio).
+⚠️ Si tirás soluto de más, el exceso **precipita** y arriba queda **saturada** — no sobresaturada.
+
+### Efecto de la temperatura
+
+| Soluto | Solubilidad con T ↑ | Por qué |
+|---|---|---|
+| **Sólidos** (sales iónicas) | **AUMENTA** (casi siempre) | Disolver es **endotérmico** |
+| **GASES** | **DISMINUYE** (siempre) | Disolver es **exotérmico** |
+
+**Lo que se pregunta del gráfico de curvas:**
+
+| Pregunta | Respuesta | Criterio |
+|---|---|---|
+| ¿Cuál es la **excepción**? | **NH₃, HCl, SO₂** — los **gases**: bajan | La curva **baja** |
+| ¿La **más sensible** a T? | **KNO₃** (~13 → ~245 g) | Mayor **PENDIENTE** |
+| ¿La **menos sensible** a T? | **NaCl** (35,7 → 39,8) | Curva **plana** |
+
+⚠️ "Sensible a T" = **PENDIENTE**, no altura. El **KI** es el más soluble en absoluto, pero **no** es el más sensible.
+
+**Solubilidad del NaCl en agua** (≈ g/100 g de agua):
+
+| 0 °C | 20 °C | 40 °C | 60 °C | 80 °C | 100 °C |
+|---|---|---|---|---|---|
+| 35,7 | **36,0** | 36,6 | 37,3 | 38,4 | 39,8 |
+
+**Gases — ley de Henry:**
+
+$$\boxed{S_{gas} = k_H \cdot P_{gas}}$$
+
+→ La gaseosa conserva el gas **fría y cerrada**. Aplicaciones: síndrome de descompresión en buceo, contaminación térmica de ríos (baja el O₂ disuelto).
+
+### 🔑 MÉTODO — "¿se disuelve todo?"
+
+```
+1. Pasar el SOLVENTE a gramos              (con δ, si viene en mL)
+2. Escalar la solubilidad (regla de 3):    máx = S × (m_solvente / 100)
+3. Comparar con lo que quiero disolver:
+      cantidad ≤ máx  →  se disuelve TODO         → INSATURADA
+      cantidad >  máx →  se disuelven "máx"       → SATURADA + precipitado
+                         precipitado = cantidad − máx    ⚠️ ¡HACER LA RESTA!
+```
+
+**Ejemplo resuelto** — AgNO₃, S = 211,60 g/100 g H₂O a 18 °C, en **300 mL** de agua (δ = 0,99868 g/mL):
+
+| Paso | Cuenta |
+|---|---|
+| 1. Solvente a gramos | 300 × 0,99868 = **299,604 g** |
+| 2. Máximo disuelto | 211,60 × 2,99604 = **633,96 g** |
+| 3a. Con **423,20 g** | 423,20 < 633,96 → **se disuelve todo** (insaturada) |
+| 3b. Con **823,20 g** | 823,20 > 633,96 → se disuelven **633,96 g** y quedan **189,24 g** sin disolver |
+
+**Ejemplo de lectura de curva** — NaNO₃:
+
+| T | S (g/100 g H₂O) | ¿130 g en 100 g de agua? |
+|---|---|---|
+| 20 °C | ≈ 88 | 42 g sin disolver |
+| 30 °C | ≈ 98 | **32 g sin disolver** (saturada) |
+| 60 °C | ≈ 126 | 4 g sin disolver |
+| 80 °C | ≈ 148 | **se disuelve todo** (insaturada) |
+
+📝 **Escalar a otro solvente:** a 60 °C en **278 g** de agua → $X = 126 \times \frac{278}{100} = \mathbf{350{,}3\ g}$
+
+⚠️ **Las curvas están dadas por 100 g de solvente.** Si el enunciado da otra cantidad, **hay que escalar**.
+
+💡 **Bonus — medir concentración por color (Lambert-Beer):** $A = \varepsilon \cdot \ell \cdot c$. Se prepara una **serie de diluciones** patrón, se grafica A vs c (recta) y se interpola la muestra desconocida. Es la **curva de calibración**.
+
+---
+
+## 19. Número de oxidación
 
 > **Representa el nº de electrones que un átomo pone en juego al formar un compuesto.**
 
@@ -1307,7 +1600,7 @@ Asignás los que sabés (reglas 1–5) y **despejás el que falta** con la regla
 
 ---
 
-## 16. Nomenclatura inorgánica
+## 20. Nomenclatura inorgánica
 
 **Tres sistemas** — se usan **Stock** y **Tradicional**. ⚠️ **NO se mezclan** en un mismo nombre.
 
@@ -1386,7 +1679,7 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 
 ---
 
-## 17. Errores típicos
+## 21. Errores típicos
 
 | ❌ Error | ✅ Correcto |
 |---|---|
@@ -1460,10 +1753,32 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 | Decir que el **NH₃ hierve más bajo que el PH₃** porque es más liviano | **NH₃ −33 °C > PH₃ −87,8 °C**: gana la **unión H** |
 | Decir que el **CS₂** es polar (tiene dos S) | **Lineal simétrica** y ΔEN(C–S) = 0 → **no polar** |
 | Justificar solubilidad sólo con "semejante disuelve a semejante" | Hay que decir **qué se rompe** (solvente–solvente) **y qué se gana** (soluto–solvente), con magnitudes |
+| Usar la masa de **solvente** en el % m/m | El denominador es la **SOLUCIÓN**: $m_{sc} = m_{sto} + m_{sv}$ |
+| Usar la masa de **solución** en la **molalidad** | La molalidad es **la única** que va sobre el **SOLVENTE** (en **kg**) |
+| Dejar el volumen en **mL** en la molaridad | La molaridad exige **LITROS** |
+| Sumar volúmenes: $V_{sto} + V_{sv} = V_{sc}$ | **Los volúmenes NO son aditivos**: 1 L H₂O + 1 L EtOH = **1,93 L** |
+| Enrasar el matraz **antes** de disolver el sólido | **Disolver primero**, enrasar al final (los volúmenes no son aditivos) |
+| Tomar "disolver **en** 200 mL de agua" = "**hasta** 200 mL de solución" | Son **distintas**: la segunda fija el volumen **final** de la solución |
+| Interpretar **1:10** como "1 parte + 10 de agua" | **1 volumen llevado a 10 TOTALES** → factor **1/10** |
+| **Sumar** los factores en diluciones seriadas | Se **MULTIPLICAN**: dos 1:10 = **1:100** |
+| Usar **V₀ = solvente agregado** en $C_0V_0 = C_FV_F$ | V₀ es lo **tomado con la pipeta**; el solvente agregado es $V_F - V_0$ |
+| Olvidar el **×100** en el % m/V | Un porcentaje es **adimensional**: si te queda con unidades (g/cm³), falta el ×100 |
+| Confundir **M** (molar) con **m** (molal) | Solución/L vs **solvente/kg**. Además M depende de T y m no |
+| Olvidar los moles del **solvente** en la fracción molar | **1 L de agua = 55,6 mol** — nunca es despreciable |
+| Decir que **concentrada = saturada** | Concentrada es **relativo**; saturada es un **límite físico** (= la solubilidad) |
+| Creer que la solubilidad de **todo** sube con T | Los **GASES BAJAN** siempre (NH₃, HCl, SO₂ son las curvas descendentes) |
+| Contestar "la más sensible a T" mirando la **altura** de la curva | Se mira la **PENDIENTE**: el KI es el más soluble, el **KNO₃** el más sensible |
+| Contestar "no se disuelve todo" y no hacer la resta | Hay que dar **cuánto se disuelve** y **cuánto precipita** |
+| Usar la solubilidad "por 100 g" sin **escalarla** al solvente real | Regla de 3 con la cantidad real de solvente (y pasarlo a **gramos** con δ) |
+| Decir que **agua + hielo** es homogéneo | **1 componente pero 2 FASES** → **heterogéneo** |
+| Decir que la **masa** caracteriza un material | La masa es **extensiva**. Caracterizan las **intensivas** (δ, T_f, concentración) |
+| Contar 20 cubitos como 20 fases | Todo el hielo es **1 fase**: son **2 fases** en total |
+| Aplicar **ppm = mg/L** a una solución concentrada o no acuosa | Sólo vale si el solvente es **agua** y está **MUY diluida** |
+| Decir que el exceso de soluto deja la solución **sobresaturada** | Queda **SATURADA** + precipitado. La sobresaturación se logra **enfriando despacio** |
 
 ---
 
-## 18. Modelos atómicos — línea histórica
+## 22. Modelos atómicos — línea histórica
 
 | Año | Quién | Aporte | Falla |
 |---|---|---|---|
@@ -1520,3 +1835,23 @@ $$\alpha \uparrow \iff n_{e^-} \uparrow \iff M_r \uparrow \;\Longrightarrow\; \t
 $$\mu_{\text{inducido}} = \alpha \cdot E \qquad\qquad \text{(dipolo inducido: proporcional a } \alpha \text{ y al campo)}$$
 
 $$\boxed{\text{Se disuelve} \iff \underbrace{E_{\text{soluto-solvente}}}_{\text{lo que se GANA}} \;\gtrsim\; \underbrace{E_{\text{solvente-solvente}}}_{\text{lo que se ROMPE}}}$$
+
+**Soluciones — concentración**
+
+$$\delta = \frac{m}{V} \qquad n = \frac{m}{Mr} \qquad m_{sto} + m_{sv} = m_{sc} \qquad \boxed{V_{sto} + V_{sv} \neq V_{sc}}$$
+
+$$\%m/m = \frac{m_{sto}}{m_{sc}}100 \qquad \%m/V = \frac{m_{sto}(g)}{V_{sc}(cm^3)}100 \qquad \%V/V = \frac{V_{sto}}{V_{sc}}100$$
+
+$$M = \frac{n_{sto}}{V_{sc}(L)} \qquad m = \frac{n_{sto}}{m_{sv}(kg)} \qquad \chi_{sto} = \frac{n_{sto}}{n_{sto}+n_{sv}} \qquad \chi_{sto} + \chi_{sv} = 1$$
+
+$$ppm = \frac{m_{sto}(mg)}{m_{sc}(mg)}10^6 \qquad ppm \underset{\text{agua, MUY diluida}}{\approx} \frac{m_{sto}(mg)}{L} \qquad 1\ \% = 10^4\ ppm$$
+
+$$m_{sv} = m_{sc} - m_{sto} \qquad m_{sto} = M \cdot V_{sc}(L) \cdot Mr_{sto} \qquad M = \frac{\%m/m \cdot \delta_{sc} \cdot 10}{Mr_{sto}}$$
+
+**Diluciones y solubilidad**
+
+$$\boxed{C_0 V_0 = C_F V_F} \qquad M_2 = M_1 \cdot \frac{1}{n} \ \ (\text{dilución } 1{:}n) \qquad V_{solvente\ agregado} = V_F - V_0$$
+
+$$\text{máx disuelto} = S \cdot \frac{m_{sv}(g)}{100} \qquad \text{precipitado} = \text{cantidad} - \text{máx}$$
+
+$$S_{gas} = k_H \cdot P_{gas} \ \ (\text{Henry}) \qquad A = \varepsilon \cdot \ell \cdot c \ \ (\text{Lambert-Beer})$$
