@@ -7,7 +7,7 @@
 **Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · **Clase 6 (Soluciones: concentración, preparación, diluciones y solubilidad)** · Nomenclatura (nº de oxidación y nombres) · **Solubilidad** · Series 1, 2 y 3 (métodos de cálculo)
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md`
-> **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md`
+> **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md` · `Clase4/Clase4-ClasificacionInteracciones-Profundizacion.md`
 
 ---
 
@@ -923,6 +923,31 @@ Las **polares** son **cinco**: **angular · pirámide trigonal · balancín · f
 ## 12. Interacciones intermoleculares
 
 > 📖 Clase 4 — `Clase4/Clase4-Explicacion-Completa.md`
+> 🔬 **Cómo encajan las 4 familias con las 6 interacciones:** `Clase4/Clase4-ClasificacionInteracciones-Profundizacion.md`
+
+### ⚠️ Son DOS niveles de clasificación (no dos listas)
+
+| Nivel | Qué es | Cuántos |
+|---|---|---|
+| **FAMILIAS** | Categorías, según **quién trajo la carga puesta** | **4** |
+| **INTERACCIONES** | Las que existen (= la matriz de acá abajo) | **6** |
+
+**El criterio único de las familias:**
+
+| Familia | Participante 1 | Participante 2 | Interacciones que contiene | kJ/mol |
+|---|---|---|---|---|
+| **Electrostáticas** | ya tiene | **también** | ion–ion · ion–dipolo · dipolo–dipolo | 250 · 15 · 0,6 |
+| **Inductivas** | ya tiene | **se lo INDUCEN** | ion–dip. inducido · dipolo–dip. inducido | 10 · < 1 |
+| **Dispersivas** | no tiene | no tiene (**INSTANTÁNEOS**) | **London** | 5 |
+| **Unión H** | *subcaso de dipolo–dipolo, 33× más fuerte y **direccional*** | | *(la casilla dip–dip desdoblada)* | **20** |
+
+$$\boxed{3 + 2 + 1 = 6 \text{ interacciones}}$$
+
+💡 **El nombre te da la familia, no hay que memorizar el reparto:** ¿dice "**inducido**"? → inductiva · ¿dice "**London**"? → dispersiva · ¿no dice ninguna? → **electrostática**.
+
+⚠️ **Familia ≠ magnitud.** "Electrostáticas" contiene la **más fuerte** (ion–ion, 250) **y la más débil** (dipolo–dipolo, 0,6). No se deduce la fuerza de la familia.
+⚠️ **La tabla de magnitudes tiene 7 filas y la matriz 6 casillas:** la fila extra es la **unión H**, que es la casilla dipolo–dipolo desdoblada — **no** una 7ª interacción.
+⚠️ **El ion–ion en un cristal ES el enlace iónico** (250 kJ/mol ya pisa el rango de los enlaces). Vive en la frontera INTER/INTRA.
 
 ### ⚠️ Primero: INTRA ≠ INTER (no confundir nunca)
 
@@ -1736,6 +1761,11 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 | Decir que al hervir agua se rompen los enlaces O—H | Se rompen las **uniones H INTERmoleculares**; la molécula queda entera |
 | "Más polar ⇒ hierve más alto", a secas | Sólo **a masa molar comparable**. **HCl (−85°) < HI (−35°)** lo rompe |
 | Creer que dipolo–dipolo > London | **London (5) > dipolo–dipolo (0,6) kJ/mol** |
+| Decir que hay "**4 interacciones**" intermoleculares | Hay **4 FAMILIAS** con **6 interacciones** adentro (3 + 2 + 1) |
+| Poner ion–dipolo o dipolo–dipolo **aparte** de las electrostáticas | Están **ADENTRO** de electrostáticas, junto con ion–ion |
+| Creer que "electrostáticas = las fuertes" | Contiene la **más fuerte** (ion–ion 250) **y la más débil** (dip–dip 0,6) |
+| Contar la **unión H** como una 7ª casilla de la matriz | Es la casilla **dipolo–dipolo desdoblada** (33× más fuerte y **direccional**) |
+| Creer que un ion tiene que ser un **átomo** | También poliatómicos: **SO₄²⁻, NO₃⁻, NH₄⁺** hacen ion–ion e ion–dipolo |
 | Decir que el CH₄ hace uniones H (¡tiene 4 H!) | El H tiene que estar unido a **F, O o N**. El C no alcanza |
 | Decir que el HCl hace uniones H (Cl tiene EN 3,0) | El Cl es **muy grande**: la carga queda dispersa |
 | Decir que el éter CH₃OCH₃ hace unión H consigo mismo | Tiene **aceptor** pero **NO dador** (ningún H sobre el O). Con agua **sí** |
