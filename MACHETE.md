@@ -4,9 +4,9 @@
 > Para la explicación desarrollada diapositiva por diapositiva:
 > `Clase1/Clase1-Explicacion-Completa.md` · `Clase2/Clase2-Explicacion-Completa.md` · `Clase3/Clase3-Explicacion-Completa.md` · `Clase4/Clase4-Explicacion-Completa.md` · `Clase6(5nohay)/Clase6-Explicacion-Completa.md` · `Extra/Nomenclatura-Explicacion-Completa.md`
 
-**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · **Clase 6 (Soluciones: concentración, preparación, diluciones y solubilidad)** · Nomenclatura (nº de oxidación y nombres) · **Solubilidad** · Series 1, 2 y 3 (métodos de cálculo)
+**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · **Clase 6 (Soluciones: concentración, preparación, diluciones y solubilidad)** · Nomenclatura (nº de oxidación y nombres) · **Solubilidad** · Series 1, 2, 3 y **4** (métodos de cálculo)
 
-> **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md`
+> **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md` · `Practica/Serie4-Resuelta.md`
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md` · `Clase4/Clase4-ClasificacionInteracciones-Profundizacion.md`
 
 ---
@@ -32,10 +32,11 @@
 - [16. Soluciones — unidades de concentración](#16-soluciones--unidades-de-concentración)
 - [17. Preparación de soluciones y diluciones](#17-preparación-de-soluciones-y-diluciones)
 - [18. Solubilidad cuantitativa — curvas y saturación](#18-solubilidad-cuantitativa--curvas-y-saturación)
-- [19. Número de oxidación](#19-número-de-oxidación)
-- [20. Nomenclatura inorgánica](#20-nomenclatura-inorgánica)
-- [21. Errores típicos](#21-errores-típicos)
-- [22. Modelos atómicos — línea histórica](#22-modelos-atómicos--línea-histórica)
+- [19. Mezclas de soluciones e iones en solución](#19-mezclas-de-soluciones-e-iones-en-solución)
+- [20. Número de oxidación](#20-número-de-oxidación)
+- [21. Nomenclatura inorgánica](#21-nomenclatura-inorgánica)
+- [22. Errores típicos](#22-errores-típicos)
+- [23. Modelos atómicos — línea histórica](#23-modelos-atómicos--línea-histórica)
 
 ---
 
@@ -55,6 +56,7 @@ $$\text{Átomos} \Rightarrow \text{Molécula} \Rightarrow \text{Lewis} \Rightarr
 | 8. ¿Se disuelve? | Balance romper vs formar | **14** |
 | 9. ¿CUÁNTO hay disuelto? | Unidades de concentración | **16** |
 | 10. ¿CUÁNTO como máximo? | Solubilidad y curvas | **18** |
+| 11. ¿Y si mezclo, diluyo o pido los iones? | Mezclas, disociación, molalidad | **19** |
 
 ⚠️ **Cada eslabón necesita el anterior. Éste es el formato del ejercicio integrador del parcial.**
 
@@ -1405,6 +1407,34 @@ $$\boxed{M = \frac{\%m/m \cdot \delta_{sc}\left(\tfrac{g}{mL}\right) \cdot 10}{M
 
 📝 HCl 37 % m/m, δ = 1,19 g/mL, Mr = 36,5 → M = (37 × 1,19 × 10)/36,5 ≈ **12,1 M** ✓
 
+### ⭐ TABLA DE CONVERSIÓN entre unidades (ahorra medio ejercicio)
+
+$$\boxed{\%\tfrac{m}{V} = \%\tfrac{m}{m}\cdot\delta_{sc}\left(\tfrac{g}{mL}\right)} \qquad \boxed{\%\tfrac{m}{V} = \frac{M\cdot Mr}{10}} \qquad \boxed{\delta_{sc} = \frac{\%m/V}{\%m/m}}$$
+
+$$\boxed{\tfrac{g_{sto}}{L_{sc}} = M\cdot Mr = 10\cdot\%\tfrac{m}{V}} \qquad\qquad \boxed{\%\tfrac{m}{m} = \%\tfrac{V}{V}\cdot\frac{\delta_{sto}}{\delta_{sc}}}$$
+
+| Si δ_sc … | Entonces |
+|---|---|
+| **> 1** (sales) | **% m/V > % m/m** |
+| **= 1** (acuosa diluida) | **% m/V = % m/m** ⚠️ *(por eso en soluciones diluidas casi coinciden)* |
+| **< 1** (alcoholes) | **% m/V < % m/m** |
+
+**Solución ↔ solvente** (la otra pareja que se confunde):
+
+$$\boxed{\%\tfrac{m}{m} = \frac{g\,sto/100\,g\,sv}{100 + g\,sto/100\,g\,sv}\cdot 100} \qquad\Rightarrow\qquad \boxed{\%\tfrac{m}{m} \;<\; \tfrac{g\,sto}{100\,g\,sv}\ \textbf{SIEMPRE}}$$
+
+📝 6,25 g/100 g de agua → $\frac{6{,}25}{106{,}25}\cdot 100 = \mathbf{5{,}88\ \%\ m/m}$ · *(la misma solución, dos números distintos: cambia el denominador)*
+
+### ⚠️ Chequeos de razonabilidad (hacelos SIEMPRE antes de entregar)
+
+| Magnitud | Rango esperable | Si te da otra cosa… |
+|---|---|---|
+| **δ** de una solución acuosa **diluida** | **0,99 – 1,05 g/mL** | Hay un error de datos o de cuenta |
+| **x_soluto** en solución acuosa diluida | **10⁻² a 10⁻⁴** | Si da 0,3–0,5, pusiste **masas** en vez de moles |
+| **M** al mezclar (mismo soluto) | **entre** las dos de partida | Promediaste o sumaste concentraciones |
+| **% m/m** al mezclar solutos distintos | **menor** que en la solución de origen | Usaste la masa de la solución original, no la de la mezcla |
+| Escalar la solubilidad a **menos** solvente | resultado **menor** que S | Invertiste la fracción |
+
 ### Valores de referencia
 
 | Dato | Valor |
@@ -1474,6 +1504,28 @@ $$\boxed{M_2 = M_1 \cdot \frac{1}{n}}$$
 
 ⚠️ **1:10 NO es "1 parte + 10 de agua"** (eso sería 1:11).
 ⚠️ En **serie**, los factores se **MULTIPLICAN**: dos diluciones 1:10 = **1:100**, no 1:20.
+
+$$\boxed{1{:}n \;\Rightarrow\; C_F = \frac{C_0}{n},\quad V_F = n\cdot V_0,\quad \text{1 de solución} + (n-1)\ \text{de agua}}$$
+
+| Concepto | Fórmula | 1,20 M → 0,40 M, con V₀ = 400 mL |
+|---|---|---|
+| **Factor** | $n = C_0/C_F$ | **3** → dilución **1:3** |
+| **V final** | $V_F = n\cdot V_0$ | **1200 mL** |
+| **Agua a agregar** | $V_F - V_0$ | **800 mL** ⚠️ *(no 1200)* |
+
+### ⚠️ Preparación con material limitado (pregunta de laboratorio)
+
+Si **no existe el matraz del volumen pedido**, se prepara **en varios matraces** y se suman:
+📝 1,5 L de H₂SO₄ 0,05 M desde 12,5 M → 6,0 mL en total: **4,0 mL** al matraz de **1 L** + **2,0 mL** al de **0,5 L**.
+⚠️ Volúmenes chicos de solución concentrada → **PIPETA**, no probeta (el error relativo de la probeta se propaga a toda la solución).
+
+### ⚠️ Solutos con maña (se preguntan)
+
+| Soluto | Cuidado |
+|---|---|
+| **NaOH** | **Higroscópico** (pesar rápido) y disolución muy **EXOTÉRMICA** → disolver en vaso y **esperar a que enfríe** antes de enrasar. Si enrasás en caliente, al enfriar el volumen se contrae y **la concentración queda alta** |
+| **H₂SO₄ / HCl concentrados** | **ÁCIDO SOBRE AGUA**: poner primero agua en el matraz y después la alícuota |
+| Sales muy solubles | Disolver **siempre** antes de enrasar (los volúmenes no son aditivos) |
 
 ### Vocabulario de laboratorio (se pregunta)
 
@@ -1577,11 +1629,143 @@ $$\boxed{S_{gas} = k_H \cdot P_{gas}}$$
 
 ⚠️ **Las curvas están dadas por 100 g de solvente.** Si el enunciado da otra cantidad, **hay que escalar**.
 
+### ⚠️ LEER LA UNIDAD de la tabla antes de escalar
+
+| Unidad de S | Fórmula del máximo | Ejemplo |
+|---|---|---|
+| **g / 100 g de solvente** *(lo habitual)* | $m_{max} = S\cdot\dfrac{m_{sv}}{100}$ | S = 40, en 278 g → **111,2 g** |
+| **g / L de solvente** | $m_{max} = S\cdot V_{sv}$ | S = 290 g/L, en 5 L → **1450 g** |
+
+### 🔑 Las CUATRO preguntas posibles (misma ecuación, distinto despeje)
+
+$$\boxed{m_{sto} = S\cdot V_{sv}\ \ \text{(o } S\cdot m_{sv}/100)}$$
+
+| Incógnita | Despeje |
+|---|---|
+| Cuánto **soluto** entra | $m = S\cdot V$ |
+| Cuánto **solvente** necesito | $V = m/S$ · 📝 1 kg a S = 290 g/L → **3,45 L de agua** |
+| A qué **temperatura** | $S = m/V$ → buscar/**interpolar** en la tabla |
+| ¿Se disuelve **todo**? | comparar y **RESTAR** el sobrante |
+
+**Interpolación lineal** (cuando el valor cae entre dos filas):
+
+$$\boxed{T = T_1 + (T_2-T_1)\cdot\frac{S-S_1}{S_2-S_1}}$$
+
+📝 Necesito S = 500 g/L; la tabla da 470 a 70 °C y 550 a 80 °C → $T = 70 + 10\cdot\frac{30}{80} = \mathbf{\approx 74\ °C}$
+
+### La excepción de las curvas: solubilidad que BAJA con T
+
+⚠️ En los gráficos típicos la única sustancia con pendiente **negativa** es el **Ce₂(SO₄)₃** (de ~20 a ~2 g/100 g): su disolución es **exotérmica**, así que se comporta como un **gas**. Es la pregunta trampa del gráfico.
+
+💡 **Enfriar una solución saturada = RECRISTALIZACIÓN**, la técnica de purificación estándar: disolver en caliente hasta saturar, enfriar **despacio**, y lo que cristaliza es el compuesto **puro** (las impurezas, mucho más diluidas, no llegan a saturar y se quedan en solución).
+📝 CuSO₄: 40 g en 100 g de agua a 70 °C (S ≈ 47) → **insaturada**. Enfriando a 20 °C (S = 20) → **precipitan 20 g** y arriba queda **saturada**.
+
 💡 **Bonus — medir concentración por color (Lambert-Beer):** $A = \varepsilon \cdot \ell \cdot c$. Se prepara una **serie de diluciones** patrón, se grafica A vs c (recta) y se interpola la muestra desconocida. Es la **curva de calibración**.
 
 ---
 
-## 19. Número de oxidación
+## 19. Mezclas de soluciones e iones en solución
+
+> 📖 Métodos salidos de la **Serie 4** — `Practica/Serie4-Resuelta.md`
+
+### ⭐ MEZCLAR dos soluciones — todo depende de si el soluto es el MISMO
+
+| Caso | Qué pasa | Cómo se calcula |
+|---|---|---|
+| **MISMO soluto** | Las dos aportan al mismo pozo: una **concentra** a la otra | **Una sola** concentración final |
+| **Solutos DISTINTOS** | Cada solución hace de **solvente** de la otra: ambas se **DILUYEN** | **Una concentración por cada soluto** |
+
+$$\boxed{M_F = \frac{M_1V_1 + M_2V_2}{V_1+V_2}}\quad\text{(mismo soluto)} \qquad\qquad \boxed{M_i = \frac{n_i}{V_{total}}}\quad\text{(cada soluto, si son distintos)}$$
+
+⚠️ **Las concentraciones NUNCA se suman ni se promedian** (son intensivas). Se suman los **MOLES**.
+⚠️ **Chequeo obligatorio (mismo soluto):** el resultado **tiene que quedar ENTRE** las dos concentraciones de partida. Si te da afuera, está mal.
+⚠️ **Chequeo obligatorio (solutos distintos):** **todas** las concentraciones tienen que **BAJAR** respecto de sus soluciones de origen.
+⚠️ Los volúmenes se suman **sólo si el enunciado dice "volúmenes aditivos"**. Si te dan la **δ de la mezcla**, el volumen sale de $V = m_{sc}/\delta$ (las masas **sí** son aditivas siempre).
+
+📝 100 mL 0,25 M + 500 mL 1,25 M del mismo soluto → $\frac{0{,}025+0{,}625}{0{,}600} = \mathbf{1{,}08\ M}$ ✓ (queda entre 0,25 y 1,25)
+
+### ⭐ IONES en solución — el subíndice MULTIPLICA
+
+Una sal iónica soluble se **disocia por completo**. La estequiometría de la fórmula fija la concentración de cada ion:
+
+$$\text{Fe(NO}_3)_3 \longrightarrow \text{Fe}^{3+} + \mathbf{3}\,\text{NO}_3^- \qquad\qquad \boxed{[\text{ion}] = \nu\cdot[\text{sal}]}$$
+
+| Sal 0,1 M | Catión | Anión | Total de iones |
+|---|---|---|---|
+| NaCl | Na⁺ 0,1 M | Cl⁻ 0,1 M | 0,2 M |
+| CaCl₂ | Ca²⁺ 0,1 M | Cl⁻ **0,2 M** | 0,3 M |
+| **Fe(NO₃)₃** | Fe³⁺ 0,1 M | NO₃⁻ **0,3 M** | 0,4 M |
+| Al₂(SO₄)₃ | Al³⁺ **0,2 M** | SO₄²⁻ **0,3 M** | 0,5 M |
+
+**Verificación por electroneutralidad** (siempre da cero):
+$$\sum(\text{carga}\times\text{conc.}) = 0 \qquad\text{ej.: } (+3)(0{,}174) + (-1)(0{,}522) = 0\ ✓$$
+
+### ⭐ De una SAL a la masa de UN ion (etiquetas, ppm de un elemento)
+
+$$\boxed{m_{ion} = m_{sal}\cdot\frac{n_{iones}\cdot Ar_{ion}}{Mr_{sal}}}$$
+
+| Sal → ion | Fracción de masa |
+|---|---|
+| NaCl → Na | $22{,}99/58{,}44 = $ **0,3934** |
+| Na₂SO₄ → Na | $2(22{,}99)/142{,}04 = $ **0,3237** |
+| NaF → F | $19{,}00/41{,}99 = $ **0,4525** |
+| Na₂PO₃F → F | $19{,}00/143{,}95 = $ **0,1320** |
+
+⚠️ **Si hay varias sales que aportan el mismo elemento, los aportes se SUMAN.**
+📝 20 ppm NaCl + 70 ppm Na₂SO₄ → $20(0{,}3934) + 70(0{,}3237) = 7{,}87 + 22{,}66 = \mathbf{30{,}5\ mg\ Na/L}$
+❌ **Nunca** tomar "210 mg de NaCl" como 210 mg de Na: son **82,6 mg de Na**.
+
+### ⭐ DILUIR una solución MOLAL (no vale C₀V₀ = C_F V_F)
+
+La molalidad va sobre la **masa de solvente**, no sobre un volumen. Lo que se conserva son los **moles**:
+
+$$\boxed{m_{sv}^{final} = m_{sv}^{inicial}\cdot\frac{m_{molal}^{inicial}}{m_{molal}^{final}}} \qquad\qquad \boxed{m_{H_2O\ agregada} = m_{sv}^{final} - m_{sv}^{inicial}}$$
+
+**Método (3 pasos):**
+```
+1. Descomponer la solución en soluto + solvente.
+   Porción unidad de una solución "b molal":  b·Mr  g de sto  +  1000 g de sv
+   Escalar por regla de tres a la masa de solución que tengo.
+2. m_sv final = m_sv inicial × (molalidad inicial / molalidad final)
+3. ⚠️ RESTAR: agua a agregar = m_sv final − m_sv inicial
+```
+
+📝 600 g de K₂SO₄ 2,50 m → 1,50 m: $m_{sv}^0 = 600\cdot\frac{1000}{1435{,}65} = 417{,}9$ g; $m_{sv}^F = 417{,}9\times\frac{2{,}5}{1{,}5} = 696{,}5$ g → **agregar 278,6 g de H₂O**
+
+⚠️ El error: contestar **696,5 g** (ésa es el agua **total**). Piden la que hay que **AGREGAR**.
+
+### ⭐ % V/V y la contracción de volumen
+
+$$\boxed{\%\tfrac{V}{V} = \frac{V_{sto}}{V_{sc}}\cdot 100} \qquad\qquad \boxed{\%\tfrac{m}{m} = \%\tfrac{V}{V}\cdot\frac{\delta_{sto}}{\delta_{sc}}}$$
+
+⚠️ **% v/v ≠ % m/m** salvo que $\delta_{sto} = \delta_{sc}$. Etanol 10 % v/v = **8,06 % m/m** (el etanol es menos denso).
+⚠️ Si el enunciado da $V_{sv}$ y pide $V_{sto}$ con aditividad: $\frac{V_{sto}}{V_{sto}+V_{sv}} = \%$ → **ecuación**, no $V_{sv}\times\%$.
+
+**Contracción:** $V_{sc}^{real} = m_{sc}/\delta_{sc}$ siempre es **menor** que $V_{sto}+V_{sv}$.
+📝 77,8 cm³ EtOH + 700 cm³ H₂O → aditivo 777,8 cm³, **real 773,2 cm³** (contracción 0,6 %). Caso extremo: **1 L + 1 L = 1,93 L** (3,5 %).
+
+### 🔑 Plantear una ecuación cuando la incógnita está en los dos lados
+
+Cuando piden **"cuánto soluto agregar a X g de solvente"** para una **molaridad** dada, el volumen de solución **depende de la incógnita**. Hay que plantear:
+
+$$M = \frac{x/Mr}{(x + m_{sv})/(1000\,\delta)} \qquad\Rightarrow\qquad \text{despejar } x$$
+
+📝 KCl en 100 mL de agua, 0,34 M, δ = 1,014: $\frac{1014x}{74{,}55(x+100)} = 0{,}34 \Rightarrow 13{,}262x = 34 \Rightarrow x = \mathbf{2{,}56\ g}$
+
+💡 **Sólo la MOLARIDAD necesita la densidad.** Sobre los mismos 100 g de agua:
+
+| Consigna | Masa de KCl | ¿Usa δ? |
+|---|---|---|
+| 0,34 **M** | 2,56 g | ✓ **sí** |
+| 0,48 **m** | 3,58 g | ❌ |
+| 10 % m/m | 11,1 g | ❌ |
+| x = 0,050 | 21,8 g | ❌ |
+
+⚠️ **Los cuatro números son distintos y ninguno está mal:** son **cuatro soluciones diferentes**.
+
+---
+
+## 20. Número de oxidación
 
 > **Representa el nº de electrones que un átomo pone en juego al formar un compuesto.**
 
@@ -1625,7 +1809,7 @@ Asignás los que sabés (reglas 1–5) y **despejás el que falta** con la regla
 
 ---
 
-## 20. Nomenclatura inorgánica
+## 21. Nomenclatura inorgánica
 
 **Tres sistemas** — se usan **Stock** y **Tradicional**. ⚠️ **NO se mezclan** en un mismo nombre.
 
@@ -1704,7 +1888,7 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 
 ---
 
-## 21. Errores típicos
+## 22. Errores típicos
 
 | ❌ Error | ✅ Correcto |
 |---|---|
@@ -1805,10 +1989,25 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 | Contar 20 cubitos como 20 fases | Todo el hielo es **1 fase**: son **2 fases** en total |
 | Aplicar **ppm = mg/L** a una solución concentrada o no acuosa | Sólo vale si el solvente es **agua** y está **MUY diluida** |
 | Decir que el exceso de soluto deja la solución **sobresaturada** | Queda **SATURADA** + precipitado. La sobresaturación se logra **enfriando despacio** |
+| **Sumar o promediar molaridades** al mezclar | Sumar **MOLES** y dividir por el **volumen total**. Las concentraciones son **intensivas** |
+| Al mezclar solutos **distintos**, dar el % de cada uno en **su** solución de origen | Va sobre la **masa TOTAL de la mezcla**: al mezclar, **todas** las concentraciones **BAJAN** |
+| $[\text{NO}_3^-] = [\text{Fe(NO}_3)_3]$ | **× 3.** El **subíndice** del ion en la fórmula **MULTIPLICA** su concentración |
+| Tomar "210 mg de **NaCl**/L" como 210 mg de Na | $\times\,22{,}99/58{,}44 = $ **82,6 mg de Na**. La etiqueta puede informar la **sal**, no el ion |
+| Confundir **ppb** con **ppm** | **700 ppb = 0,7 ppm.** Factor **1000** |
+| Usar $C_0V_0 = C_FV_F$ para diluir una solución **MOLAL** | No vale (no hay volumen de solución). Conservar **moles**: $m_{sv}^F = m_{sv}^0\cdot\frac{m^0}{m^F}$ |
+| Contestar el agua **total** cuando piden la que hay que **AGREGAR** | **Restar** la que ya había: $m_{sv}^F - m_{sv}^0$ |
+| Decir que **10 % v/v = 10 % m/m** | Sólo si $\delta_{sto}=\delta_{sc}$. Etanol 10 % v/v = **8,06 % m/m** |
+| Calcular $V_{sto} = V_{sv}\times\%$ en un % v/v | El % va sobre la **SOLUCIÓN**: plantear $\frac{V_{sto}}{V_{sto}+V_{sv}} = \%$ |
+| "Si molés el sólido, se disuelve **más**" | Se disuelve **más RÁPIDO** (cinética). El máximo lo fija la **solubilidad** (termodinámica) |
+| Decir que la red se rompe por fuerzas **repulsivas** | Es al revés: la disgregación la produce la **atracción soluto–solvente** (ion–dipolo) |
+| Hablar de "moléculas de NaCl" en solución | Se **disocia**: sólo hay **Na⁺(ac)** y **Cl⁻(ac)** hidratados |
+| Enrasar el **NaOH** en caliente | Es **exotérmico**: al enfriar el volumen se contrae y la concentración queda **alta** |
+| Agregar **agua sobre el ácido** concentrado | **ÁCIDO SOBRE AGUA.** Siempre |
+| Aceptar una δ de **0,94** o **1,40 g/mL** para una solución acuosa diluida | Tiene que estar entre **0,99 y 1,05**. Si no, hay error de datos o de cuenta |
 
 ---
 
-## 22. Modelos atómicos — línea histórica
+## 23. Modelos atómicos — línea histórica
 
 | Año | Quién | Aporte | Falla |
 |---|---|---|---|
@@ -1881,6 +2080,22 @@ $$m_{sv} = m_{sc} - m_{sto} \qquad m_{sto} = M \cdot V_{sc}(L) \cdot Mr_{sto} \q
 **Diluciones y solubilidad**
 
 $$\boxed{C_0 V_0 = C_F V_F} \qquad M_2 = M_1 \cdot \frac{1}{n} \ \ (\text{dilución } 1{:}n) \qquad V_{solvente\ agregado} = V_F - V_0$$
+
+$$ppb = \frac{m_{sto}}{m_{sc}}10^9 \qquad 1\ ppm = 10^3\ ppb \qquad 1\ \% = 10^4\ ppm = 10^7\ ppb$$
+
+$$\boxed{\%\tfrac{m}{V} = \%\tfrac{m}{m}\cdot\delta_{sc}} \qquad \boxed{\%\tfrac{m}{V} = \frac{M\cdot Mr}{10}} \qquad \boxed{\delta_{sc} = \frac{\%m/V}{\%m/m}} \qquad \boxed{\%\tfrac{m}{m} = \%\tfrac{V}{V}\cdot\frac{\delta_{sto}}{\delta_{sc}}}$$
+
+$$\boxed{\%\tfrac{m}{m} = \frac{g\,sto/100\,g\,sv}{100 + g\,sto/100\,g\,sv}\cdot 100} \;\Rightarrow\; \%\tfrac{m}{m} < \tfrac{g\,sto}{100\,g\,sv}\ \text{siempre}$$
+
+$$\boxed{M_F = \frac{M_1V_1+M_2V_2}{V_1+V_2}}\ \text{(mismo soluto)} \qquad \boxed{M_i = \frac{n_i}{V_{total}}}\ \text{(solutos distintos)} \qquad \boxed{[\text{ion}] = \nu\cdot[\text{sal}]}$$
+
+$$\boxed{m_{ion} = m_{sal}\cdot\frac{n_{iones}\cdot Ar_{ion}}{Mr_{sal}}} \qquad\qquad \boxed{1{:}n \Rightarrow V_F = n V_0,\ \ \text{1 de sc} + (n-1)\ \text{de agua}} \qquad f_{total} = n_1 n_2\cdots$$
+
+$$\boxed{m_{sv}^{F} = m_{sv}^{0}\cdot\frac{m_{molal}^{0}}{m_{molal}^{F}}} \qquad \boxed{m_{H_2O\ agregada} = m_{sv}^{F} - m_{sv}^{0}} \qquad \text{(diluir en MOLALIDAD)}$$
+
+$$\boxed{m_{max} = S\cdot\tfrac{m_{sv}}{100}}\ [\text{g/100 g}] \quad \boxed{m_{max} = S\cdot V_{sv}}\ [\text{g/L}] \quad \boxed{m_{precip} = m_{agregada} - m_{max}}$$
+
+$$\boxed{T = T_1 + (T_2-T_1)\cdot\frac{S-S_1}{S_2-S_1}}\ \text{(interpolación en tabla de solubilidad)} \qquad \boxed{S_{gas} = k_H\cdot P_{gas}}$$
 
 $$\text{máx disuelto} = S \cdot \frac{m_{sv}(g)}{100} \qquad \text{precipitado} = \text{cantidad} - \text{máx}$$
 
