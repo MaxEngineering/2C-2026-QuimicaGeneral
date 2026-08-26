@@ -7,7 +7,7 @@
 **Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · **Clase 6 (Soluciones: concentración, preparación, diluciones y solubilidad)** · Nomenclatura (nº de oxidación y nombres) · **Solubilidad** · Series 1, 2, 3 y **4** (métodos de cálculo)
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md` · `Practica/Serie4-Resuelta.md`
-> **Nomenclatura — lista de memoria:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
+> **Nomenclatura — la lista corta:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md` · `Clase4/Clase4-ClasificacionInteracciones-Profundizacion.md`
 
 ---
@@ -1814,6 +1814,8 @@ Asignás los que sabés (reglas 1–5) y **despejás el que falta** con la regla
 
 **Tres sistemas** — se usan **Stock** y **Tradicional**. ⚠️ **NO se mezclan** en un mismo nombre.
 
+> ⭐ **En los ejercicios de la clase (diapos 16, 23 y 24) el docente DA los números de oxidación como "Datos".** No hay que memorizarlos: lo que se evalúa es el **método** (clasificar → ubicar el sufijo → plantear Σ = 0). Y él mismo aclara que **nombre → fórmula** es "el ejercicio más difícil y el que más se toma".
+
 ### Clasificación (primer paso siempre)
 
 | Tipo | Composición | Iónico/Molecular |
@@ -1919,7 +1921,7 @@ $$\boxed{\text{carga del ion} = -(\text{n}^\circ\ \text{de H que tenía el ácid
 ⚠️ **NH₃ = amoníaco** (molécula) ≠ **NH₄⁺ = amonio** (catión +1).
 
 > Desarrollo completo en `Extra/Nomenclatura-Explicacion-Completa.md`
-> **Lista de compuestos para memorizar + autotest + webs para practicar:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
+> **Lista corta (16 de las Series + 13 de los ejercicios del docente), autotest y webs:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
 
 ---
 
