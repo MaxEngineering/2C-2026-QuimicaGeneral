@@ -7,6 +7,7 @@
 **Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · **Clase 6 (Soluciones: concentración, preparación, diluciones y solubilidad)** · Nomenclatura (nº de oxidación y nombres) · **Solubilidad** · Series 1, 2, 3 y **4** (métodos de cálculo)
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md` · `Practica/Serie4-Resuelta.md`
+> **Nomenclatura — lista de memoria:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md` · `Clase4/Clase4-ClasificacionInteracciones-Profundizacion.md`
 
 ---
@@ -1880,11 +1881,45 @@ $$\text{ácido -OSO} \to \text{sal -ITO} \qquad \text{ácido -ICO} \to \text{sal
 
 **Ejemplos:** sulfito de magnesio → **MgSO₃** · ácido perclórico → **HClO₄** · óxido de mercurio(I) → **Hg₂O** · hidruro de potasio → **KH** · cloruro ferroso → **FeCl₂**
 
+### ⭐ LOS 14 IONES POLIATÓMICOS (de memoria — con esto armás cualquier sal)
+
+| Ion | Carga | Nombre | | Ion | Carga | Nombre |
+|---|---|---|---|---|---|---|
+| **OH⁻** | −1 | hidróxido | | **ClO⁻** | −1 | hipoclorito |
+| **NO₃⁻** | −1 | **nitrato** | | **ClO₃⁻** | −1 | clorato |
+| **NO₂⁻** | −1 | nitrito | | **ClO₄⁻** | −1 | perclorato |
+| **SO₄²⁻** | **−2** | **sulfato** | | **NH₄⁺** | **+1** ⚠️ | **amonio** *(único catión)* |
+| **SO₃²⁻** | −2 | sulfito | | **MnO₄⁻** | −1 | permanganato |
+| **CO₃²⁻** | −2 | carbonato | | **Cr₂O₇²⁻** | −2 | dicromato |
+| **HCO₃⁻** | −1 | bicarbonato | | **PO₄³⁻** | **−3** | **fosfato** |
+
+$$\boxed{\text{carga del ion} = -(\text{n}^\circ\ \text{de H que tenía el ácido})}$$
+
+📝 HNO₃ (1 H) → NO₃⁻ · H₂SO₄ (2 H) → SO₄²⁻ · H₃PO₄ (3 H) → PO₄³⁻
+
+### ⭐ INTERCAMBIO CRUZADO (nombre → fórmula, en 3 segundos)
+
+> **La carga de uno baja como subíndice del otro. Cruzado y sin signo.** Después **simplificar**.
+
+| Catión | Anión | Fórmula | ⚠️ |
+|---|---|---|---|
+| K⁺ | SO₄²⁻ | **K₂SO₄** | *no* "KSO₄" |
+| Fe³⁺ | NO₃⁻ | **Fe(NO₃)₃** | **paréntesis** obligatorio |
+| Ca²⁺ | OH⁻ | **Ca(OH)₂** | *no* "CaOH₂" |
+| Al³⁺ | SO₄²⁻ | **Al₂(SO₄)₃** | los dos subíndices |
+| Ca²⁺ | PO₄³⁻ | **Ca₃(PO₄)₂** | |
+| Ca²⁺ | O²⁻ | **CaO** | Ca₂O₂ → **simplificar** |
+
+⚠️ **Paréntesis SIEMPRE que el grupo poliatómico lleve subíndice > 1.**
+
 ### Nombres propios (memoria)
 
-**H₂O** agua · **NH₃** amoníaco · **PH₃** fosfina · **AsH₃** arsina · **SiH₄** silano
+**H₂O** agua · **NH₃** amoníaco · **PH₃** fosfina · **AsH₃** arsina · **SiH₄** silano · **CH₄** metano
+
+⚠️ **NH₃ = amoníaco** (molécula) ≠ **NH₄⁺ = amonio** (catión +1).
 
 > Desarrollo completo en `Extra/Nomenclatura-Explicacion-Completa.md`
+> **Lista de compuestos para memorizar + autotest + webs para practicar:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
 
 ---
 
