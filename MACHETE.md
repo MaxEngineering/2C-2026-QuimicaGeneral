@@ -8,6 +8,7 @@
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md` · `Practica/Serie4-Resuelta.md`
 > **Nomenclatura — la lista corta:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
+> **⭐ Parcial resuelto:** `Parciales/1parcial/EjTipoParcial-Resuelto.md` (ejercicio tipo: los 4 problemas, trampas y estrategia)
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md` · `Clase4/Clase4-ClasificacionInteracciones-Profundizacion.md`
 
 ---
@@ -1636,6 +1637,31 @@ $$\boxed{S_{gas} = k_H \cdot P_{gas}}$$
 |---|---|---|
 | **g / 100 g de solvente** *(lo habitual)* | $m_{max} = S\cdot\dfrac{m_{sv}}{100}$ | S = 40, en 278 g → **111,2 g** |
 | **g / L de solvente** | $m_{max} = S\cdot V_{sv}$ | S = 290 g/L, en 5 L → **1450 g** |
+| **% m/m_sv** ⚠️ | igual que la 1ª: es **g/100 g de SOLVENTE** | S = 12 % m/m_sv → 12 g cada 100 g de agua |
+
+### ⚠️ Solubilidad dada como "% m/m_sv" — la trampa del subíndice
+
+$$\boxed{\%\ m/m_{\mathbf{sv}} \;=\; \tfrac{g\ sto}{100\ g\ \textbf{SOLVENTE}} \qquad\neq\qquad \%\ m/m_{\mathbf{sn}} = \tfrac{m_{sto}}{m_{sc}}\cdot 100}$$
+
+**Si te dan MASA DE SOLUCIÓN y la S en % m/m_sv, hay que descomponerla:** la "porción unidad" es **S g de soluto + 100 g de solvente = (100 + S) g de solución**.
+
+$$\boxed{m_{sto} = m_{sc}\cdot\frac{S}{100+S} \qquad\qquad m_{sv} = m_{sc}\cdot\frac{100}{100+S}}$$
+
+📝 520 g de sc saturada, S = 12 % m/m_sv → $m_{sto} = 520\cdot\frac{12}{112} = 55{,}7$ g · $m_{sv} = 520\cdot\frac{100}{112} = 464{,}3$ g ✓
+⚠️ El denominador es **112**, no 100 ni 12. Verificá siempre: $55{,}7/464{,}3\times 100 = 12\ \%$ ✓
+
+### 🔑 Cambio de TEMPERATURA con masa de solución dada (método completo)
+
+```
+1. Descomponer la solución en soluto + solvente  (con la S de la T INICIAL)
+2. ⚠️ El SOLVENTE NO CAMBIA         (calentar no evapora, salvo que lo aclare)
+3. Escalar la S de la T FINAL a ese mismo solvente:  máx = S_final × m_sv/100
+4. RESTAR:  precipitado = m_sto − máx
+```
+
+📝 CaCrO₄: 520 g sat. a 0 °C (S=12) → 100 °C (S=3): 55,7 g − 3,0×4,643 = 55,7 − 13,9 = **41,8 g precipitan**
+
+⚠️ **Sale al CALENTAR** porque este compuesto tiene solubilidad **inversa** (baja con T). Ver la excepción más abajo.
 
 ### 🔑 Las CUATRO preguntas posibles (misma ecuación, distinto despeje)
 
@@ -1657,6 +1683,8 @@ $$\boxed{T = T_1 + (T_2-T_1)\cdot\frac{S-S_1}{S_2-S_1}}$$
 ### La excepción de las curvas: solubilidad que BAJA con T
 
 ⚠️ En los gráficos típicos la única sustancia con pendiente **negativa** es el **Ce₂(SO₄)₃** (de ~20 a ~2 g/100 g): su disolución es **exotérmica**, así que se comporta como un **gas**. Es la pregunta trampa del gráfico.
+
+⚠️ **También el CaCrO₄** (12 % m/m_sv a 0 °C → 3,0 % a 100 °C), que aparece en el **ejercicio tipo parcial**. En estos compuestos **se precipita CALENTANDO**, al revés de lo habitual. Si el enunciado te pide "la sal que precipita al calentar", **no es un error del enunciado**: es una sal de solubilidad inversa.
 
 💡 **Enfriar una solución saturada = RECRISTALIZACIÓN**, la técnica de purificación estándar: disolver en caliente hasta saturar, enfriar **despacio**, y lo que cristaliza es el compuesto **puro** (las impurezas, mucho más diluidas, no llegan a saturar y se quedan en solución).
 📝 CuSO₄: 40 g en 100 g de agua a 70 °C (S ≈ 47) → **insaturada**. Enfriando a 20 °C (S = 20) → **precipitan 20 g** y arriba queda **saturada**.
@@ -2041,6 +2069,17 @@ $$\boxed{\text{carga del ion} = -(\text{n}^\circ\ \text{de H que tenía el ácid
 | Enrasar el **NaOH** en caliente | Es **exotérmico**: al enfriar el volumen se contrae y la concentración queda **alta** |
 | Agregar **agua sobre el ácido** concentrado | **ÁCIDO SOBRE AGUA.** Siempre |
 | Aceptar una δ de **0,94** o **1,40 g/mL** para una solución acuosa diluida | Tiene que estar entre **0,99 y 1,05**. Si no, hay error de datos o de cuenta |
+| Tratar un **% m/m_sv** como si fuera sobre solución | El subíndice **sv** = por **100 g de SOLVENTE**: descomponer con $\frac{S}{100+S}$ (denominador **112**, no 100) |
+| Calcular el % v/v como $V_{sv}\times\%$ | Va sobre la **SOLUCIÓN**: plantear $\frac{V_{sto}}{V_{sto}+V_{sv}} = \%$ y **despejar** |
+| Suponer que **calentar evapora** el solvente | Salvo que lo aclare, **m_sv NO cambia** con la temperatura |
+| Marcar **[Ar] 4s² 4p⁶** como configuración basal | No viola capacidades, pero **saltea el 3d** → es **EXCITADA**. Basal del Fe: [Ar] 4s² 3d⁶ |
+| Confundir **imposible** con **excitada** | **Imposible** = rompe una regla (3s³, 6p⁷) · **Excitada** = legal pero fuera del orden de llenado |
+| **Restar** los electrones al volver de un catión al átomo neutro | El catión **perdió** e⁻ → el neutro tiene **MÁS**: $e^- = Z - \text{carga}$ |
+| Usar el **número másico (A)** en un problema de isoelectrónicos | A cuenta protones + neutrones. Sólo importan los **electrones** |
+| Dibujar **Na–C≡N** con enlace covalente | El NaCN es **iónico**: **Na⁺ + [C≡N]⁻**, por separado |
+| Poner el **H sobre el átomo central** en un oxoácido | El H va **sobre un oxígeno**: HNO₂ = **H–O–N=O** |
+| Quedarse con el **IO₃⁻ de 3 enlaces simples** | Deja **CF = +2** en el I. Como es del **período 5**, **expande octeto**: 2 dobles + 1 simple → CF(I) = 0 |
+| Decir que el **F** forma dobles enlaces o es átomo central | El F forma **un solo enlace simple**, siempre, y **nunca** es central |
 
 ---
 
@@ -2131,6 +2170,8 @@ $$\boxed{m_{ion} = m_{sal}\cdot\frac{n_{iones}\cdot Ar_{ion}}{Mr_{sal}}} \qquad\
 $$\boxed{m_{sv}^{F} = m_{sv}^{0}\cdot\frac{m_{molal}^{0}}{m_{molal}^{F}}} \qquad \boxed{m_{H_2O\ agregada} = m_{sv}^{F} - m_{sv}^{0}} \qquad \text{(diluir en MOLALIDAD)}$$
 
 $$\boxed{m_{max} = S\cdot\tfrac{m_{sv}}{100}}\ [\text{g/100 g}] \quad \boxed{m_{max} = S\cdot V_{sv}}\ [\text{g/L}] \quad \boxed{m_{precip} = m_{agregada} - m_{max}}$$
+
+$$\boxed{m_{sto} = m_{sc}\cdot\frac{S}{100+S}} \quad \boxed{m_{sv} = m_{sc}\cdot\frac{100}{100+S}} \quad \text{(si S viene como \% m/m}_{sv}\text{)}$$
 
 $$\boxed{T = T_1 + (T_2-T_1)\cdot\frac{S-S_1}{S_2-S_1}}\ \text{(interpolación en tabla de solubilidad)} \qquad \boxed{S_{gas} = k_H\cdot P_{gas}}$$
 
