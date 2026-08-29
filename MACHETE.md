@@ -8,6 +8,7 @@
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md` · `Practica/Serie4-Resuelta.md`
 > **Nomenclatura — la lista corta:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
+> **Geometrías (lo mínimo):** `Practica/TablaGeometrias-Completa.md`
 > **⭐ Parcial resuelto:** `Parciales/1parcial/EjTipoParcial-Resuelto.md` (ejercicio tipo: los 4 problemas, trampas y estrategia)
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md` · `Clase4/Clase4-ClasificacionInteracciones-Profundizacion.md`
 
@@ -772,23 +773,38 @@ Tres estructuras posibles:
 | **2** | **Lineal** | 180° | BeCl₂, HgCl₂, CO₂ |
 | **3** | **Plana triangular** (trigonal plana) | 120° | BF₃ |
 | **4** | **Tetraédrica** | 109,5° | CH₄, NH₄⁺, CCl₄ |
-| **5** | **Bipiramidal trigonal** | 90° y 120° | PCl₅ |
-| **6** | **Octaédrica** | 90° | SF₆ |
+| **5** | **Bipiramidal trigonal** | 90° · 120° · **180°** | PCl₅, PF₅ |
+| **6** | **Octaédrica** | 90° · **180°** | SF₆ |
+
+⚠️ **La bipiramidal tiene TRES ángulos** (es la única con dos tipos de posición): **180°** axial–axial · **120°** ecuatorial–ecuatorial · **90°** axial–ecuatorial.
 
 ### Tabla B — CON pares libres
 
 Notación: **A** = central · **B** = átomo unido · **E** = par libre
 
-| Clase | Grupos totales | Enlazantes | Libres | Geom. ELECTRÓNICA | **Geom. MOLECULAR** | Ejemplo |
-|---|---|---|---|---|---|---|
-| **AB₂E** | 3 | 2 | 1 | Plana trigonal | **Angular** | SO₂ |
-| **AB₃E** | 4 | 3 | 1 | Tetraédrica | **Piramidal trigonal** | NH₃ |
-| **AB₂E₂** | 4 | 2 | 2 | Tetraédrica | **Angular** | H₂O |
-| **AB₄E** | 5 | 4 | 1 | Bipiramidal trigonal | **Sube y baja** (balancín) | SF₄ |
-| **AB₃E₂** | 5 | 3 | 2 | Bipiramidal trigonal | **Forma de T** | ClF₃ |
-| **AB₂E₃** | 5 | 2 | 3 | Bipiramidal trigonal | **Lineal** | I₃⁻ |
-| **AB₅E** | 6 | 5 | 1 | Octaédrica | **Pirámide cuadrada** | BrF₅ |
-| **AB₄E₂** | 6 | 4 | 2 | Octaédrica | **Plana cuadrada** | XeF₄ |
+| Clase | Grupos totales | Enlazantes | Libres | Geom. ELECTRÓNICA | **Geom. MOLECULAR** | **Ángulos** | Ejemplo |
+|---|---|---|---|---|---|---|---|
+| **AB₂E** | 3 | 2 | 1 | Plana trigonal | **Angular** | **<120°** | SO₂ *(119°)* |
+| **AB₃E** | 4 | 3 | 1 | Tetraédrica | **Piramidal trigonal** | **<109,5°** | NH₃ *(107°)* |
+| **AB₂E₂** | 4 | 2 | 2 | Tetraédrica | **Angular** | **<109,5°** | H₂O *(104,5°)* |
+| **AB₄E** | 5 | 4 | 1 | Bipiramidal trigonal | **Sube y baja** (balancín) | **<90° · <120° · <180°** | SF₄ *(87 · 102 · 173)* |
+| **AB₃E₂** | 5 | 3 | 2 | Bipiramidal trigonal | **Forma de T** | **<90° · <180°** | ClF₃ *(87,5 · 175)* |
+| **AB₂E₃** | 5 | 2 | 3 | Bipiramidal trigonal | **Lineal** | **180° ⚠️ EXACTO** | XeF₂, I₃⁻ |
+| **AB₅E** | 6 | 5 | 1 | Octaédrica | **Pirámide cuadrada** | **<90° · <180°** | BrF₅ *(84,8°)* |
+| **AB₄E₂** | 6 | 4 | 2 | Octaédrica | **Plana cuadrada** | **90° · 180° ⚠️ EXACTOS** | XeF₄ |
+
+### ⭐ La excepción: cuando los pares libres NO cierran el ángulo
+
+$$\boxed{\text{Par libre} \Rightarrow \text{CIERRA el ángulo} \qquad\textbf{salvo}\qquad \text{queden SIMÉTRICOS} \Rightarrow \text{EXACTO}}$$
+
+| **XeF₂** (3 pares libres, los 3 ecuatoriales a 120°) | **180° EXACTO** |
+|---|---|
+| **XeF₄** (2 pares libres, trans) | **90° y 180° EXACTOS** |
+| **BrF₅** (1 par libre, asimétrico) | **<90°, <180°** |
+
+💡 El **XeF₄ (2 pares libres) NO está distorsionado** y el **BrF₅ (1 solo) SÍ**. No es la cantidad: es la **simetría**.
+
+> 📖 `Practica/TablaGeometrias-Completa.md`
 
 ### 🎯 El ejemplo que hay que saber sí o sí: CH₄ vs NH₃ vs H₂O
 
@@ -2080,6 +2096,8 @@ $$\boxed{\text{carga del ion} = -(\text{n}^\circ\ \text{de H que tenía el ácid
 | Poner el **H sobre el átomo central** en un oxoácido | El H va **sobre un oxígeno**: HNO₂ = **H–O–N=O** |
 | Quedarse con el **IO₃⁻ de 3 enlaces simples** | Deja **CF = +2** en el I. Como es del **período 5**, **expande octeto**: 2 dobles + 1 simple → CF(I) = 0 |
 | Decir que el **F** forma dobles enlaces o es átomo central | El F forma **un solo enlace simple**, siempre, y **nunca** es central |
+| Poner **<** en el **XeF₄** o el **XeF₂** | Sus pares libres son **simétricos**: se cancelan → ángulos **EXACTOS** |
+| Dar sólo **90° y 120°** para la bipiramidal trigonal | Falta el **180°** (axial–axial). Son **tres** ángulos |
 
 ---
 
