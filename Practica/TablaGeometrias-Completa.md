@@ -12,24 +12,20 @@
 
 ## 2. Sacar los pares libres y ver qué forma queda
 
-```
-tetraédrica  −1 par libre →  PIRAMIDAL TRIGONAL   (NH₃)
-             −2 pares     →  ANGULAR              (H₂O)
-
-trigonal pl. −1 par libre →  ANGULAR              (SO₂)
-
-bipiramidal  −1 par libre →  SUBE Y BAJA          (SF₄)
-             −2 pares     →  FORMA DE T           (ClF₃)
-             −3 pares     →  LINEAL               (XeF₂)
-
-octaédrica   −1 par libre →  PIRÁMIDE B. CUADRADA (BrF₅)
-             −2 pares     →  CUADRADA PLANA       (XeF₄)
-```
-
-## 3. Los ángulos: los mismos de arriba, pero más chicos
+**Los ángulos son los mismos de arriba, pero más chicos** (los pares libres achican → `<`).
 
 ```
-pares libres  →  ACHICAN el ángulo  (<)
+tetraédrica   −1 par libre →  PIRAMIDAL TRIGONAL    <109,5°               (NH₃)
+              −2 pares     →  ANGULAR               <109,5°               (H₂O)
+
+trigonal pl.  −1 par libre →  ANGULAR               <120°                 (SO₂)
+
+bipiramidal   −1 par libre →  SUBE Y BAJA           <90° · <120° · <180°  (SF₄)
+              −2 pares     →  FORMA DE T            <90° · <180°          (ClF₃)
+              −3 pares     →  LINEAL                180°  ← EXACTO        (XeF₂)
+
+octaédrica    −1 par libre →  PIRÁMIDE B. CUADRADA  <90° · <180°          (BrF₅)
+              −2 pares     →  CUADRADA PLANA        90° · 180° ← EXACTOS  (XeF₄)
 ```
 
 ## ⚠️ Las 2 excepciones (lo que se cobra)
