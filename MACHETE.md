@@ -9,7 +9,7 @@
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md` · `Practica/Serie4-Resuelta.md`
 > **Nomenclatura — la lista corta:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
 > **Geometrías (lo mínimo):** `Practica/TablaGeometrias-Completa.md`
-> **⭐ Parcial resuelto:** `Parciales/1parcial/EjTipoParcial-Resuelto.md` (ejercicio tipo: los 4 problemas, trampas y estrategia)
+> **⭐ Parciales resueltos:** `Parciales/1parcial/EjTipoParcial-Resuelto.md` (ejercicio tipo) · `Parciales/1parcial/Parcial-2025-Resuelto.md` (**parcial real 31/03/2025** — incluye polaridad, fuerzas intermoleculares y solubilidad cualitativa)
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md` · `Clase4/Clase4-ClasificacionInteracciones-Profundizacion.md`
 
 ---
