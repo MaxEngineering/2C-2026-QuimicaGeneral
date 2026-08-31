@@ -9,7 +9,7 @@
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md` · `Practica/Serie4-Resuelta.md`
 > **Nomenclatura — la lista corta:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
 > **Geometrías (lo mínimo):** `Practica/TablaGeometrias-Completa.md`
-> **⭐ Parciales resueltos:** `Parciales/1parcial/EjTipoParcial-Resuelto.md` (ejercicio tipo) · `Parciales/1parcial/Parcial-2025-Resuelto.md` (**parcial real 31/03/2025** — incluye polaridad, fuerzas intermoleculares y solubilidad cualitativa)
+> **⭐ Parciales resueltos:** `Parciales/1parcial/EjTipoParcial-Resuelto.md` (ejercicio tipo) · `Parciales/1parcial/Parcial-2025-Resuelto.md` (**parcial real 31/03/2025** — incluye polaridad, fuerzas intermoleculares y solubilidad cualitativa) · `Parciales/1parcial/Parcial-2C2024-Tema1-Resuelto.md` (**parcial real 2C 2024, Tema 1** — diagrama de energía dibujado, resonancia del CO₃²⁻, ⭐ polaridad de un **ION**, material de laboratorio, mezcla de soluciones + sólido)
 > **Profundizaciones:** `Clase1/Clase1-Espectroscopia-Profundizacion.md` · `Clase1/Clase1-TablaPeriodica-Profundizacion.md` · `Clase2/Clase2-TiposDeUnion-Profundizacion.md` · `Clase4/Clase4-ClasificacionInteracciones-Profundizacion.md`
 
 ---
@@ -2098,6 +2098,12 @@ $$\boxed{\text{carga del ion} = -(\text{n}^\circ\ \text{de H que tenía el ácid
 | Decir que el **F** forma dobles enlaces o es átomo central | El F forma **un solo enlace simple**, siempre, y **nunca** es central |
 | Poner **<** en el **XeF₄** o el **XeF₂** | Sus pares libres son **simétricos**: se cancelan → ángulos **EXACTOS** |
 | Dar sólo **90° y 120°** para la bipiramidal trigonal | Falta el **180°** (axial–axial). Son **tres** ángulos |
+| Clasificar un **ION** como polar o no polar (CO₃²⁻, SO₄²⁻, NH₄⁺) | **La categoría no aplica**: tiene **carga NETA**, y el μ de un ion **depende del origen de coordenadas**. Interactúa por **ión–dipolo / ión–ión**, no por dipolo–dipolo |
+| Marcar $2p_y^2\,2p_z^1\,2p_x^2$ como **excitada** porque el semilleno no es el px | Los tres orbitales p son **DEGENERADOS**: da igual cuál queda con 1 e⁻. Es el **fundamental del F** |
+| Usar **Mr(Na₂SO₄) = 119** | $2(23) + 32 + 4(16) = \mathbf{142}$. El subíndice del **catión** también multiplica |
+| Suponer sin decirlo que la sal sólida es **anhidra** | Na₂SO₄ = 142 g/mol pero **Na₂SO₄·10H₂O = 322 g/mol** → hay que pesar **2,3×** más. Declaralo como suposición |
+| Informar el **agua a agregar** como resultado calculado al mezclar soluciones + sólido | El volumen final lo fija el **MATRAZ AFORADO**: se **lleva a volumen**. Si igual lo estimás, aclarar que supones **V aditivos** y **volumen despreciable del sólido** |
+| Comparar los gramos del enunciado directo con la tabla de solubilidad | La tabla es **por 100 g de AGUA**: primero **normalizá** (180 g / 300 g agua → **60 g/100 g**) |
 
 ---
 
