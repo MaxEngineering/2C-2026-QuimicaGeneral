@@ -2,9 +2,9 @@
 
 > Resumen operativo de toda la materia. Sólo lo que hay que saber para resolver.
 > Para la explicación desarrollada diapositiva por diapositiva:
-> `Clase1/Clase1-Explicacion-Completa.md` · `Clase2/Clase2-Explicacion-Completa.md` · `Clase3/Clase3-Explicacion-Completa.md` · `Clase4/Clase4-Explicacion-Completa.md` · `Clase6(5nohay)/Clase6-Explicacion-Completa.md` · `Extra/Nomenclatura-Explicacion-Completa.md`
+> `Clase1/Clase1-Explicacion-Completa.md` · `Clase2/Clase2-Explicacion-Completa.md` · `Clase3/Clase3-Explicacion-Completa.md` · `Clase4/Clase4-Explicacion-Completa.md` · `Clase6(5nohay)/Clase6-Explicacion-Completa.md` · `Extra/Nomenclatura-Explicacion-Completa.md · `Clase8/Clase8-Explicacion-Completa.md`
 
-**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · **Clase 6 (Soluciones: concentración, preparación, diluciones y solubilidad)** · Nomenclatura (nº de oxidación y nombres) · **Solubilidad** · Series 1, 2, 3 y **4** (métodos de cálculo)
+**Contenido actual:** Clase 1 (Átomo y configuración electrónica) · Clase 2 (Uniones químicas, Lewis y geometría) · **Clase 3 (Polaridad de enlace y de molécula)** · **Clase 4 (Interacciones intermoleculares y estados de agregación)** · **Clase 6 (Soluciones: concentración, preparación, diluciones y solubilidad)** · Nomenclatura (nº de oxidación y nombres) · **Solubilidad** · Series 1, 2, 3 y **4** (métodos de cálculo) · ⭐ **Clase 8 (GASES: leyes, PV=nRT y presiones parciales · ESTEQUIOMETRÍA: balanceo, reactivo limitante, rendimiento y pureza)**
 
 > **Series resueltas:** `Practica/Serie1-Resuelta.md` · `Practica/Serie2-Resuelta.md` · `Practica/Serie3-Resuelta.md` · `Practica/Serie4-Resuelta.md`
 > **Nomenclatura — la lista corta:** `Extra/Nomenclatura-Compuestos-Frecuentes.md`
@@ -38,8 +38,14 @@
 - [19. Mezclas de soluciones e iones en solución](#19-mezclas-de-soluciones-e-iones-en-solución)
 - [20. Número de oxidación](#20-número-de-oxidación)
 - [21. Nomenclatura inorgánica](#21-nomenclatura-inorgánica)
-- [22. Errores típicos](#22-errores-típicos)
-- [23. Modelos atómicos — línea histórica](#23-modelos-atómicos--línea-histórica)
+- [22. Gases — leyes y ecuación de estado](#22-gases--leyes-y-ecuación-de-estado)
+- [23. Mezclas de gases — presiones parciales](#23-mezclas-de-gases--presiones-parciales-dalton)
+- [24. Ecuación química y balanceo](#24-ecuación-química-y-balanceo)
+- [25. Cálculos estequiométricos](#25-cálculos-estequiométricos)
+- [26. Reactivo limitante y en exceso](#26-reactivo-limitante-y-en-exceso)
+- [27. Rendimiento porcentual y pureza](#27-rendimiento-porcentual-y-pureza-de-reactivos)
+- [28. Errores típicos](#28-errores-típicos)
+- [29. Modelos atómicos — línea histórica](#29-modelos-atómicos--línea-histórica)
 
 ---
 
@@ -60,6 +66,11 @@ $$\text{Átomos} \Rightarrow \text{Molécula} \Rightarrow \text{Lewis} \Rightarr
 | 9. ¿CUÁNTO hay disuelto? | Unidades de concentración | **16** |
 | 10. ¿CUÁNTO como máximo? | Solubilidad y curvas | **18** |
 | 11. ¿Y si mezclo, diluyo o pido los iones? | Mezclas, disociación, molalidad | **19** |
+| 12. ¿Cómo se comporta un GAS? | Leyes de los gases + PV = nRT | **22** |
+| 13. ¿Y una MEZCLA de gases? | Presiones parciales (Dalton) | **23** |
+| 14. ¿CUÁNTO se forma / se consume? | Balanceo + método de 5 pasos | **24-25** |
+| 15. ¿Cuál reactivo manda y cuánto sobra? | Reactivo limitante | **26** |
+| 16. ¿Cuánto obtengo REALMENTE? | Rendimiento % y pureza | **27** |
 
 ⚠️ **Cada eslabón necesita el anterior. Éste es el formato del ejercicio integrador del parcial.**
 
@@ -1969,7 +1980,380 @@ $$\boxed{\text{carga del ion} = -(\text{n}^\circ\ \text{de H que tenía el ácid
 
 ---
 
-## 22. Errores típicos
+## 22. Gases — leyes y ecuación de estado
+
+### Presión — definición y unidades
+
+$$P = \frac{F}{A} \qquad\qquad 1\ \text{Pa} = 1\ \text{N/m}^2$$
+
+> **Definición conceptual (se pide textual):** la presión de un gas es el resultado de los **choques de las partículas contra las paredes del recipiente**. A mayor frecuencia de choques (mayor $E_c$), mayor presión.
+> **Presión atmosférica:** el **peso** de la columna de aire de 1 m² de sección que hay encima. Se mide con el **barómetro de Torricelli** (columna de Hg de 760 mm al nivel del mar).
+
+$$\boxed{1\ \text{atm} = 760\ \text{mmHg} = 760\ \text{Torr} = 101.325\ \text{Pa} = 1{,}013\times10^5\ \text{Pa} = 1013\ \text{hPa} = 1{,}013\ \text{bar}}$$
+
+$$\boxed{T(K) = T(°C) + 273{,}15}$$
+
+⚠️ **La T va SIEMPRE en kelvin.** P y V pueden ir en cualquier unidad coherente con R; la temperatura no.
+
+| Condición | P | T (K) | T (°C) | $V_m$ |
+|---|---|---|---|---|
+| **CNPT** (= TPN, "normales") | 1 atm | **273 K** | 0 °C | **22,4 L/mol** |
+| **Ambientales** | 1 atm | 298 K | 25 °C | 24,4 L/mol |
+
+⚠️ **22,4 L/mol vale SÓLO en CNPT.** Si el enunciado no dice CNPT, usá $PV = nRT$.
+
+### Las cuatro leyes + la combinada
+
+| Ley | Constantes | Fórmula | Gráfico |
+|---|---|---|---|
+| **Boyle-Mariotte** | n, T | $P_1V_1 = P_2V_2$ | P vs V: **hipérbola** · P vs 1/V: **recta** |
+| **Charles** | n, P | $\dfrac{V_1}{T_1} = \dfrac{V_2}{T_2}$ | V vs T: recta (por el origen **sólo en K**) |
+| **Gay-Lussac** | n, V | $\dfrac{P_1}{T_1} = \dfrac{P_2}{T_2}$ | P vs T: recta que corta en **−273,15 °C** |
+| **Avogadro** | P, T | $\dfrac{V_1}{n_1} = \dfrac{V_2}{n_2}$ | V vs n: recta por el origen |
+| **COMBINADA** | **n** | $\boxed{\dfrac{P_1V_1}{T_1} = \dfrac{P_2V_2}{T_2}}$ | — |
+
+💡 **Método:** memorizá **sólo la combinada** y **tachá la variable que no cambia**.
+
+| El enunciado dice… | Tachás | Queda |
+|---|---|---|
+| "a temperatura constante" / "isotérmico" | T | Boyle |
+| "a presión constante" / "pistón móvil" | P | Charles |
+| "recipiente rígido" / "volumen constante" | V | Gay-Lussac |
+
+⚠️ La combinada exige **n constante**. Si entra o sale gas (válvula, mezcla, pinchadura), usá $PV = nRT$ de los dos lados por separado.
+
+### Ecuación de estado
+
+$$\boxed{PV = nRT}$$
+
+| R | Unidades | Cuándo |
+|---|---|---|
+| **0,082** | atm·L / (K·mol) | ⭐ **el de esta materia** |
+| 8,314 | J / (K·mol) | si hay energía (P en Pa, V en m³) |
+| 62,4 | mmHg·L / (K·mol) | si P viene en mmHg |
+
+⚠️ **R fija las unidades de todo lo demás.** Con 0,082: **P en atm, V en L, T en K, n en mol.**
+
+**Derivadas** (de reemplazar $n = m/Mr$ y $\rho = m/V$):
+
+$$\boxed{Mr = \frac{mRT}{PV}} \qquad\qquad \boxed{\rho = \frac{P\,Mr}{RT}} \qquad\qquad \boxed{n = \frac{PV}{RT}}$$
+
+⚠️ **La densidad de un GAS no es una constante de la sustancia:** depende de P y T. La de un líquido sí lo es.
+📝 Aire en CNPT (Mr ≈ 29): $\rho = 29/(0{,}082\times273) = \mathbf{1{,}30\ g/L}$ — unas 800 veces menos que el agua.
+
+### Los 4 postulados del gas ideal
+
+1. Las partículas **ocupan todo el volumen** del recipiente.
+2. Se mueven en forma **aleatoria**.
+3. ⭐ **NO existen interacciones** entre las partículas.
+4. El gas **se puede comprimir** (volumen propio despreciable ⇒ son "puntos").
+
+⭐ **El postulado 3 conecta con la sección 12:** "sin interacciones" = **sin London, sin dipolo-dipolo, sin puente de H**. Es la condición $E_c \ggg E_p$.
+
+| El modelo funciona bien | El modelo falla |
+|---|---|
+| **P baja** (≈1 atm): partículas lejos ⇒ fuerzas ($\propto 1/d^6$) despreciables | **P alta**: se tocan, el volumen propio cuenta |
+| **T alta**: $E_c$ aplasta cualquier atracción | **T baja**: cerca de condensar |
+| gas **liviano y no polar**: He, H₂, N₂, O₂ | gas **polar / con puente de H**: H₂O, NH₃, HF |
+
+📝 **Pregunta típica:** *"¿cuál se aparta más de la idealidad: He, N₂ o NH₃?"* → **NH₃** (polar + puente de H). El **He** es el más ideal de todos.
+
+---
+
+## 23. Mezclas de gases — presiones parciales (Dalton)
+
+$$\boxed{P_{total} = \sum P_i = P_A + P_B + \dots} \qquad \boxed{P_i = \chi_i \cdot P_{total}} \qquad \boxed{\chi_i = \frac{n_i}{n_{total}}} \qquad \sum \chi_i = 1$$
+
+> **Presión parcial (definición textual):** la presión que ejercería ese gas **si estuviera SOLO** en el mismo recipiente y a la misma temperatura.
+> **Ley de Dalton (1803):** la presión total de una mezcla de gases **que no reaccionan entre sí** es igual a la **suma de las presiones parciales**.
+
+**Deducción (una línea):** $P_AV = n_ART$ y $PV = (n_A+n_B)RT$ ⇒ dividiendo, $P_A/P = \chi_A$.
+
+💡 **Para gases: % en volumen = % en moles = fracción molar** (por Avogadro). Y por eso, **en una reacción entre gases a igual P y T, los coeficientes valen como relación de VOLÚMENES**.
+
+| Composición del aire | χ | $P_i$ a 1 atm |
+|---|---|---|
+| N₂ | 0,781 | 0,78 atm |
+| O₂ | 0,209 | **0,21 atm** |
+| Ar | 0,0093 | 0,009 atm |
+| CO₂ | 0,0003 | 0,0003 atm |
+
+📝 2,0 mol N₂ + 3,0 mol O₂, $P_T$ = 5,0 atm ⇒ $\chi_{N_2}=0{,}40 \Rightarrow P_{N_2}=2{,}0$ atm · $\chi_{O_2}=0{,}60 \Rightarrow P_{O_2}=3{,}0$ atm ✓
+
+⚠️ **χ es adimensional y va de 0 a 1**, nunca en %.
+⚠️ Dalton vale para mezclas **inertes**. Si los gases reaccionan, n cambia y no sirve.
+
+---
+
+## 24. Ecuación química y balanceo
+
+### Anatomía de una ecuación
+
+$$2\,\text{Na}_{(s)} + 2\,\text{H}_2\text{O}_{(l)} \longrightarrow 2\,\text{NaOH}_{(ac)} + \text{H}_{2(g)}$$
+
+| Elemento | Qué es | ¿Se toca al balancear? |
+|---|---|---|
+| **Coeficiente estequiométrico** | número **adelante**: **2** NaOH | ✓ **SÍ — es lo único que se toca** |
+| **Subíndice** | número **abajo/adentro**: H**₂**O | ❌ **NUNCA — define la sustancia** |
+
+**Símbolos de estado (se piden):** **(s)** sólido · **(l)** líquido puro · **(g)** gaseoso · **(ac)** en solución acuosa
+
+⚠️ **(l) ≠ (ac):** H₂O(l) es agua pura; NaOH(ac) es NaOH **disuelto**.
+
+**Cómo contar átomos:** el coeficiente multiplica **toda** la fórmula; el subíndice de afuera del paréntesis multiplica **todo lo de adentro**.
+📝 $3\,\text{Al}_2(\text{SO}_4)_3$ → 6 Al, 9 S, **36 O**.
+
+**Doble lectura:** "2 Na" = **2 átomos** (micro) = **2 moles** (macro).
+**Vocabulario:** **átomos** (elementos) · **moléculas** (covalentes) · **unidades fórmula** (iónicos: NaCl, NaOH).
+
+⚠️ **Se conservan los ÁTOMOS y la MASA, no el número de moléculas ni el volumen.**
+📝 $\text{N}_2 + 3\text{H}_2 \to 2\text{NH}_3$: entran 4 moléculas y salen 2, pero hay 2 N y 6 H de los dos lados.
+
+**Diatómicos (de memoria):** $\boxed{\text{H}_2\ \ \text{N}_2\ \ \text{O}_2\ \ \text{F}_2\ \ \text{Cl}_2\ \ \text{Br}_2\ \ \text{I}_2}$
+
+### ① Ojímetro (tanteo)
+
+1. Empezá por el elemento que aparece en **menos lugares** (y con subíndice grande).
+2. Balanceálo con coeficientes; arrastrá lo que fijaste.
+3. **Dejá el O y el H para el final.**
+4. Verificá **elemento por elemento**.
+
+📝 $\text{P}_4 + \text{O}_2 \to \text{P}_2\text{O}_3$: 4 P ⇒ **2** P₂O₃ ⇒ 6 O a la derecha ⇒ **3** O₂. → $\text{P}_4 + 3\text{O}_2 \to 2\text{P}_2\text{O}_3$
+
+### ② Método algebraico (el que NUNCA falla)
+
+1. Poné una **letra** como coeficiente de cada sustancia (a, b, c, d…).
+2. **Una ecuación por elemento**: (coef × subíndice) izquierda = (coef × subíndice) derecha.
+3. **Suponé una letra = 1** (o 2) — el sistema es indeterminado, interesa la **relación**.
+4. Despejá el resto.
+5. Si hay fracciones, **multiplicá TODO** por el denominador.
+6. Verificá.
+
+📝 $a\,\text{FeS} + b\,\text{O}_2 \to c\,\text{Fe}_2\text{O}_3 + d\,\text{SO}_2$
+Fe: $a = 2c$ · S: $a = d$ · O: $2b = 3c + 2d$
+Con $c=1$: $a=2$, $d=2$, $b=7/2$ ⇒ ×2 ⇒ $\boxed{4\,\text{FeS} + 7\,\text{O}_2 \to 2\,\text{Fe}_2\text{O}_3 + 4\,\text{SO}_2}$
+(con $c=2$ salen enteros directo: 4, 7, 2, 4 — **la suposición no cambia el resultado, sólo el trabajo**)
+
+### Combustión — la que más se toma
+
+| El combustible tiene… | Producto |
+|---|---|
+| **C** | **CO₂** (completa) · CO o C (incompleta, falta O₂) |
+| **H** | **H₂O** |
+| **N** | **N₂** |
+| **S** | **SO₂** |
+
+$$\boxed{\text{C}_x\text{H}_y + \text{O}_2 \to x\,\text{CO}_2 + \tfrac{y}{2}\,\text{H}_2\text{O}}$$
+
+**Orden de balanceo:** N/S → **C** → **H** → **O último**.
+
+📝 Metilamina: $\text{CH}_5\text{N} + \text{O}_2 \to \text{N}_2 + \text{CO}_2 + \text{H}_2\text{O}$
+N ⇒ 2 CH₅N · C ⇒ 2 CO₂ · H ⇒ 5 H₂O · O ⇒ 9 a la derecha ⇒ **9/2** O₂ ⇒ ×2:
+$$\boxed{4\,\text{CH}_5\text{N} + 9\,\text{O}_2 \to 2\,\text{N}_2 + 4\,\text{CO}_2 + 10\,\text{H}_2\text{O}}$$
+
+⚠️ **Los fraccionarios valen como paso intermedio, NO como respuesta final** (enteros mínimos).
+
+### Tipos de reacciones
+
+| Tipo | Ejemplo |
+|---|---|
+| **Combustión** | $\text{CH}_4 + 2\text{O}_2 \to \text{CO}_2 + 2\text{H}_2\text{O}$ |
+| **Ácido-base** (más adelante) | $\text{HCl}_{(ac)} + \text{NaOH}_{(ac)} \to \text{NaCl}_{(ac)} + \text{H}_2\text{O}_{(l)}$ |
+| **Redox** (otra materia) | $\text{Zn}_{(s)} + \text{Cu}^{2+}_{(ac)} \to \text{Cu}_{(s)} + \text{Zn}^{2+}_{(ac)}$ |
+| **Precipitación / complejación** | — |
+
+---
+
+## 25. Cálculos estequiométricos
+
+### ⭐ El diagrama — TODOS LOS CAMINOS CONDUCEN AL MOL
+
+```
+    DATO de A                                        RESPUESTA de B
+        │                                                  ▲
+        │ ① bajar al mol                 ③ subir del mol   │
+        ▼                                                  │
+    MOLES de A ════════════════════════════════════►  MOLES de B
+                 ② COEFICIENTES de la ecuación BALANCEADA
+                          (la regla de tres)
+```
+
+**Los puentes al mol (los cinco):**
+
+$$n = \frac{m}{Mr} \qquad n = \frac{V_{gas}}{22{,}4}\ \text{(CNPT)} \qquad n = \frac{PV}{RT} \qquad n = M\cdot V_{(L)} \qquad n = \frac{N}{N_A}$$
+
+| Si el dato viene como… | Camino |
+|---|---|
+| masa | ÷ Mr |
+| volumen de **líquido/sólido** | × **densidad** → masa → ÷ Mr |
+| volumen de **gas** | **$n = PV/RT$** (o ÷22,4 si CNPT) |
+| volumen de solución + M | $n = M\cdot V$ |
+| % m/m, % m/V + masa/volumen de solución | sección **16** |
+| presión parcial | $n_i = P_iV/RT$ |
+| nº de partículas | ÷ $N_A$ |
+
+⚠️ **Los coeficientes relacionan MOLES, nunca gramos.** $\text{N}_2 + 3\text{H}_2$ **no** es "1 g con 3 g", es 28 g con 6 g.
+⚠️ **Nunca uses la densidad para pasar un gas a moles** (depende de P y T; usá la ecuación de estado).
+
+### ⭐ EL MÉTODO DE 5 PASOS
+
+| # | Paso | Herramienta |
+|---|---|---|
+| **1** | Escribir la reacción (fórmulas **+ estados de agregación**) | nomenclatura (sección 21) |
+| **2** | **BALANCEAR** | ojímetro / algebraico (sección 24) |
+| **3** | **Todo a moles** (reactivos **y** productos) | los 5 puentes |
+| **4** | **Decidir el reactivo limitante** | sección 26 |
+| **5** | Regla de tres **desde el LIMITANTE** | los coeficientes |
+| *(6)* | Volver a la unidad que te piden | la inversa del paso 3 |
+
+⚠️ **Balanceá SIEMPRE, aunque te den la ecuación escrita.** A veces te la dan sin balancear a propósito.
+⚠️ **El paso 6 es el que más se olvida:** casi siempre te piden gramos o litros, no moles.
+
+**¿Hace falta el paso 4?**
+
+| El enunciado dice… | ¿Buscar limitante? |
+|---|---|
+| "con **exceso** de X" · "cantidades **estequiométricas**" · da **un solo** reactivo | ❌ **no** |
+| da cantidades de **DOS o más reactivos** | ✓ **SÍ, obligatorio** |
+
+💡 **Si te dan dos números de reactivos, es porque quieren que busques el limitante.** Nunca dan un dato de más.
+
+### Formato de la regla de tres
+
+```
+Lo que dice la ECUACIÓN:   3 mol de HClO  ──────  1 mol de NCl₃
+Lo que tengo / quiero:     1,9 mol de HClO ─────       X
+```
+
+💡 **Escribí siempre el nombre de la sustancia junto al "mol".** La mayoría de los errores es haber usado el coeficiente de la sustancia equivocada.
+💡 **Verificación de sentido común:** si por cada 3 de A va 1 de B, la respuesta tiene que ser **menor** que el dato. Si te dio mayor, multiplicaste al revés.
+
+### Ejemplo resuelto completo (masa ⟶ masa)
+
+$$\text{NCl}_{3(g)} + 3\,\text{H}_2\text{O}_{(l)} \longrightarrow \text{NH}_{3(g)} + 3\,\text{HClO}_{(g)}$$
+
+*¿Qué masa de NCl₃ se necesita para producir 14,8 g de NH₃?*
+
+| Paso | Cuenta | Resultado |
+|---|---|---|
+| ① a moles | $14{,}8 / 17$ | 0,87 mol NH₃ |
+| ② coeficientes (1:1) | $0{,}87 \times 1/1$ | 0,87 mol NCl₃ |
+| ③ a masa | $0{,}87 \times 120{,}5$ | **104,8 g de NCl₃** |
+
+📝 *¿Y desde 275 mL de agua (δ=1)?* → 275 g → $275/18 = 15{,}27$ mol H₂O → $\times\frac{1}{3} = \mathbf{5{,}09}$ mol NH₃
+
+---
+
+## 26. Reactivo limitante y en exceso
+
+> **Reactivo limitante (RL):** el que **gobierna la máxima cantidad de producto** y **se consume completamente**.
+> **Reactivo en exceso:** los demás. Finalizada la reacción, **quedan junto al producto**.
+
+💡 **La analogía del pancho:** 5 salchichas + 4 panes → **4 panchos** + 1 salchicha suelta. Los **panes** son el limitante; la **salchicha** el exceso; los **4 panchos** el rendimiento teórico.
+
+### Cómo identificarlo — método "TENGO vs NECESITO"
+
+1. **Todo a moles.**
+2. Elegí **un** reactivo: *"para que reaccione TODO éste, ¿cuánto NECESITO del otro?"*
+3. Compará:
+   - **NECESITO < TENGO** ⇒ me sobra el otro ⇒ **el que elegí es el LIMITANTE**
+   - **NECESITO > TENGO** ⇒ no alcanza ⇒ **el OTRO es el limitante**
+
+💡 **Da igual con cuál empieces:** la conclusión sale igual.
+
+### Atajo equivalente (más rápido)
+
+$$\boxed{\text{Limitante} = \text{el del }\min\left(\frac{n_i}{\text{coef}_i}\right)}$$
+
+📝 $2\text{Na} + \text{Cl}_2 \to 2\text{NaCl}$ con **50 g de cada uno**:
+
+| | Na | Cl₂ |
+|---|---|---|
+| Mr | 23 | **71** (¡diatómico!) |
+| moles ("tengo") | 2,17 | 0,70 |
+| $n/\text{coef}$ | $2{,}17/2 = 1{,}085$ | $0{,}70/1 = \mathbf{0{,}70}$ ← menor |
+| | **EXCESO** | ⭐ **LIMITANTE** |
+
+⚠️ **El limitante NO es "el que está en menor cantidad".** Acá hay **la misma masa** de los dos. Deciden la **masa molar** y el **coeficiente**.
+
+### ⭐ Todas las reglas de tres se hacen DESDE EL LIMITANTE
+
+$$n_{NaCl} = 0{,}70 \times \tfrac{2}{1} = 1{,}40\ \text{mol} \;\Rightarrow\; m = 1{,}40\times58{,}5 = \mathbf{82{,}4\ g\ de\ NaCl}$$
+
+⚠️ Calcular con el reactivo **en exceso** es el error más caro del tema.
+📝 En el ejemplo del NCl₃: con el agua daba 5,09 mol de NH₃; con el limitante real da **0,87 mol**. Seis veces menos.
+
+### Cuánto sobra del que está en exceso
+
+$$\boxed{m_{sobrante} = m_{inicial} - m_{consumida}} \qquad\text{(la consumida se calcula DESDE el limitante)}$$
+
+📝 Na consumido: $0{,}70\times\frac{2}{1} = 1{,}40$ mol $= 32{,}4$ g ⇒ **sobran $50{,}0 - 32{,}4 = 17{,}6$ g de Na**
+
+⚠️ El **limitante queda en 0 g**.
+⚠️ **No restes $n_{exceso} - n_{limitante}$** ($2{,}17-0{,}70$): hay que pasar por la relación estequiométrica.
+
+💡 **Verificación por conservación de la masa (hacela siempre):**
+consumido $50{,}0 + 32{,}4 = 82{,}4$ g = NaCl formado ✓ · total final $82{,}4 + 17{,}6 = 100{,}0$ g = los 50+50 iniciales ✓
+
+💡 **"Exceso" tiene dos sentidos:** *¿cuál está en exceso?* → **el Na** · *¿cuánto queda en exceso?* → **17,6 g**.
+
+---
+
+## 27. Rendimiento porcentual y pureza de reactivos
+
+### Rendimiento
+
+$$\boxed{\eta\ \% = \frac{\text{cantidad REAL obtenida}}{\text{cantidad TEÓRICA}} \times 100}$$
+
+| Término | De dónde sale |
+|---|---|
+| **REAL** (numerador) | **dato del enunciado** — se midió en el laboratorio |
+| **TEÓRICA** (denominador) | **la calculás vos** con el método de 5 pasos, desde el limitante |
+
+**Por qué no da 100 %:** reacciones **competitivas** (R → P′), reacciones **incompletas** (equilibrio, R ⇄ P) y **pérdidas de manipulación** (filtrar, trasvasar, purificar).
+
+📝 Teórico 14,8 g de NH₃, real 13 g ⇒ $\eta = \frac{13}{14{,}8}\times100 = \mathbf{87{,}8\ \%}$
+
+**Los tres tipos de ejercicio:**
+
+| Te dan | Te piden | Cómo |
+|---|---|---|
+| real + reactivos | **η** | calculás el teórico y **dividís** |
+| η + reactivos | **cantidad real** | $\text{real} = \text{teórico}\times\frac{\eta}{100}$ |
+| η + real deseada | **cuánto reactivo cargar** | ⚠️ $\text{teórico} = \dfrac{\text{real}}{\eta/100}$ — **se DIVIDE** |
+
+⚠️ **η nunca supera el 100 %.** Si da más: el teórico está mal, o el producto pesado estaba húmedo/impuro.
+⚠️ Real y teórico **en la misma unidad** (las dos en gramos o las dos en moles).
+
+### Pureza
+
+$$\boxed{\text{pureza \%} = \frac{m_{reactivo}}{m_{reactivo} + m_{impureza}} \times 100} \qquad\Longrightarrow\qquad \boxed{m_{puro} = m_{muestra}\times\frac{\text{pureza \%}}{100}}$$
+
+> Las impurezas **NO reaccionan**: son masa muerta y hay que **descontarlas antes** de convertir a moles.
+> "90 % de pureza" = en 100 g de mezcla impura hay 90 g de reactivo. **Es un % m/m** (sección 16).
+
+📝 50 g de caliza al 80 % ⇒ $m_{CaCO_3} = 50\times0{,}80 = 40$ g ⇒ $n = 40/100 = \mathbf{0{,}40}$ mol
+⚠️ Sin descontar habrías puesto 0,50 mol: **25 % de más**.
+⚠️ **Al revés se divide:** para tener 40 g de CaCO₃ puro hay que pesar $40/0{,}80 = 50$ g de caliza.
+
+### ⭐ Las tres correcciones al mundo ideal — el orden importa
+
+```
+  MUESTRA impura ──① PUREZA ──► reactivo PURO ──► moles ──② LIMITANTE ──►
+        ──► moles de producto TEÓRICO ──③ RENDIMIENTO ──► producto REAL
+```
+
+| Corrección | Corrige | Cuándo | Si vas al revés |
+|---|---|---|---|
+| **① Pureza** | la **ENTRADA** (reactivo) | al principio | **dividí** por pureza/100 |
+| **② Limitante** | quién manda | al elegir con cuál calcular | — |
+| **③ Rendimiento** | la **SALIDA** (producto) | al final | **dividí** por η/100 |
+
+⚠️ **No se pueden intercambiar de lugar:** la pureza corrige lo que entra, el rendimiento lo que sale.
+
+---
+
+## 28. Errores típicos
 
 | ❌ Error | ✅ Correcto |
 |---|---|
@@ -2113,10 +2497,23 @@ $$\boxed{\text{carga del ion} = -(\text{n}^\circ\ \text{de H que tenía el ácid
 | Poner el **terbutanol** con mayor T_eb que el **butan-1-ol** | Isómeros (mismo Mr 74, mismo –OH): gana el **ALARGADO** (más superficie → más London, y el –OH sin impedimento). **117,7 vs 82 °C** |
 | Justificar el estado de agregación del N₂/O₂ con el **triple/doble enlace** | Es **INTRAmolecular** y no se rompe al hervir. Manda **London**: O₂ **16 e⁻** > N₂ **14 e⁻** |
 | Calcular la molaridad con la **suma** de volúmenes cuando ya calculaste el real | Etanol+agua: 150+350 = 500 mL pero el real es **488 mL** (contracción del 2,4 %). Usá el real |
+| Meter la temperatura en **°C** en una ley de gases | **SIEMPRE en KELVIN**. Si te aparece un T negativo o un cero, te olvidaste de convertir |
+| Usar **22,4 L/mol a 25 °C** | 22,4 L vale **sólo en CNPT** (0 °C, 1 atm). A 25 °C son **24,4 L**. Sin "CNPT" en el enunciado, usá $PV = nRT$ |
+| Aplicar la **ley combinada** cuando entra o sale gas | La combinada exige **n constante**. Si hay válvula, mezcla o pinchadura: $PV=nRT$ de los dos lados |
+| Tratar la **densidad de un gas** como constante de la sustancia | $\rho = P\,Mr/RT$: **depende de P y T**. Y nunca uses densidad para pasar un gas a moles |
+| Cambiar un **subíndice** para balancear | Se tocan **sólo los coeficientes**. El subíndice define la sustancia (H₂O ≠ H₂O₂) |
+| Escribir **O** en vez de **O₂** (o Cl por Cl₂) | Los **diatómicos**: H₂ N₂ O₂ F₂ Cl₂ Br₂ I₂. Mr(Cl₂) = **71**, no 35,5 |
+| Hacer la regla de tres **con los gramos** | Los coeficientes son relaciones de **MOLES**. Bajá al mol primero (sección 25) |
+| Dejar un coeficiente **fraccionario** (9/2) en la respuesta | Vale como paso intermedio; la respuesta va con **enteros mínimos** (multiplicá todo) |
+| Decir que el limitante es **"el que está en menor cantidad"** | Hay que dividir por el coeficiente: $\min(n_i/\text{coef}_i)$. 50 g de Na y 50 g de Cl₂ → limita el **Cl₂** |
+| Calcular el sobrante como $n_{exceso} - n_{limitante}$ | Pasá por la relación estequiométrica: $n_{exceso} - n_{\text{consumido}}$ (y el limitante queda en **0**) |
+| **Multiplicar** por η cuando te piden cuánto reactivo cargar | Ahí se **DIVIDE**: $\text{teórico} = \text{real}/(\eta/100)$. Idem con la **pureza** |
+| Meter la masa de la **muestra impura** en el cálculo | Descontá las impurezas **primero**: $m_{puro} = m_{muestra}\cdot\text{pureza}/100$ |
+| Aplicar el **rendimiento** sobre el reactivo o la **pureza** sobre el producto | ① Pureza corrige la **ENTRADA** · ③ Rendimiento corrige la **SALIDA**. No se intercambian |
 
 ---
 
-## 23. Modelos atómicos — línea histórica
+## 29. Modelos atómicos — línea histórica
 
 | Año | Quién | Aporte | Falla |
 |---|---|---|---|
@@ -2211,3 +2608,29 @@ $$\boxed{T = T_1 + (T_2-T_1)\cdot\frac{S-S_1}{S_2-S_1}}\ \text{(interpolación e
 $$\text{máx disuelto} = S \cdot \frac{m_{sv}(g)}{100} \qquad \text{precipitado} = \text{cantidad} - \text{máx}$$
 
 $$S_{gas} = k_H \cdot P_{gas} \ \ (\text{Henry}) \qquad A = \varepsilon \cdot \ell \cdot c \ \ (\text{Lambert-Beer})$$
+
+**Gases**
+
+$$P = \frac{F}{A} \qquad 1\ \text{atm} = 760\ \text{mmHg} = 760\ \text{Torr} = 101.325\ \text{Pa} = 1013\ \text{hPa} \qquad T(K) = T(°C) + 273{,}15$$
+
+$$P_1V_1 = P_2V_2 \quad \frac{V_1}{T_1} = \frac{V_2}{T_2} \quad \frac{P_1}{T_1} = \frac{P_2}{T_2} \quad \frac{V_1}{n_1} = \frac{V_2}{n_2} \quad \boxed{\frac{P_1V_1}{T_1} = \frac{P_2V_2}{T_2}}\ (n\ cte)$$
+
+$$\boxed{PV = nRT} \qquad R = 0{,}082\ \frac{\text{atm·L}}{\text{K·mol}} = 8{,}314\ \frac{\text{J}}{\text{K·mol}} \qquad V_m^{CNPT} = 22{,}4\ \text{L/mol} \quad V_m^{25°C} = 24{,}4\ \text{L/mol}$$
+
+$$\boxed{Mr = \frac{mRT}{PV}} \qquad \boxed{\rho_{gas} = \frac{P\,Mr}{RT}} \qquad \boxed{n_{gas} = \frac{PV}{RT}}$$
+
+$$\boxed{P_{total} = \textstyle\sum P_i} \qquad \boxed{P_i = \chi_i\,P_{total}} \qquad \chi_i = \frac{n_i}{n_{total}} \qquad \textstyle\sum\chi_i = 1 \qquad \text{(Dalton)}$$
+
+**Estequiometría**
+
+$$n = \frac{m}{Mr} \qquad n = \frac{V_{CNPT}}{22{,}4} \qquad n = \frac{PV}{RT} \qquad n = M\cdot V_{(L)} \qquad n = \frac{N}{N_A} \qquad \text{(los 5 puentes al MOL)}$$
+
+$$\boxed{\frac{n_A}{\text{coef}_A} = \frac{n_B}{\text{coef}_B}} \quad \text{(relación estequiométrica)} \qquad \boxed{\text{Limitante} = \min\left(\frac{n_i}{\text{coef}_i}\right)}$$
+
+$$\boxed{m_{sobrante} = m_{inicial} - m_{consumida}} \qquad (m_{consumida} \text{ se calcula DESDE el limitante; el limitante queda en } 0)$$
+
+$$\boxed{\eta\ \% = \frac{\text{real}}{\text{teórico}}\times100} \qquad \boxed{\text{pureza \%} = \frac{m_{reactivo}}{m_{reactivo}+m_{impureza}}\times100} \qquad \boxed{m_{puro} = m_{muestra}\cdot\frac{\text{pureza}}{100}}$$
+
+$$\text{MUESTRA impura} \xrightarrow{\ \text{①  pureza}\ } \text{reactivo puro} \to \text{mol} \xrightarrow{\ \text{②  limitante}\ } \text{producto teórico} \xrightarrow{\ \text{③  }\eta\ } \text{producto real}$$
+
+$$\text{C}_x\text{H}_y + \text{O}_2 \to x\,\text{CO}_2 + \tfrac{y}{2}\,\text{H}_2\text{O} \qquad \text{(combustión: C→CO}_2\text{, H→H}_2\text{O, N→N}_2\text{, S→SO}_2\text{)}$$
